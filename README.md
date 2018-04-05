@@ -1,10 +1,3 @@
-imagemin from "gulp-imagemin";
-mozjpeg from "imagemin-mozjpeg";
-import postcss from "gulp-postcss";
-cssNano from "gulp-cssnano";
-responsive from "gulp-responsive";
-sass from "gulp-sass";
-svgSprite from "gulp-svg-sprite";
 # Victor Hugo
 
 **A Hugo boilerplate for creating truly epic websites**
