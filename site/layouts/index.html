@@ -1,13 +1,11 @@
-{{ partial "header" . }}
+{{ partial "site-head" . }}
+{{ partial "site-header" . }}
+{{ partial "site-navigation" . }}
 
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
+<main role="main">
+    <section class="typeset">
+        {{ .Content }}
+    </section>
+</main>
 
-<p>Another paragraph at the top here</p>
-
-<!-- Comment -->
-
-<p>
-  Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!
-</p>
-
-{{ partial "footer" . }}
+{{ partial "site-footer" . }}

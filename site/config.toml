@@ -1,9 +1,23 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
-
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
+title = "Modern Thai Food"
+googleAnalytics = "UA-1234567-12"
+pluralizelisttitles = false
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+
+[params]
+    description = "Thai cooking with Oi Cheepchaiissara, author of The Food of Thailand, Fresh Thai, 200 Thai Favourites and other books."
+    subtitle = "Thai cooking with Oi Cheepchaiissara."
+    themecolour = "#d40d0a"
+    twitter = "@modernthaifood"
+    
+[author]    
+name = "Oi Cheepchaiissara"
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "home"
+    url = "/"

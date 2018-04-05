@@ -1,0 +1,16 @@
+{{ partial "site-head.html" . }}
+{{ partial "site-header" . }}
+{{ partial "site-navigation" . }}
+
+<main role="main">
+    <section class="typeset">
+
+        <article>
+            <h1 class="page-header__title">{{ .Title }}</h1>
+             {{ .Content }}              
+        </article>
+    
+    </section>
+</main>
+
+{{ partial "site-footer.html" . }}
