@@ -6,7 +6,6 @@ googleAnalytics = "UA-1234567-12"
 pluralizelisttitles = false
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
-
 [params]
     description = "Thai cooking with Oi Cheepchaiissara, author of The Food of Thailand, Fresh Thai, 200 Thai Favourites and other books."
     subtitle = "Thai cooking with Oi Cheepchaiissara."

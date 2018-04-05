@@ -1,10 +1,10 @@
 {
-  "name": "Adam Wills. Web Developer. Photographer.",
-  "short_name": "Adam Wills",
+  "name": "Modern Thai Food",
+  "short_name": "Modern Thai Food",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#d40d0a",
-  "theme_color": "#d40d0a"
+  "background_color": "#fff",
+  "theme_color": "#fff"
 }
