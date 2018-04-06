@@ -3,22 +3,24 @@
 {{ partial "site-navigation" . }}
 
 <main role="main">
-    <section class="typeset">
+    <div class="wrapper">
+        <section class="typeset">
 
-        <article>
-            <h1 class="page-header__title">Page 404 - Woops</h1>
-            <p>Sorry - we must have moved this page.</p>
-            <p>While you didn't find what you came here for, perhaps this can help you find what you're looking for?</p>
+            <article>
+                <h1 class="page-header__title">Page 404 - Woops</h1>
+                <p>Sorry - we must have moved this page.</p>
+                <p>While you didn't find what you came here for, perhaps this can help you find what you're looking for?</p>
 
-            {{ $currentNode := . }}
-            <ul class="nav nav-inline">
-                {{ range .Site.Menus.main }}
+                {{ $currentNode := . }}
+                <ul class="nav nav-inline">
+                    {{ range .Site.Menus.main }}
                     <li><a href="{{ .URL }}" class="nav-link{{ if $currentNode.IsMenuCurrent "main" . }} active{{ end }}{{ if .Pre }} {{ .Pre }}{{ end }}">{{ .Name }}</a></li>
-                {{ end }}
-            </ul>
-        </article>
+                    {{ end }}
+                </ul>
+            </article>
     
-    </section>
+        </section>
+    </div>
 </main>
 
 {{ partial "site-footer" . }}

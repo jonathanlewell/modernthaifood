@@ -1,5 +1,15 @@
-<nav class="site-navigation" role="navigation">
-    {{ $currentNode := . }} {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}" class="nav-link{{ if $currentNode.IsMenuCurrent " main " . }} active{{ end }}{{ if .Pre }} {{ .Pre }}{{ end }}">{{ .Name }}</a>
-    {{ end }}
-</nav>
+<nav class="site-navigation" role="navigation" id="site-navigation">
+    <div class="wrapper">
+        <!-- A hidden mobile navigation toggle -->
+        <a class="toggle close" href="#">x</a>
+
+        <ul class="site-navigation__menu">
+            {{ $currentNode := . }} {{ range .Site.Menus.main }}
+            <li class="site-navigation__item">
+                <a href="{{ .URL }}" class="site-navigation__link{{ if $currentNode.IsMenuCurrent " main " . }} active{{ end }}{{ if .Pre }} {{ .Pre }}{{ end }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+        
+    </div>
+</nav> 

@@ -3,9 +3,11 @@
 {{ partial "site-navigation" . }}
 
 <main role="main">
-    <section class="typeset">
-        {{ .Content }}
-    </section>
+    <div class="wrapper">
+        <section class="typeset">
+            {{ .Content }}
+        </section>
+    </div>
 </main>
 
 {{ partial "site-footer" . }}

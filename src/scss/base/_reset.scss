@@ -445,3 +445,12 @@
   [hidden] {
     display: none;
   }
+
+  /* Border box reset */
+
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }

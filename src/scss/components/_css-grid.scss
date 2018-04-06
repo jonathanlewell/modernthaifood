@@ -1,37 +1,31 @@
 body {
-    height: 100vh;
-    display: grid;
-    grid-template-areas:
-      "header"
-      "sidenav"
-      "main"
-      "footer";
-    grid-template-rows: 1fr 2fr 8fr 1fr;
-}
-
-@media screen and (min-width: 768px) {
-body {
-    grid-template-areas:
-      "header header"
-      "sidenav main"
-      "footer footer";
-    grid-template-columns: 20% auto;
-    grid-template-rows: 1fr 10fr 1fr;
+  display: grid;
+  grid-template-areas:
+  "header"
+  "sitenav"
+  "main"
+  "footer";
+    @media only screen and (max-width: 599px) {
+      grid-template-areas:
+        "header"
+        "main"
+        "footer";
   }
 }
 
+
 .site-header {
-  grid-area: header
+  grid-area: header;
 }
 
 .site-navigation {
-  grid-area: sidenav
+  grid-area: sitenav;
 }
 
 main {
-  grid-area: main
+  grid-area: main;
 }
 
 .site-footer {
-  grid-area: footer
+  grid-area: footer;
 }

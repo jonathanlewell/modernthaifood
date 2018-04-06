@@ -3,14 +3,16 @@
 {{ partial "site-navigation" . }}
 
 <main role="main">
-    <section class="typeset">
+    <div class="wrapper">
+        <section class="typeset">
 
-        <article>
-            <h1 class="page-header__title">{{ .Title }}</h1>
-             {{ .Content }}              
-        </article>
+            <article>
+                <h1 class="page-header__title">{{ .Title }}</h1>
+                {{ .Content }}              
+            </article>
     
-    </section>
+        </section>
+    </div>
 </main>
 
 {{ partial "site-footer.html" . }}
