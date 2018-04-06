@@ -16,6 +16,7 @@ import autoprefixer from "autoprefixer";
 import sass from "gulp-sass";
 import cssNano from "gulp-cssnano";
 import responsive from "gulp-responsive";
+import del from "del";
 
 const browserSync = BrowserSync.create();
 
@@ -28,8 +29,8 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["scss", "js", "fonts", "img:build"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["scss", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["pub-delete", "scss", "js", "fonts", "img:build"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["pub-delete", "scss", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile SCSS
 gulp.task("scss", () => (
@@ -135,3 +136,13 @@ function buildSite(cb, options, environment = "development") {
     }
   });
 }
+
+// Delete distribution folder task
+gulp.task('pub-delete', () => {
+  return del(['dist/**', '!dist'], {
+    // dryRun: true,
+    dot: true
+  }).then(paths => {
+    console.log('Files and folders deleted:\n', paths.join('\n'), '\nTotal Files Deleted: ' + paths.length + '\n');
+  })
+})
