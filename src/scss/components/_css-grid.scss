@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "sidenav"
+      "main"
+      "footer";
+    grid-template-rows: 1fr 2fr 8fr 1fr;
+}
+
+@media screen and (min-width: 768px) {
+body {
+    grid-template-areas:
+      "header header"
+      "sidenav main"
+      "footer footer";
+    grid-template-columns: 20% auto;
+    grid-template-rows: 1fr 10fr 1fr;
+  }
+}
+
+.site-header {
+  grid-area: header
+}
+
+.site-navigation {
+  grid-area: sidenav
+}
+
+main {
+  grid-area: main
+}
+
+.site-footer {
+  grid-area: footer
+}
