@@ -2,6 +2,7 @@
 author = "Oi Cheepchaiissara"
 description = "Thai cooking with Oi Cheepchaiissara, author of The Food of Thailand, Fresh Thai, 200 Thai Favourites and other books."
 title = "Home"
+page="/"
 +++
 
 ## Thai cooking classes in Colchester

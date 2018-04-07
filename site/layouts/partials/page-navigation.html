@@ -1,0 +1,10 @@
+<aside class="page-navigation">
+	<h2 class="page-navigation__header">Page resources:</h2>
+	<ul class="page-navigation__menu">
+		{{- range .Site.Menus.main -}}
+		<li class="page-navigation__item">
+			<a class="page-navigation__link" href="{{ .URL }}">{{ .Name | title }}</a>
+		</li>
+		{{- end -}}
+	</ul>
+</aside>

@@ -1,27 +1,25 @@
-{{ partial "site-head.html" . }}
-{{ partial "site-header" . }}
-{{ partial "site-navigation" . }}
-
+{{ define "main" }}
+{{ partial "breadcrumbs/breadcrumbs.html" . }} 
 <main role="main">
-    <div class="wrapper">
-    <section class="typeset">
+<div class="small-container">
+<article>
 
-        <article>
-            <h1 class="page-header__title">{{ .Title }}</h1>
-             {{ .Content }}              
-        </article>
+<header>
+    <h1 class="page-header">{{ .Title }}</h1>
+    <p class="page-description">{{ .Description }}</p>
+</header>
 
-        <ul class="blog-listing">
-            {{ range .Pages }}
-              <li class="category-item">
-                <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
-                <span class="readtime">{{ .ReadingTime }} min read</span>
-              </li>
-            {{ end }}
-          </ul>
-    
-    </section>
-    </div>
+{{ .Content }}
+
+<ul>
+    {{ range .Data.Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+        </li>
+    {{ end }}
+</ul>
+
+</article>
+</div>
 </main>
-
-{{ partial "site-footer.html" . }}
+{{ end }}

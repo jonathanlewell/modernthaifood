@@ -1,0 +1,15 @@
+[{
+    "id": "1",
+    "name": "Thai Food Secrets",
+    "price": 39.99,
+    "image": "/img/oi/oi-thai-food-secrets-1.jpg",
+    "description": "A 16 eBook bundle of Thai cooking recipes by Oi Cheepchaiissara",
+    "url": "https://modernthaifood.netlify.com"
+}, {
+    "id": "2",
+    "name": "Thai Cooking Class",
+    "description": "Conveniently pay online for your cooking class booking.",
+    "price": 74.99,
+    "image": "/img/oi/oi-cooking-1.jpg",
+    "url": "https://modernthaifood.netlify.com"
+}]

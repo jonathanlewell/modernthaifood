@@ -1,13 +1,7 @@
-{{ partial "site-head" . }}
-{{ partial "site-header" . }}
-{{ partial "site-navigation" . }}
-
+{{ define "main" }}
 <main role="main">
-    <div class="wrapper">
-        <section class="typeset">
-            {{ .Content }}
-        </section>
-    </div>
+<div class="small-container">
+    {{ .Content }}
+</div>
 </main>
-
-{{ partial "site-footer" . }}
+{{ end }}
