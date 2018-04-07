@@ -1,0 +1,12 @@
+.site-footer {
+    background: $site-footer-color;
+    font-family: $heading-copy-font;
+    font-weight: $heading-font-weight;
+}
+
+.site-footer__link {
+    color: $heading-font-color;
+    font-family: $heading-copy-font;
+    font-weight: $heading-font-weight;
+    text-decoration: none;
+}

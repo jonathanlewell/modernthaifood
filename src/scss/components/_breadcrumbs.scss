@@ -1,0 +1,9 @@
+.site-breadcrumbs {
+    font-family: $heading-copy-font; 
+    font-weight: $heading-font-weight;
+    color: $heading-font-color;
+}
+
+.breadcrumbs__item {
+    display: inline-block;
+}

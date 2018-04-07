@@ -1,0 +1,24 @@
+.site-masthead {
+	background-color: $site-masthead-color;
+}
+
+/* The website logo */
+.site-logo {
+	text-decoration: none;
+	display: block;
+	color: $heading-font-color;
+	font-family: $heading-copy-font;
+    font-weight: $heading-font-weight;
+}
+
+/* Add padding between View Cart and Customer Dashboard links */
+.customer__cart-link {
+ margin: 0 1rem 0 0;
+}
+
+.customer__cart-link, .customer__login-link {
+	text-decoration: none;
+    color: $heading-font-color;
+	font-family: $heading-copy-font;
+	font-weight: $heading-font-weight;
+}

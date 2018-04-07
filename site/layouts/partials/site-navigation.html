@@ -1,8 +1,12 @@
 <!-- Site navigation -->
 <nav class="site-navigation" role="navigation" id="site-navigation">
-             <!-- A hidden mobile navigation toggle -->
-            <a class="toggle close" href="#">x</a>
-                {{- range .Site.Menus.main -}}
-                    <a class="site-navigation__link" href="{{ .URL }}">{{ .Name | title }}</a>
-                {{- end -}}
-    </nav>
+    <div class="container">
+        <!-- A hidden mobile navigation toggle -->
+        <a class="toggle close" href="#">x</a>
+        {{- range .Site.Menus.main -}}
+        <li class="site-navigation__item">
+            <a class="site-navigation__link" href="{{ .URL }}">{{ .Name | title }}</a>
+        </li>
+        {{- end -}}
+    </div>
+</nav>

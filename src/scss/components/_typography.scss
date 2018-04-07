@@ -1,0 +1,23 @@
+html { 
+    font-size: 100%;
+        @media (min-width: 64em) {
+            font-size: 112.5%;
+        }
+}
+
+body {
+    font-family: $body-copy-font;
+    line-height: $body-copy-line-height;
+    color: $body-copy-color;
+    font-weight: $body-copy-weight;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $heading-copy-font; 
+    font-weight: $heading-font-weight;
+    color: $heading-font-color;
+}
+
+a {
+    color: $link-color;
+}

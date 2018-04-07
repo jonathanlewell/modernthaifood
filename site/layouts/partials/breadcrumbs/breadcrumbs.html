@@ -1,5 +1,4 @@
-<aside class="site-breadcrumbs">
-    <div class="wrapper">
+<aside class="site-breadcrumbs container">
         {{ $path := split .URL "/" }}
 
         <ul class="breadcrumbs__menu">
@@ -15,5 +14,4 @@
                 <li class="breadcrumbs__item">{{ .Title }}</li>
             {{ end }}
         </ul>
-    </div>
 </aside>
