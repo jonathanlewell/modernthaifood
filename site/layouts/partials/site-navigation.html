@@ -3,10 +3,12 @@
     <div class="container">
         <!-- A hidden mobile navigation toggle -->
         <a class="toggle close" href="#">x</a>
+        <ul class="site-navigation__menu">
         {{- range .Site.Menus.main -}}
         <li class="site-navigation__item">
             <a class="site-navigation__link" href="{{ .URL }}">{{ .Name | title }}</a>
         </li>
         {{- end -}}
+    </ul>
     </div>
 </nav>

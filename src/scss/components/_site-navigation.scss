@@ -42,8 +42,15 @@
         text-align: right;
         display: block;
         text-decoration: none;
-        font-size: 3em;
+        font-size: 2rem;
+        font-family: $heading-copy-font;
+        font-weight: $heading-font-weight;
         position: relative;
         top: 10px;
     }
+}
+
+.site-navigation__toggle {
+    font-family: $heading-copy-font;
+    font-weight: $heading-font-weight;
 }
