@@ -2,3 +2,19 @@ img {
     display: block;
     max-width: 100%;
 }
+
+.picture {
+    & + .picture {
+        margin-top: 4rem;
+    }
+
+    figcaption {
+        text-align: right;
+        font-style: italic;
+        font-size: 1rem;
+    }
+
+    & + p {
+        margin-top: 2rem;
+    }
+}

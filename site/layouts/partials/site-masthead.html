@@ -1,12 +1,14 @@
 <header class="site-masthead">
 <div class="container">
+
         <!-- A hidden mobile navigation toggle -->
         <a class="site-navigation__toggle toggle open" href="#site-navigation">Open Menu</a>
+        
+        <!-- Snipcart checkout and login links -->
+        {{ partial "snipcart/snipcart-checkout-link" . }}
 
         <!-- The site title / logo -->
         <a class="site-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 
-        <!-- Snipcart checkout and login links -->
-        {{ partial "snipcart/snipcart-checkout-link" . }}
 </div>
 </header>

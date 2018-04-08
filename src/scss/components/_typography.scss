@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    font-size: $body-copy-size;
     font-family: $body-copy-font;
     line-height: $body-copy-line-height;
     color: $body-copy-color;
@@ -13,11 +14,45 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
     color: $heading-font-color;
 }
 
-a {
-    color: $link-color;
+p {
+    margin-bottom: 1.5rem;
+}
+
+
+// links 
+main a {
+    
+    font-weight: 500;
+    transition: all 0.15s ease-in-out;
+    position: relative;
+    padding: 4px 0;
+    background-image: linear-gradient($link-color, $link-color);
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: center bottom 0;
+    background-origin: padding-box;
+    text-shadow:    3px 0 #fff, 
+                    2px 0 #fff, 
+                    1px 0 #fff, 
+                    -1px 0 #fff, 
+                    -2px 0 #fff, 
+                    -3px 0 #fff;
+    
+
+    &:hover, &:focus {
+        padding: 4px 6px;
+        color: #fff;
+        background-color: $link-color;
+        transform: scale(1.03);
+        text-decoration: none;
+        box-shadow: 3px 3px 0 #222;
+        text-shadow: none;
+    }
 }

@@ -13,7 +13,7 @@
 
 /* Add padding between View Cart and Customer Dashboard links */
 .customer__cart-link {
- margin: 0 1rem 0 0;
+ margin: $container-padding;
 }
 
 .customer__cart-link, .customer__login-link {
