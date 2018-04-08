@@ -14,6 +14,8 @@ $site-footer-color: #F4F6F8;
 $site-masthead-link-color: #222;
 $site-navigation-link-color: #222;
 $link-color: #007ACE;
+$link-color-hover: darken($link-color,15%);
+
 $body-copy-color: #333;
 
 $container-max-width: 38rem;
