@@ -42,7 +42,7 @@ gulp.task("scss", () => (
     }))
     .pipe(postcss([ autoprefixer() ]))
     .pipe(cssNano())
-    .pipe(gulp.dest("./dist/css"))
+    .pipe(gulp.dest("./site/static/css"))
     .pipe(browserSync.stream())
 ));    
 
