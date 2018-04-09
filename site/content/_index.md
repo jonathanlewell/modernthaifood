@@ -5,6 +5,12 @@ title = "Home"
 page="/"
 +++
 
+## Discover Thai cooking with Oi Cheepchaiissara
+
+{{< figure src="/img/oi-thai-food-secrets-1.jpg" alt="Modern Thai Food by Oi Cheepchaiissara" >}}
+
+Hi and welcome to my website! My name is Oi, and I would love to help you discover Thai cooking.
+
 ## Thai cooking classes in Colchester
 
  If you're serious about learning to cook Thai food, come to a cooking class in the lovely town of Colchester, Essex, UK.
@@ -25,7 +31,7 @@ Tap to turn the page. Touch to get a closer look. Perfect for use in the kitchen
 
 Download the FREE Intro. It contains some recipes, a detailed guide and a complete index to the whole series. 
 
-{{< figure src="/img/oi-cheepchaiissara-thai-food-secrets.jpg" alt="Thai food secrets by Oi Cheepchaiissara">}}
+{{< figure src="/img/oi-thai-food-secrets-1.jpg" alt="Thai food secrets by Oi Cheepchaiissara">}}
 
 [Browse my eBooks shop](/shop)
 
