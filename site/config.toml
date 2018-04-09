@@ -7,32 +7,41 @@ googleAnalytics = "UA-1234567-12"
 [params]
     author = "Oi Cheepchaiissara"
     description = "Thai cooking with Oi Cheepchaiissara, author of The Food of Thailand, Fresh Thai, 200 Thai Favourites and other books."
-    subtitle = "Thai cooking with Oi Cheepchaiissara."
+    subtitle = "Discover Thai cooking and step-by-step recipes with Oi Cheepchaiissara."
     themecolour = "#ffffff"
     twitter = "@modernthaifood"
+
+[author]    
+name = "Oi Cheepchaiissara"
 
 # The top navigation menu links:
 [[menu.main]]
     name = "Home"
+    identifier = "home"
     url = "/"
     weight = 1
 [[menu.main]]
     name = "Thai Recipes"
+    identifier = "recipes"
     url = "/thai-recipes/"
     weight = 2
 [[menu.main]]
     name = "Colchester Cooking Classes"
+    identifier = "classes"
     url = "/colchester-cooking-classes/"
     weight = 3
 [[menu.main]]
     name = "Shop"
+    identifier = "shop"
     url = "/shop/"
     weight = 4
 [[menu.main]]
     name = "About Oi"
+    identifier = "about"
     url = "/about-oi/"
     weight = 5
 [[menu.main]]
     name = "Contact"
+    identifier = "contact"
     url = "/contact/"
     weight = 6

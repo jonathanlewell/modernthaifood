@@ -5,11 +5,30 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>{{ .Title }} - {{ .Site.Title }}</title>
-	<link rel="canonical" href="{{ .Permalink }}"> {{ with .Site.Params.description }}
-	<meta name="description" content="{{ . }}">{{ end }} {{ with .Site.Params.author }}
-	<meta name="author" content="{{ . }}">{{ end }} {{ if .RSSLink }}
-	<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }} {{- template "_internal/opengraph.html" . -}} {{- template "_internal/google_news.html" . -}} {{- template "_internal/schema.html" . -}} {{- template "_internal/twitter_cards.html" . -}}
+	
+	<link rel="canonical" href="{{ .Permalink }}"> 
+
+	{{ if eq .URL "/" }}
+    	<!-- Unique metadata on homepage -->
+    	<title>{{ .Site.Title }} - {{ .Site.Params.subtitle }}</title>
+    	<meta name="description" content="{{ .Site.Params.description }}">
+    {{ else }}
+    	<!-- Unique metadata on other pages -->
+    	<title>{{ .Title }} | {{ .Site.Title }}</title>
+    	<meta name="description" content="{{ .Description }}">
+	{{ end }}
+	
+	{{ with .Site.Params.author }}
+	<meta name="author" content="{{ . }}">{{ end }} 
+	
+	<link href="/rss.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}" /> 
+	
+	{{- template "_internal/opengraph.html" . -}} 
+	{{- template "_internal/google_news.html" . -}} 
+	{{- template "_internal/schema.html" . -}} 
+	{{- template "_internal/twitter_cards.html" . -}}
 
 	{{ partialCached "styles.html" . }}
 

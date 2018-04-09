@@ -5,6 +5,7 @@
   "repository": "netlify/victor-hugo",
   "main": "index.js",
   "scripts": {
+    "update:lazysizes": "npm up lazysizes && cp -i node_modules/lazysizes/lazysizes.min.js static/js",
     "hugo": "gulp hugo",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
@@ -46,6 +47,7 @@
     "hugo-bin": "^0.22.0",
     "imagemin-mozjpeg": "^7.0.0",
     "imports-loader": "^0.7.1",
+    "lazysizes": "^4.0.1",
     "postcss-cssnext": "^3.1.0",
     "postcss-import": "^11.0.0",
     "url-loader": "^0.6.2",

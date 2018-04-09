@@ -7,7 +7,7 @@ draft: false
 
 ## "Kaeng khiaw-waan neua kup, kao pod lai ma kheua ted"
 
-{{< figure src="/images/dishes/thai-green-curry-with-beef-baby-sweetcorns-cheery-tomatoes.jpg" caption="Thai Green Curry with Beef and Baby Sweetcorns" >}}
+{{< figure src="/img/thai-green-curry-with-beef-baby-sweetcorns-cheery-tomatoes.jpg" alt="Thai Green Curry with Beef and Baby Sweetcorns" >}}
 
 This classic dish should never be extremely hot. Its base is a paste of fresh small green chillies, galangal and lemon grass. Fresh baby sweetcorns add a light crunchiness, while the tomatoes add delightful colour.
 

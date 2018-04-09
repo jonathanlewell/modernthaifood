@@ -29,8 +29,8 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["pub-delete", "scss", "js", "fonts", "img:build"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["pub-delete", "scss", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["del", "scss", "js", "fonts", "img:build"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["del", "scss", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile SCSS
 gulp.task("scss", () => (
@@ -82,11 +82,11 @@ gulp.task("img", () =>
       silent: true,              // Don't spam the console
       withoutEnlargement: false, // Allow image enlargement
     }))
-    .pipe(gulp.dest("./dist/img")
+    .pipe(gulp.dest("./site/static/img")
 ));
 
 gulp.task("img:build", ["img"], () =>
-  gulp.src(["./dist/img/*.{jpg,png,gif,svg}"])
+  gulp.src(["./site/static/img/*.{jpg,png,gif,svg}"])
     // Optimise images
     .pipe(imagemin([
       imagemin.gifsicle(),
@@ -138,8 +138,8 @@ function buildSite(cb, options, environment = "development") {
 }
 
 // Delete distribution folder task
-gulp.task('pub-delete', () => {
-  return del(['dist/**', '!dist'], {
+gulp.task('del', () => {
+  return del(['dist/**', '!./dist'], {
     // dryRun: true,
     dot: true
   }).then(paths => {

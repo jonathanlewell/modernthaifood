@@ -8,7 +8,7 @@ draft: false
 
 ## "Kaeng jeut khai kup bai hohraphaa"
 
-{{% figure src="/images/dishes/scrambled-eggs-with-thai-basil-leaf-soup.jpg"  %}}
+{{< figure src="/img/scrambled-eggs-with-thai-basil-leaf-soup.jpg" alt="Thai Simple Scrambled Eggs With Thai Basil Leaf Soup" >}}
 
 It’s not just eggs: chicken, too, adds nutritional content to this tasty dish. Put the Thai basil leaves in towards the end of cooking and simmer for 2-3 minutes to release their invigorating flavour to the soup.
 

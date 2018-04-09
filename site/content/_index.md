@@ -13,7 +13,7 @@ I teach these classes regularly every month. Bring an apron and get ready for so
 
 Learn to cook a delicious Thai starter, a substantial main course, perfect jasmine rice, and a scrumptious Thai dessert.
 
-![Thai cooking classes in colchester](/img/oi-cooking-1.jpg "Thai cooking classes in colchester")
+{{< figure src="/img/oi-cooking-1.jpg" alt="Colchester Thai cooking classes" >}}
 
 [See my upcoming 2018 Cooking Classes](/colchester-cooking-classes)
 
@@ -25,7 +25,7 @@ Tap to turn the page. Touch to get a closer look. Perfect for use in the kitchen
 
 Download the FREE Intro. It contains some recipes, a detailed guide and a complete index to the whole series. 
 
-![My new Thai Food Secrets eBook](/img/oi-cheepchaiissara-thai-food-secrets.jpg "My new Thai Food Secrets eBook")
+{{< figure src="/img/oi-cheepchaiissara-thai-food-secrets.jpg" alt="Thai food secrets by Oi Cheepchaiissara">}}
 
 [Browse my eBooks shop](/shop)
 
@@ -35,6 +35,6 @@ Beautifully illustrated, step-by-step Thai recipes to read on my blog.
 
 Discover how to make popular dishes including Thai Green Curry, Pad Thai and more.
 
-![You'll love my step-by-step Thai recipes](/img/mango-ice-cream.jpg "You'll love my step-by-step Thai recipes")
+{{< figure src="/img/panang-curry-with-chicken.jpg" alt="Thai Recipes like Panang Curry with Chicken">}}
 
 [Explore my step-by-step Thai recipes](/thai-recipes)

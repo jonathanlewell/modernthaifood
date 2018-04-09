@@ -7,7 +7,7 @@ draft: false
 
 ## "Ice cream mamuang"
 
-{{% figure src="/images/dishes/mango-ice-cream.jpg"  %}}
+{{< figure src="/img/mango-ice-cream.jpg" alt="Lovely and Light Thai Mango Ice Cream" >}}
 
 This lovely and light dessert is simple to make, with a texture that is more like that of a sorbet. To make it similar to the kind of ice cream you get in the west, you can use single or double cream instead of water and omit the lime or lemon juice. However, keep to this recipe for the true Thai style.
 
