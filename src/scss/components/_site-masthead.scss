@@ -1,17 +1,19 @@
 .site-masthead {
 	border-style: solid;
-	border-width: 0.5rem 0 0 0;
+	border-width: 0.5rem 0 0.5rem 0;
 	border-top-color: #f43059;
+	border-bottom-color: $site-masthead-color;
 	background-color: $site-masthead-color;
-	margin-bottom: $margin-bottom;
-	padding-top: $margin-bottom;
-	padding-bottom: $margin-bottom; // Lowers the opening heading line of the page
+		@media only screen and (max-width: 599px) {
+			margin-bottom: $margin-bottom;
+		}
 }
 
 .customer-links {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	margin-top: $margin-bottom / 2;
 	margin-bottom: $margin-bottom / 2;
 	font-size: 1rem;
 	font-family: $heading-copy-font;
@@ -48,5 +50,3 @@
 	color: $heading-font-color;
 	font-size: 1.75rem;
 }
-
-

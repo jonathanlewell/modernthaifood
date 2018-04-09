@@ -5,6 +5,9 @@
 
 .site-navigation__menu {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: $margin-bottom;
 }
 
 .site-navigation__link {
@@ -16,9 +19,9 @@
 }
 
 @media only screen and (min-width: 600px) {
-    .site-navigation__item {
-        display: inline-block;
-        margin-left: $margin-left;
+    .site-navigation__menu {
+        flex-direction: row;
+        justify-content: space-between;
     }
     .toggle {
         display: none;

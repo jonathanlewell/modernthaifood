@@ -7,11 +7,11 @@ html {
 
 // Body (normal type) styles
 body {
+    line-height: $base-line-height;
     font-size: $body-copy-size;
     font-family: $body-copy-font;
-    line-height: $body-copy-line-height;
-    color: $body-copy-color;
     font-weight: $body-copy-weight;
+    color: $body-copy-color;
 }
 
 // Heading styles
