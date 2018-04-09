@@ -2,6 +2,8 @@
     background: $site-footer-color;
     font-family: $heading-copy-font;
     font-weight: $heading-font-weight;
+    padding-top: $margin-bottom;
+	padding-bottom: $margin-bottom;
 }
 
 .site-footer__link {

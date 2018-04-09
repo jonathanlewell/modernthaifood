@@ -5,6 +5,7 @@ html {
         }
 }
 
+// Body (normal type) styles
 body {
     font-size: $body-copy-size;
     font-family: $body-copy-font;
@@ -13,20 +14,42 @@ body {
     font-weight: $body-copy-weight;
 }
 
+// Heading styles
 h1, h2, h3, h4, h5 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
     font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
     color: $heading-font-color;
 }
 
-p {
-    margin-bottom: 1.5rem;
+h1 {
+    font-size:2.25rem;
+}
+h2 {
+    font-size:1.875rem;
+}
+h3 {
+    font-size:1.5rem;
+}
+h4 {
+    font-size:1.25rem;
+}
+h5 {
+    font-size:1rem;
+}
+h6 {
+    font-size:.875rem;
+}
+
+// Add bottom margins for consistent vertical rythm (csswizardry)
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr{
+    margin-bottom: $margin-bottom;
 }
 
 
-// links 
+// Link text styles
 main a {
  color: $link-color;
  text-decoration: none;   

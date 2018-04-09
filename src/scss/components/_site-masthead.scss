@@ -1,24 +1,27 @@
 .site-masthead {
+	border-style: solid;
+	border-width: 6px 0 1px;
+	border-top-color: #f43059;
+	border-bottom-color: #f2f2f2;
 	background-color: $site-masthead-color;
+	margin-bottom: $margin-bottom;
+	padding-top: $margin-bottom;
+	padding-bottom: $margin-bottom; // Lowers the opening heading line of the page
+}
+
+.customer__cart-link, .customer__login-link {
+	text-decoration: none; // Remove underlines
+    color: $heading-font-color;
+	font-family: $heading-copy-font;
+	font-weight: $heading-font-weight;
+	margin-left: $margin-left;
 }
 
 /* The website logo */
 .site-logo {
-	text-decoration: none;
-	display: block;
+	text-decoration: none; // Remove underlines
 	color: $heading-font-color;
-	font-family: $heading-copy-font;
-    font-weight: $heading-font-weight;
-}
-
-/* Add padding between View Cart and Customer Dashboard links */
-.customer__cart-link {
- margin-right: 1rem;
-}
-
-.customer__cart-link, .customer__login-link {
-	text-decoration: none;
-    color: $heading-font-color;
+	display: block; // Makes it have its own line
 	font-family: $heading-copy-font;
 	font-weight: $heading-font-weight;
 }

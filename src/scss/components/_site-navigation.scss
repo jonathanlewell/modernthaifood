@@ -18,7 +18,7 @@
 @media only screen and (min-width: 600px) {
     .site-navigation__item {
         display: inline-block;
-        margin-right: 1rem;
+        margin-left: $margin-left;
     }
     .toggle {
         display: none;
@@ -46,12 +46,10 @@
         font-family: $heading-copy-font;
         font-weight: $heading-font-weight;
         position: relative;
-        top: 10px;
     }
 }
 
 .site-navigation__toggle {
     font-family: $heading-copy-font;
     font-weight: $heading-font-weight;
-    margin-right: 1rem;
 }
