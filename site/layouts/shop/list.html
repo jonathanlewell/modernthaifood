@@ -11,10 +11,16 @@
 
 {{ .Content }}
 
-{{ $products := getJSON "/data/products.json" }}
-{{ range $products }}
-{{ partial "product.html" . }}
-{{ end }} 
+<section class="products-list">        
+        {{ range first 5 (where .Data.Pages "Type" "shop") }}
+            <article class="products-list__item">
+                <header class="products-list__item-header">
+                    <a class="products-list__item-link" href="{{.Permalink}}">{{ .Title }}</a>
+                </header>
+                {{ with .Params.featured_image }}<img class="lazyload" data-src="{{ . }}">{{ end }}
+            </article>
+        {{ end }}
+</section>
 
 </article>
 </main>

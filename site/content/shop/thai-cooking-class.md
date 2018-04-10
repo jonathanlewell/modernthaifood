@@ -1,16 +1,26 @@
 +++
-title = "Thai Food Secrets"
+title = "Thai Cooking Class"
 date = "2018-03-21"
-description = "16 eBooks containing 557 pages of tried & tested Thai recipes."
+description = "Learn how to cook a full meal in Colchester, Essex with Oi Cheepchaiissara."
 draft = false
+featured_image= "/img/oi-cooking-1.jpg"
 +++
 
-## My 16 e-books can guide you, every step of the way...
+## Book Your Thai Cooking Class Online
 
-- An innovation in cookbooks: "bite-sized" e-books, complete with high-res images.
-- Each contains an introduction to its topic, plus a themed selection of delightful dishes.
-- 557 pages of tried & tested recipes, personally cooked and presented by the author.
-- Scroll down to see the Special Offer: 5 e-books at an amazingly low introductory price.
+- Pay online via debit or credit card
+- Receive e-mail confirmation instantly
+
+<button
+    class="snipcart-add-item"
+    data-item-id="3"
+    data-item-name="Thai Cooking Class"
+    data-item-price="50.00"
+    data-item-weight="30"
+    data-item-url="https://modernthaifood.netlify.com/shop/book-a-cooking-class/"
+    data-item-description="A cooking class booking">
+        Add to cart
+</button>
 
 # About Thai Food Secrets
 
