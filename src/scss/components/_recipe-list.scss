@@ -1,3 +1,11 @@
 .recipe-list {
     margin-bottom: $margin-bottom;
 }
+
+.recipe-list__item-header {
+    margin-bottom: $margin-bottom / 2;
+}
+
+.recipe-list__item {
+    margin-bottom: $margin-bottom;   
+}

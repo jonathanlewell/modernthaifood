@@ -1,11 +1,16 @@
 <section class="recipe-list">
+<h2 class="recipe-list__title">Latest Thai Recipes:</h2>
+
 {{ range first 5 (where .Data.Pages "Type" "thai-recipes") }}
     <article class="recipe-list__item">
         <header class="recipe-list__item-header">
             <a class="recipe-list__item-link" href="{{.Permalink}}">{{ .Title }}</a>
         </header>
-        {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
+        {{ with .Params.featured_image }}<img class="lazyload" data-src="{{ . }}">{{ end }}
     </article>
 {{ end }}
+
+<a class="recipe-list__button button" href="/thai-recipes">Browse all Thai Recipes</a>
+
 </section>
 
