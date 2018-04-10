@@ -1,9 +1,9 @@
----
-title: "Panang Curry With Chicken"
-description: "Panaeng Curry is a dry, rich, thick curry made with small amounts of coconut milk and a dry curry paste. This elegant dish is quick and easy to make and should have a mild taste."
-date: 2018-03-21T12:54:11Z
-draft: false
----
++++
+title= "Panang Curry With Chicken"
+description= "Panaeng Curry is a dry, rich, thick curry made with small amounts of coconut milk and a dry curry paste. This elegant dish is quick and easy to make and should have a mild taste."
+date= 2018-03-21T12:54:11Z
+draft= false
++++
 
 ## "Kaeng phanaeng gai"
 

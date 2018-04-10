@@ -1,9 +1,9 @@
----
-title: "Massaman Curry With Beef"
-description: "This popular curry has many characteristics of southern Thai cooking. The sweet flavours and spices dominate, even though the curry is moderately hot."
-date: 2018-03-21T12:52:57Z
-draft: false
----
++++
+title= "Massaman Curry With Beef"
+description= "This popular curry has many characteristics of southern Thai cooking. The sweet flavours and spices dominate, even though the curry is moderately hot."
+date= 2018-03-21T12:52:57Z
+draft= false
++++
 
 This popular curry has many characteristics of southern Thai cooking. The sweet flavours and spices dominate, even though the curry is moderately hot. It also has a sour taste from the tamarind. This dish is one of the few Thai dishes with potatoes and peanuts. Also lamb, pork or chicken can be used instead of beef.
 

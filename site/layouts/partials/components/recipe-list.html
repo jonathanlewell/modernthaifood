@@ -1,0 +1,11 @@
+<section class="recipe-list">
+{{ range first 5 (where .Data.Pages "Type" "thai-recipes") }}
+    <article class="recipe-list__item">
+        <header class="recipe-list__item-header">
+            <a class="recipe-list__item-link" href="{{.Permalink}}">{{ .Title }}</a>
+        </header>
+        {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
+    </article>
+{{ end }}
+</section>
+

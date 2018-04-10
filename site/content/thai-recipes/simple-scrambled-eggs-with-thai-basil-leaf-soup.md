@@ -1,9 +1,9 @@
----
-title: "Simple Scrambled Eggs With Thai Basil Leaf Soup"
-description: "It’s not just eggs: chicken, too, adds nutritional content to this tasty dish."
-date: 2018-03-21T12:54:37Z
-draft: false
----
++++
+title= "Simple Scrambled Eggs With Thai Basil Leaf Soup"
+description= "It’s not just eggs: chicken, too, adds nutritional content to this tasty dish."
+date= 2018-03-21T12:54:37Z
+draft= false
++++
 
 
 ## "Kaeng jeut khai kup bai hohraphaa"

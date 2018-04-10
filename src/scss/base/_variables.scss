@@ -4,9 +4,10 @@ $heading-copy-font: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", He
 $heading-font-weight: 500;
 $heading-font-color: #222;
 
-$base-line-height: 1.5; // 16 * 1.5 = 24
 $body-copy-weight: 300;
-$body-copy-size: 1rem;
+$body-copy-size: 1em;
+$base-line-height: 1.5em; // 16 * 1.5 = 24
+
 
 $site-masthead-color: #F4F6F8;
 $site-navigation-color: #F4F6F8;
@@ -18,8 +19,8 @@ $link-color-hover: darken($link-color,15%);
 
 $body-copy-color: #333;
 
-$margin-left: 1.5rem; 
-$margin-bottom: 1.5rem; 
+$margin-left: 1.5em; 
+$margin-bottom: 1.5em; 
 
-$container-max-width: 38rem;
+$container-max-width: 38em;
 $container-padding: 0 $margin-left 0 $margin-left;

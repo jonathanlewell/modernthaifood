@@ -5,42 +5,14 @@ title = "Home"
 page="/"
 +++
 
-## Discover Thai cooking with Oi Cheepchaiissara
+## eBooks Shop
 
-{{< figure src="/img/oi-thai-food-secrets-large.jpg" alt="Modern Thai Food by Oi Cheepchaiissara" >}}
-
-Hi and welcome to my website! My name is Oi, and I would love to help you discover Thai cooking.
-
-## Thai cooking classes in Colchester
-
- If you're serious about learning to cook Thai food, come to a cooking class in the lovely town of Colchester, Essex, UK.
-
-I teach these classes regularly every month. Bring an apron and get ready for some hands-on participation.
-
-Learn to cook a delicious Thai starter, a substantial main course, perfect jasmine rice, and a scrumptious Thai dessert.
-
-{{< figure src="/img/oi-cooking-1.jpg" alt="Colchester Thai cooking classes" >}}
-
-[See my upcoming 2018 Cooking Classes](/colchester-cooking-classes)
-
-## eBooks
-
- Better than printed books, faster than video, this is one way to follow my recipes. Enjoy them on iPad at your own pace.
-
-Tap to turn the page. Touch to get a closer look. Perfect for use in the kitchen...or sit back and read them anywhere.
-
-Download the FREE Intro. It contains some recipes, a detailed guide and a complete index to the whole series. 
-
-{{< figure src="/img/oi-thai-food-secrets-1.jpg" alt="Thai food secrets by Oi Cheepchaiissara">}}
+Download my entire recipe books to read on your computer, phone or tablet.
 
 [Browse my eBooks shop](/shop)
 
-## Thai Recipes
+## Thai cooking classes in Colchester
 
-Beautifully illustrated, step-by-step Thai recipes to read on my blog.
+Learn to cook a delicious Thai starter, a substantial main course, perfect jasmine rice, and a scrumptious Thai dessert. 
 
-Discover how to make popular dishes including Thai Green Curry, Pad Thai and more.
-
-{{< figure src="/img/panang-curry-with-chicken.jpg" alt="Thai Recipes like Panang Curry with Chicken">}}
-
-[Explore my step-by-step Thai recipes](/thai-recipes)
+[See my upcoming 2018 Cooking Classes](/colchester-cooking-classes)

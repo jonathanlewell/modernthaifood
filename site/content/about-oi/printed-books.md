@@ -1,8 +1,8 @@
----
-title: "Printed Books"
-date: 2018-03-21T12:47:30Z
-draft: false
----
++++
+title= "Printed Books"
+date= 2018-03-21T12:47:30Z
+draft= false
++++
 
 There are 5 published books on Thai cooking by Oi Cheepchaiissara:
 

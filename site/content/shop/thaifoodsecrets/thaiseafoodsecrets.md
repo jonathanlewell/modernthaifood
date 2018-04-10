@@ -1,8 +1,8 @@
----
-title: "Thai Seafood Secrets"
-date: "2018-03-23T12:47:30Z"
-draft: false
----
++++
+title= "Thai Seafood Secrets"
+date= "2018-03-23T12:47:30Z"
+draft= false
++++
 
 How to prepare a wide selection of Thai fish & seafood dishes.
 

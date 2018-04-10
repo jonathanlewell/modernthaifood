@@ -15,7 +15,8 @@
 	align-items: center;
 	margin-top: $margin-bottom / 2;
 	margin-bottom: $margin-bottom / 2;
-	font-size: 1rem;
+	font-size: 1em;
+	line-height: 1.5em;
 	font-family: $heading-copy-font;
 }
 
@@ -28,10 +29,11 @@
 	margin-left: $margin-left;
 }
 
-.site-masthead__top {
+.logo-nav-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: $margin-bottom / 2;
 }
 
 /* The website logo */
@@ -41,7 +43,8 @@
 	display: block; // Makes it have its own line
 	font-family: $heading-copy-font;
 	font-weight: $heading-font-weight;
-	font-size: 1.25rem;
+	font-size: 1.25em;
+	line-height: 1.2em;
 }
 
 /* The navigation menu button */

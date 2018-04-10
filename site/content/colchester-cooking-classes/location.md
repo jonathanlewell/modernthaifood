@@ -1,8 +1,8 @@
----
-title: "Thai Cooking Class Location"
-date: 2018-03-21T12:47:18Z
-draft: false
----
++++
+title= "Thai Cooking Class Location"
+date= 2018-03-21T12:47:18Z
+draft= false
++++
 
 ## Easy to find!
 It's just a ten-minute walk from the station, so why not come by train? Colchester is fifty minutes from London Liverpool Street.

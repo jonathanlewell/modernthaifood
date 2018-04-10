@@ -1,8 +1,8 @@
----
-title: "Gift a Cooking Class"
-date: 2018-03-21T12:47:18Z
-draft: false
----
++++
+title= "Gift a Cooking Class"
+date= 2018-03-21T12:47:18Z
+draft= false
++++
 
 A Thai cooking class makes a delightful and unusual gift. I offer a range of high quality gift cards (like the ones below), each of which contains a numbered voucher, plus all the menus for the coming year. All you have to do is to fill in the "to/from," pop it in the envelope, and give it to the lucky recipient.
 

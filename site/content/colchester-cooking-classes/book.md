@@ -1,8 +1,8 @@
----
-title: "How to Book a Cooking Class"
-date: 2018-03-21T12:47:18Z
-draft: false
----
++++
+title= "How to Book a Cooking Class"
+date= 2018-03-21T12:47:18Z
+draft= false
++++
 
 - To book a Thai cooking class with Oi Cheepchaiissara, just phone or email.
 - Telephone: 01206 564530. Email: email address
