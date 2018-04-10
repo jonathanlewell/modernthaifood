@@ -7,7 +7,7 @@ page="/"
 
 ## Discover Thai cooking with Oi Cheepchaiissara
 
-{{< figure src="/img/oi-thai-food-secrets-1.jpg" alt="Modern Thai Food by Oi Cheepchaiissara" >}}
+{{< figure src="/img/oi-thai-food-secrets-large.jpg" alt="Modern Thai Food by Oi Cheepchaiissara" >}}
 
 Hi and welcome to my website! My name is Oi, and I would love to help you discover Thai cooking.
 
