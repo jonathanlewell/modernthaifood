@@ -1,5 +1,5 @@
 +++
-title = "Thai Cooking Class"
+title = "Book a Thai Cooking Class"
 date = "2018-03-21"
 description = "Learn how to cook a full meal in Colchester, Essex with Oi Cheepchaiissara."
 draft = false
@@ -13,10 +13,10 @@ featured_image= "/img/oi-cooking-1.jpg"
 
 <button
     class="snipcart-add-item"
-    data-item-id="3"
+    data-item-id="1"
     data-item-name="Thai Cooking Class"
     data-item-price="50.00"
-    data-item-weight="30"
+    data-item-weight="10"
     data-item-url="https://modernthaifood.netlify.com/shop/book-a-cooking-class/"
     data-item-description="A cooking class booking">
         Add to cart

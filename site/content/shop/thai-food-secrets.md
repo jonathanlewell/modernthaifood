@@ -15,7 +15,7 @@ featured_image= "/img/oi-thai-food-secrets-1.jpg"
 
 <button
     class="snipcart-add-item"
-    data-item-id="3"
+    data-item-id="2"
     data-item-name="Thai Food Secrets Complete eBook Collection"
     data-item-price="50.00"
     data-item-weight="20"
