@@ -3,6 +3,7 @@ title= "Thai Green Curry With Beef"
 description= "This classic dish should never be extremely hot. Its base is a paste of fresh small green chillies, galangal and lemon grass. Learn how to make it in less than an hour here."
 date= 2018-03-21T12:56:01Z
 draft= false
+featured_image= "/img/thai-green-curry-with-beef-baby-sweetcorns-cheery-tomatoes.jpg"
 +++
 
 ## "Kaeng khiaw-waan neua kup, kao pod lai ma kheua ted"

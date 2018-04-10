@@ -3,7 +3,10 @@ title= "Easy Crispy Sesame Prawns on Toast"
 description= "A 30 minute recipe to cook one of the easiest Thai starter dishes. I'll also show you how to create your own swet Chilli sauce."
 date= 2018-03-21T12:51:49Z
 draft= false
+featured_image= "/img/dishes-crispy-sesame-prawns-on-toast.jpg"
 +++
+
+{{< figure src="/img/dishes-crispy-sesame-prawns-on-toast.jpg" alt="Thai Crispy Sesame Prawns on Toast" >}}
 
 If you’re looking for one of the easiest starters to make, here’s an idea: prawns, cooked on top of thin bread together with a delicious paste, all topped with sesame seeds and served with a sweet chilli sauce.
 

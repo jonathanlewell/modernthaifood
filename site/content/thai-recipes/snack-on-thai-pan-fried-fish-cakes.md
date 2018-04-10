@@ -3,6 +3,7 @@ title= "Snack on Thai Pan Fried Fish Cakes"
 description= "Steps to make batches of pan-fried fish cakes, along with how to create the curry paste."
 date= 2018-03-21T12:54:53Z
 draft= false
+featured_image= "/img/pan-fried-fish-cakes.jpg"
 +++
 
 ## “Thawt man plaa”

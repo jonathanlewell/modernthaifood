@@ -3,6 +3,7 @@ title= "Rice Noodles With Coconut Milk and Beans"
 description= "This dish is rich and a little spicy, using stir-fried “sen mii” (very thin) noodles with coconut milk."
 date= 2018-03-21T12:54:27Z
 draft= false
+featured_image= "/img/rice-noodles-with-coconut-milk-and-beans.jpg"
 +++
 
 ## "Mii kra ti kup tou"
