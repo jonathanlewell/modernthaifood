@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ partial "breadcrumbs/breadcrumbs.html" . }} 
+
+<main role="main" class="container">
+<article>
+
+<header>
+    <h1 class="page-header">{{ .Title }}</h1>
+    <p class="page-description">{{ .Description }}</p>
+</header>
+
+{{ .Content }}
+
+{{ $products := getJSON "/data/products.json" }}
+{{ range $products }}
+{{ partial "product.html" . }}
+{{ end }} 
+
+</article>
+</main>
+{{ end }}

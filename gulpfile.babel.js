@@ -29,8 +29,8 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["del", "fonts", "scss", "js", "img:build"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["del", "fonts", "scss", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["fonts", "scss", "js", "img:build"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["fonts", "scss", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile SCSS
 gulp.task("scss", () => (
@@ -67,30 +67,31 @@ gulp.task("img", () =>
     // Resize images (use with <img> shortcode in hugo)
     .pipe(responsive({
       "*": [{
-        width: 480,
-        rename: {suffix: "-sm"},
+        width: 300,
+        rename: { suffix: '-300w' },
       }, {
-        width: 480 * 2,
-        rename: {suffix: "-sm@2x"},
+        width: 600,
+        rename: { suffix: '-600w' },
       }, {
-        width: 675,
+        width: 700,
       }, {
-        width: 675 * 2,
-        rename: {suffix: "@2x"},
+        width: 900,
+        rename: { suffix: '-900w'},
       }],
     }, {
       silent: true,              // Don't spam the console
       withoutEnlargement: false, // Allow image enlargement
     }))
-    .pipe(gulp.dest("./site/static/img")
+    .pipe(gulp.dest("./dist/img")
 ));
 
 gulp.task("img:build", ["img"], () =>
-  gulp.src(["./site/static/img/*.{jpg,png,gif,svg}"])
+  gulp.src(["./dist/img/*.{jpg,png,gif,svg}"])
     // Optimise images
     .pipe(imagemin([
       imagemin.gifsicle(),
       imagemin.optipng(),
+      imagemin.svgo(),
       mozjpeg(),
     ]))
     .pipe(gulp.dest("./dist/img"))
@@ -136,13 +137,3 @@ function buildSite(cb, options, environment = "development") {
     }
   });
 }
-
-// Delete distribution folder task
-gulp.task('del', () => {
-  return del(['dist/**', '!./dist'], {
-    // dryRun: true,
-    dot: true
-  }).then(paths => {
-    console.log('Files and folders deleted:\n', paths.join('\n'), '\nTotal Files Deleted: ' + paths.length + '\n');
-  })
-})

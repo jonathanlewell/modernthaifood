@@ -38,18 +38,20 @@
 	<link rel="manifest" href="/manifest.json">
 	<meta name="theme-color" content="#fff">
 
+	<link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-
+	
 	{{ partial "site-masthead.html" . }}
 	{{ partial "site-navigation.html" . }} 
 
 	{{ block "main" . }} {{ end }}
 
 	{{ partial "site-footer.html" . }}
-	
+
+	{{ partial "site-scripts.html" . }}
 
 </body>
-
 </html>
