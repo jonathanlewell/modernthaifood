@@ -20,12 +20,12 @@
 	font-family: $heading-copy-font;
 }
 
-.customer__cart-link, .customer__login-link {
+.snipcart-checkout, .snipcart-total-items, .snipcart-user-profile, .snipcart-edit-profile, .snipcart-user-logout {
 	text-decoration: none; // Remove underlines
 	color: $heading-font-color;
 }
 
-.customer__login-link {
+.snipcart-user-profile, .snipcart-edit-profile, .snipcart-user-logout {
 	margin-left: $margin-left;
 }
 
