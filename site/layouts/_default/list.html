@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{ partial "breadcrumbs/breadcrumbs.html" . }} 
+
 <main role="main" class="container">
 <article>
 
@@ -8,16 +9,27 @@
     <p class="page-description">{{ .Description }}</p>
 </header>
 
+<section class="page-introduction">
 {{ .Content }}
+</section>
 
-<ul>
-    {{ range .Data.Pages }}
-        <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-        </li>
-    {{ end }}
-</ul>
+<section class="list">
+{{ range .Data.Pages }}
+    <article class="list__item">
+        <header class="list__item-header">
+            <a class="list__item-link" href="{{.Permalink}}">{{ .Title }}</a>
+            <time class="list__item-time" datetime="{{.Date.Format "2006-01-02"}}">
+               | {{.Date.Format "Jan 2, 2006"}}
+            </time>
+        </header>
+        {{ with .Params.featured_image }}
+            <img class="lazyload" data-src="{{ . }}">
+        {{ end }}
+    </article>
+{{ end }}
+</section>
 
 </article>
 </main>
+
 {{ end }}

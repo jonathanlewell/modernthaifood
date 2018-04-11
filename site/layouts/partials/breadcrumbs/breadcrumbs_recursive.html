@@ -9,8 +9,7 @@
 	{{if eq $section (index $aux $level) }}
 		<li class="breadcrumbs__item">
 			{{if ne .URL $dir }}<a class="breadcrumbs__link" href="{{.URL}}">{{ end }}
-			{{ .Title }}
-			{{if ne .URL $dir }}</a>»{{ end }}
+			{{ .Title }}{{if ne .URL $dir }}</a> »{{ end }}
 			
 			{{ if gt (len .Sections) 0 }}
 			  	{{ partial "breadcrumbs/breadcrumbs_recursive.html" (dict "sections" .Sections "level" (add $level 1) "path" $path "dir" $dir) }}

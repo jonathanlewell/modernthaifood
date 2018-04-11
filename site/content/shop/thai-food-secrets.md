@@ -14,7 +14,7 @@ featured_image= "/img/oi-thai-food-secrets-1.jpg"
 - Scroll down to see the Special Offer: 5 e-books at an amazingly low introductory price.
 
 <button
-    class="snipcart-add-item"
+    class="button snipcart-add-item"
     data-item-id="2"
     data-item-name="Thai Food Secrets Complete eBook Collection"
     data-item-price="50.00"
@@ -39,10 +39,3 @@ After purchase, you can download them immediately as a .PDF and read them on you
 I've cooked every recipe many times, making adjustments to quantities so that you get the most accurate, triple-checked instructions.
 
 If you want to avoid the potential disappointment of using untested recipes from the Internet, you'll never regret buying these low-cost e-books. They will give you hours of enjoyment and help you cook dozens of delicious meals.
-
-Please take a look at what's on offer on this page. Mouth-watering, yes?
-
-## Choose one of these two options:
-
-Download the FREE Index and put it on your iPad.
-Or go straight to my online store and buy a selection of titles.
