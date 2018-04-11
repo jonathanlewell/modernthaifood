@@ -11,8 +11,10 @@
 
 .customer-links {
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around;
 	margin-top: $margin-bottom / 2;
 	margin-bottom: $margin-bottom / 2;
 	font-size: 1em;
@@ -26,10 +28,12 @@
 .snipcart-checkout, .snipcart-total-items, .snipcart-user-profile, .snipcart-edit-profile, .snipcart-user-logout {
 	text-decoration: none; // Remove underlines
 	color: $heading-font-color;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto; 
 }
 
 .snipcart-user-profile, .snipcart-edit-profile, .snipcart-user-logout {
-	margin-left: $margin-left;
 }
 
 .logo-nav-container {
