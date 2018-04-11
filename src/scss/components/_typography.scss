@@ -62,3 +62,26 @@ main a {
         color: $link-color-hover;
     }
 }
+
+// Diamon list styling
+
+main ul, ol {
+    list-style: none;
+    li {
+      margin: 0;
+      margin-bottom: $base-line-height;
+      padding-left: $margin-left;
+      position: relative;
+        &:after {
+            content: '';
+            height: .4em;
+            width: .4em;
+            background: #f43059;
+            display: block;
+            position: absolute;
+            transform: rotate(45deg);
+            top: .6em;
+            left: 0;
+        }
+    }
+}
