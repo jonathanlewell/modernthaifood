@@ -18,6 +18,9 @@
 	font-size: 1em;
 	line-height: 1.5em;
 	font-family: $heading-copy-font;
+		@media only screen and (min-width: 600px) {
+			margin-bottom: $margin-bottom / 2;
+	}
 }
 
 .snipcart-checkout, .snipcart-total-items, .snipcart-user-profile, .snipcart-edit-profile, .snipcart-user-logout {
@@ -36,7 +39,7 @@
 	margin-bottom: $margin-bottom / 2;
 }
 
-/* The website logo */
+/* This was the old text-based logo
 .site-logo {
 	text-decoration: none; // Remove underlines
 	color: $heading-font-color;
@@ -46,6 +49,17 @@
 	font-size: 1.25em;
 	line-height: 1.2em;
 }
+ */
+
+ .site-logo {
+	 width: 80%;
+	 height: 72px;
+	 align-self: flex-start;
+	 @media only screen and (min-width: 600px) {
+		width: 80%;
+		height: 72px;
+	 }
+ }
 
 /* The navigation menu button */
 .site-navigation__toggle {
