@@ -13,30 +13,26 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-around;
-	align-content: space-around;
+	justify-content: flex-start;
 	margin-top: $margin-bottom / 2;
-	margin-bottom: $margin-bottom / 2;
+	margin-bottom: $margin-bottom;
 	font-size: 1em;
 	line-height: 1.5em;
 	font-family: $heading-copy-font;
-		@media only screen and (min-width: 600px) {
-			margin-bottom: $margin-bottom;
-	}
 }
 
-.snipcart-checkout, .snipcart-total-items, .snipcart-user-profile, .snipcart-edit-profile, .snipcart-user-logout {
+.snipcart-checkout, .snipcart-user-profile, .snipcart-edit-profile, .snipcart-user-logout {
+	padding: 0 1em 0 0;
 	text-decoration: none; // Remove underlines
 	color: $heading-font-color;
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: auto; 
+	flex-basis: max-content; 
 }
 
 .logo-nav-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: $margin-bottom / 2;
 }
 
 /* This was the old text-based logo
@@ -57,7 +53,6 @@
 	width: 80%;
 	@media only screen and (min-width: 600px) {
 		width: 50%;
-		margin-bottom: $margin-bottom / 2;
 	}
  }
 
