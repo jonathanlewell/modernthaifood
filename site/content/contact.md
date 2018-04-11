@@ -1,6 +1,7 @@
 +++
-title = "Contact"
-type = "contact"
+title= "Contact"
+date= 2018-02-15
+type= "contact"
 page="/contact.html"
 +++
 

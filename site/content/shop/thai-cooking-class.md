@@ -1,8 +1,8 @@
 +++
-title = "Book a Thai Cooking Class"
-date = "2018-03-21"
-description = "Learn how to cook a full meal in Colchester, Essex with Oi Cheepchaiissara."
-draft = false
+title= "Book a Thai Cooking Class"
+date= 2018-02-15
+description= "Learn how to cook a full meal in Colchester, Essex with Oi Cheepchaiissara."
+draft= false
 featured_image= "/img/oi-cooking-1.jpg"
 +++
 

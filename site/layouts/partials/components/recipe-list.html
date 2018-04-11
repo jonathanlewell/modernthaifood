@@ -1,16 +1,17 @@
 <section class="recipe-list">
-<h2 class="recipe-list__title">Latest Thai Recipes:</h2>
-
-{{ range first 5 (where .Data.Pages "Type" "thai-recipes") }}
+    <h2 class="recipe-list__title">Latest Thai Recipes:</h2>
+    {{ range first 5 (where .Data.Pages "Type" "thai-recipes") }}
     <article class="recipe-list__item">
         <header class="recipe-list__item-header">
             <a class="recipe-list__item-link" href="{{.Permalink}}">{{ .Title }}</a>
+            <time class="recipe-list__item-time" datetime="{{.Date.Format "2006-01-02"}}">
+                    {{.Date.Format "Jan 2, 2006"}}
+            </time>
         </header>
-        {{ with .Params.featured_image }}<img class="lazyload" data-src="{{ . }}">{{ end }}
+        {{ with .Params.featured_image }}
+        <img class="lazyload" data-src="{{ . }}">
+        {{ end }}
     </article>
-{{ end }}
-
-<a class="recipe-list__button button" href="/thai-recipes">Browse all Thai Recipes</a>
-
+    {{ end }}
+    <a class="recipe-list__button button" href="/thai-recipes">Browse all Thai Recipes</a>
 </section>
-

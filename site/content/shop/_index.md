@@ -1,8 +1,8 @@
 +++
-title = "Shop"
-date = "2018-03-21"
-description = "Browse my online store for Thai recipe eBooks and more."
-draft = false
+title= "Shop"
+date= 2018-02-15
+description= "Browse my online store for Thai recipe eBooks and more."
+draft= false
 featured_image= "/img/oi-thai-food-secrets-1.jpg"
 +++
 

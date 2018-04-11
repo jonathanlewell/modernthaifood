@@ -1,8 +1,8 @@
 +++
-title = "Legal Information"
-date = "2018-03-21"
-description = "On this page you will find our disclaimer and website's privacy policy."
-draft = false
+title= "Legal Information"
+date= 2018-02-15
+description= "On this page you will find our disclaimer and website's privacy policy."
+draft= false
 +++
 
 ## Disclaimer

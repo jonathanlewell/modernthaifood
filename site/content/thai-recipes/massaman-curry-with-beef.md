@@ -1,7 +1,7 @@
 +++
 title= "Massaman Curry With Beef"
 description= "This popular curry has many characteristics of southern Thai cooking. The sweet flavours and spices dominate, even though the curry is moderately hot."
-date= 2018-03-21T12:52:57Z
+date= 2018-03-20
 draft= false
 featured_image= "/img/dishes-massuman-curry.jpg"
 +++

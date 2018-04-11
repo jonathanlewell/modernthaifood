@@ -1,7 +1,7 @@
 +++
 title= "Stir Fried Noodles With Beef and Spring Green Leaves"
 description= "A slightly easier version of the popular noodle dish. This will take you half the time compared to others."
-date= 2018-03-21T12:55:48Z
+date= 2018-02-20
 draft= false
 featured_image= "/img/stir-fried-noodles-with-beef-and-spring-green-leaves.jpg"
 +++
