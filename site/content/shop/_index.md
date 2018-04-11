@@ -1,8 +1,11 @@
 +++
 title = "Shop"
 date = "2018-03-21"
-description = "Browse our online store for Thai recipe eBooks."
+description = "Browse my online store for Thai recipe eBooks and more."
 draft = false
+featured_image= "/img/oi-thai-food-secrets-1.jpg"
 +++
 
-Welcome to my online shop! If you are serious about Thai Cooking, consider checking out Thai Food Secrets. This is a 16 part "encyclopedia" of Thai cooking.
+## Instant download and immediate availability
+
+Whether you are buying an e-Book or a cooking class, you'll get the download link (or booking confirmation) immediately by e-mail. Take a look around :)

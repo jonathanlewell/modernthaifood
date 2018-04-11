@@ -3,6 +3,7 @@ author = "Oi Cheepchaiissara"
 description = "Thai cooking with Oi Cheepchaiissara, author of The Food of Thailand, Fresh Thai, 200 Thai Favourites and other books."
 title = "Home"
 page="/"
+featured_image= "/img/oi-thai-food-secrets-1.jpg"
 +++
 
 ## eBooks Shop
