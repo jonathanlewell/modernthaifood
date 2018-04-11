@@ -2,7 +2,7 @@ $body-copy-font: 'Georgia', serif;
 $heading-copy-font: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 $heading-font-weight: 300;
-$heading-font-color: #222;
+$heading-font-color: rgba(0,0,0,.84);
 
 $body-copy-weight: 300;
 $body-copy-size: 1em;
@@ -12,12 +12,12 @@ $base-line-height: 1.5em; // 16 * 1.5 = 24
 $site-masthead-color: #F4F6F8;
 $site-navigation-color: #F4F6F8;
 $site-footer-color: #F4F6F8;
-$site-masthead-link-color: #222;
-$site-navigation-link-color: #222;
+$site-masthead-link-color: rgba(0,0,0,.84);
+$site-navigation-link-color: rgba(0,0,0,.84);
 $link-color: #007ACE;
 $link-color-hover: darken($link-color,15%);
 
-$body-copy-color: #333;
+$body-copy-color: rgba(0,0,0,.84);
 
 $margin-left: 1.5em; 
 $margin-bottom: 1.5em; 
