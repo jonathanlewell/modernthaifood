@@ -52,12 +52,13 @@
  */
 
  .site-logo {
-	 width: 90%;
-	 height: 72px;
-	 align-self: flex-start;
-	 @media only screen and (min-width: 600px) {
-		width: 50%;
-	 }
+	fill: #000;
+	width: 80%;
+	height: 72px;
+	align-self: flex-start;
+	@media only screen and (min-width: 600px) {
+		width: 360px;
+	}
  }
 
 /* The navigation menu button */
