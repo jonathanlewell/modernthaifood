@@ -36,7 +36,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: $margin-bottom / 2;
 }
 
 /* This was the old text-based logo
@@ -56,8 +55,7 @@
 	 height: 72px;
 	 align-self: flex-start;
 	 @media only screen and (min-width: 600px) {
-		width: 80%;
-		height: 72px;
+		width: 50%;
 	 }
  }
 
@@ -65,5 +63,5 @@
 .site-navigation__toggle {
 	text-decoration: none;
 	color: $heading-font-color;
-	font-size: 1.75rem;
+	font-size: 2em;
 }
