@@ -21,7 +21,7 @@
 	line-height: 1.5em;
 	font-family: $heading-copy-font;
 		@media only screen and (min-width: 600px) {
-			margin-bottom: $margin-bottom / 2;
+			margin-bottom: $margin-bottom;
 	}
 }
 
@@ -52,12 +52,10 @@
  */
 
  .site-logo {
-	fill: #000;
-	width: 80%;
-	height: 72px;
+	fill: #000; 
 	align-self: flex-start;
 	@media only screen and (min-width: 600px) {
-		width: 360px;
+		margin-bottom: $margin-bottom / 2;
 	}
  }
 

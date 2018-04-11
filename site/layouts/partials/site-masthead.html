@@ -13,17 +13,15 @@
 <!-- Container for the logo and mobile navigation open button (for the desktop version of the navigation menu and toggle close button for mobile, see site-navigation.html) -->
 <div class="logo-nav-container">
 
-        <!-- The site title / logo -->
-        <!-- <a class="site-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> -->
+<!-- SVG Logo -->
 
-        <!-- SVG Logo -->
-        {{ partial "site-logo.html" . }}
+<a href="/"><svg class="site-logo icon" viewBox="0 0 857 88.5" style="width:80%"><use xlink:href="#modern-thai-logo-choco-font-optimized" /></svg></a>
 
-        <!-- A hidden mobile navigation toggle -->
-        <div class="site-navigation__box">
-                <a class="site-navigation__toggle toggle open" href="#site-navigation">&#9776;</a>
-        </div>
+ <!-- A hidden mobile navigation toggle -->
+<div class="site-navigation__box">
+        <a class="site-navigation__toggle toggle open" href="#site-navigation">&#9776;</a>
 </div>
 
+</div>
 </div>
 </header>

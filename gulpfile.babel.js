@@ -4,6 +4,7 @@ import hugoBin from "hugo-bin";
 import gutil from "gulp-util";
 import imagemin from "gulp-imagemin";
 import mozjpeg from "imagemin-mozjpeg";
+import svgSprite from "gulp-svg-sprite";
 import flatten from "gulp-flatten";
 import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
@@ -29,7 +30,7 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["fonts", "scss", "js", "img:build"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build", ["fonts", "scss", "js", "img:build", "svg"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["fonts", "scss", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile SCSS
@@ -105,6 +106,21 @@ gulp.task('fonts', () => (
     .pipe(gulp.dest("./dist/fonts"))
     .pipe(browserSync.stream())
 ));
+
+// Compile SVG icons into a single partial file
+gulp.task("svg", () =>
+  gulp.src("src/svg/*.svg")
+    .pipe(svgSprite({
+      mode: {
+        inline: true,
+        symbol: true
+      },
+      svg: {
+        xmlDeclaration: false,
+      }
+    }))
+    .pipe(gulp.dest("./site/layouts/partials"))
+);
 
 // Development server with browsersync
 gulp.task("server", ["hugo", "scss", "js", "fonts", "img"], () => {
