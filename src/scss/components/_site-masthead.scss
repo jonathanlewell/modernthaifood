@@ -50,10 +50,7 @@
  .site-logo {
 	fill: #000; 
 	align-self: flex-start;
-	width: 80%;
-	@media only screen and (min-width: 600px) {
-		width: 50%;
-	}
+	height: 1.375em;
  }
 
 /* The navigation menu button */

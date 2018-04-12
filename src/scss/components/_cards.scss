@@ -1,12 +1,13 @@
 /*---------- CARDS LAYOUT ----------*/
 
-.card {
-	background: white;
-	margin-bottom: $margin-bottom;	
+// Margin underneath cards section
+.cards {
+    margin-bottom: $margin-bottom;
 }
 
-.card__link:hover {
-	box-shadow: 0.125em 0.125em 0.333em hsl(0, 0%, 80%);
+/* Stuff in each card */
+.card {
+	background: white;
 }
 
 .card__content {
@@ -14,8 +15,6 @@
 }
 
 .card__header {
-	margin-top: 0;
-    margin-bottom: $body-copy-size/2;
     font-family: $heading-copy-font;
     font-weight: $heading-font-weight;
     color: $heading-font-color;
@@ -25,21 +24,18 @@
     color: $body-copy-color;
 }
 
-/* Flexbox stuff */
-
+/* Flexbox layout */
 .cards {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: $margin-bottom;
+    justify-content: space-between;
  }
 
 .card {
-    box-sizing: border-box;
-    margin: $body-copy-size $body-copy-size/4;
-}
-
-@media screen and (min-width: 40em) {
-    .card {
-       max-width: calc(50% - 1em);
-    }
+    width: 100%;
+    flex-shrink: 1;
+    margin-bottom: $margin-bottom;	
+    @media only screen and (min-width: 600px) {
+	    width: calc(50% - 0.75em);
+	}
 }

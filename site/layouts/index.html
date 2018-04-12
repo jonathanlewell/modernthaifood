@@ -2,7 +2,7 @@
 <main role="main" class="container">
 
 <section class="cards">
-    {{ range first 5 (where .Data.Pages "Type" "thai-recipes") }}
+    {{ range first 6 (where .Data.Pages "Type" "thai-recipes") }}
         <article class="card">
             <a href="{{.Permalink}}">
                 <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
