@@ -1,7 +1,14 @@
 .site-breadcrumbs {
     font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
-    color: $heading-font-color;
+    color: $body-copy-color;
+    margin-bottom: $margin-bottom;
+}
+
+.breadcrumbs__link {
+    font-family: $heading-copy-font; 
+    font-weight: $heading-font-weight;
+    color: $brand-link-color;    
 }
 
 .breadcrumbs__item {

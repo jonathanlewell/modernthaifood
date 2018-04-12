@@ -8,13 +8,19 @@ $body-copy-weight: 300;
 $body-copy-size: 1em;
 $base-line-height: 1.5em; // 16 * 1.5 = 24
 
+$brand-color: #f43059;
+$brand-grey-color: #f8f4f7;
+$brand-white-color: #fcf9f9;
+$brand-dark-color: #5a323a;
+$brand-link-color: #03C389;
 
-$site-masthead-color: #F4F6F8;
-$site-navigation-color: #F4F6F8;
-$site-footer-color: #F4F6F8;
+
+$site-masthead-color: $brand-grey-color;
+$site-navigation-color: $brand-grey-color;
+$site-footer-color: $brand-grey-color;
 $site-masthead-link-color: rgba(0,0,0,.84);
 $site-navigation-link-color: rgba(0,0,0,.84);
-$link-color: #007ACE;
+$link-color: $brand-link-color;
 $link-color-hover: darken($link-color,15%);
 
 $body-copy-color: rgba(0,0,0,.84);
