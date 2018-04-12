@@ -1,7 +1,7 @@
 .site-masthead {
 	border-style: solid;
 	border-width: $margin-bottom/3 0 0 0;
-	border-top-color: #f43059;
+	border-top-color: $brand-color;
 	border-bottom-color: $site-masthead-color;
 	background-color: $site-masthead-color;
 		@media only screen and (max-width: 599px){

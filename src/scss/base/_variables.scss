@@ -8,12 +8,25 @@ $body-copy-weight: 300;
 $body-copy-size: 1em;
 $base-line-height: 1.5em; // 16 * 1.5 = 24
 
-$brand-color: #f43059;
-$brand-grey-color: #f8f4f7;
+// Brand colors picked up from paletton.com (to find shades / opposites etc.)
+$brand-color: #F4305A;
+$brand-color-light: #F75679;
+$brand-color-lightest: #F9849D;
+$brand-color-dark: #F20437;
+$brand-color-darkest: #D1002D;
 $brand-white-color: #fcf9f9;
+$brand-grey-color: #f8f4f7;
 $brand-dark-color: #5a323a;
 $brand-link-color: #03C389;
 
+$secondary-color: #28CD9B;
+$secondary-color-light: #4CD9AE;
+$secondary-color-lightest: #7AE6C5;
+$secondary-color-dark: #03C389;
+$secondary-color-darkest: #009568;
+
+// Some generic colors picked up from the internet
+$medium-grey-color: rgba(0,0,0,.54); // from medium, used for intros.
 
 $site-masthead-color: $brand-grey-color;
 $site-navigation-color: $brand-grey-color;

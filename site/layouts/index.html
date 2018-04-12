@@ -2,14 +2,15 @@
 <main role="main" class="container">
 
 <section class="cards">
-    {{ range first 6 (where .Data.Pages "Type" "thai-recipes") }}
+    {{ range first 4 (where .Data.Pages "Type" "thai-recipes") }}
         <article class="card">
             <a href="{{.Permalink}}">
                 <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
                 <div class="card__content">
                     <h3 class="card__header">{{ .Title }}</h3>
+                    <time class="card__time" datetime="{{.Date.Format "2006-01-02"}}">{{.Date.Format "Jan 2, 2006"}}</time>
                     <p class="card__description">{{ .Params.description }}</p>
-                    <a class="card__button button" href="{{.Permalink}}">Learn how to make it</a>
+                    <a class="card__button button" href="{{.Permalink}}">Read this recipe »</a>
                 </div>
             </a>
             </article>

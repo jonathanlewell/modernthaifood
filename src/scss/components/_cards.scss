@@ -15,9 +15,22 @@
 }
 
 .card__header {
+    margin-bottom: $margin-bottom/2;
     font-family: $heading-copy-font;
     font-weight: $heading-font-weight;
     color: $heading-font-color;
+}
+
+.card__time {
+    display: block;
+    margin-bottom: $margin-bottom/2;
+    color: $secondary-color-dark;
+}
+
+.card__button {
+    text-align: center;
+    display: block;
+    width: 100%;
 }
 
 .card__description {

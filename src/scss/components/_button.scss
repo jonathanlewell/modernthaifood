@@ -2,17 +2,13 @@
 
 .button {
     background-color: white;
-    border: 1px solid #cccccc;
+    border: 1px solid $secondary-color;
     font-family: $heading-copy-font;
-    color: #696969;
+    color: $secondary-color-darkest;
     padding: 0.5rem;
         &:hover {
             cursor: pointer;
-            background-color: darken(white,5%);
+            background-color: $secondary-color-lightest;
+            color: $secondary-color-darkest;
         }
-}
-  
-.button--block {
-    display: block;
-    width: 100%;
 }
