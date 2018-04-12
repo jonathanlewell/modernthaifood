@@ -1,14 +1,15 @@
 /* Site navigation elements */
 .site-navigation {
     background-color: $site-navigation-color;
-    margin-bottom: $margin-bottom;
+    padding: $margin-bottom 0 $margin-bottom 0;
+    margin-bottom: $margin-bottom * 1.5;
 }
 
 .site-navigation__menu {
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding-bottom: $margin-bottom;
+    margin: 0;
 }
 
 .site-navigation__link {
