@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "breadcrumbs/breadcrumbs.html" . }} 
 
-<main role="main" class="container">
+<main role="main" class="container content-area">
 <article>
 
 <header>
@@ -13,17 +13,23 @@
 {{ .Content }}
 </section>
 
-<section class="list">        
-    {{ range first 5 (where .Data.Pages "Type" "shop") }}
-        <article class="list__item">
-            <header class="list__item-header">
-                <a class="list__item-link" href="{{.Permalink}}">{{ .Title }}</a>
-            </header>
-            {{ with .Params.featured_image }}<img class="lazyload" data-src="{{ . }}">{{ end }}
-        </article>
-    {{ end }}
+<section class="cards">
+    {{ range .Data.Pages }}
+        <article class="card">
+            <a href="{{.Permalink}}">
+                <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
+                <div class="card__content">
+                    <h3 class="card__header">{{ .Title }}</h3>
+                    <time class="card__time" datetime="{{.Date.Format "2006-01-02"}}">{{.Date.Format "Jan 2, 2006"}}</time>
+                    <p class="card__description">{{ .Params.description }}</p>
+                    <a class="card__button button" href="{{.Permalink}}">Find out more »</a>
+                </div>
+            </a>
+            </article>
+        {{ end }}
 </section>
 
 </article>
 </main>
+
 {{ end }}

@@ -1,0 +1,9 @@
+body {
+    background-color: $brand-tinted-white-color;
+}
+
+.container {
+    max-width: $content-area-max-width;
+    padding: 0 $spacing 0 $spacing;
+    margin: 0 auto;
+}
