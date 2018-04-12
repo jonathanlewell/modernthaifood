@@ -1,0 +1,45 @@
+/*---------- CARDS LAYOUT ----------*/
+
+.card {
+	background: white;
+	margin-bottom: $margin-bottom;	
+}
+
+.card__link:hover {
+	box-shadow: 0.125em 0.125em 0.333em hsl(0, 0%, 80%);
+}
+
+.card__content {
+	padding: $base-line-height;
+}
+
+.card__header {
+	margin-top: 0;
+    margin-bottom: $body-copy-size/2;
+    font-family: $heading-copy-font;
+    font-weight: $heading-font-weight;
+    color: $heading-font-color;
+}
+
+.card__description {
+    color: $body-copy-color;
+}
+
+/* Flexbox stuff */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: $margin-bottom;
+ }
+
+.card {
+    box-sizing: border-box;
+    margin: $body-copy-size $body-copy-size/4;
+}
+
+@media screen and (min-width: 40em) {
+    .card {
+       max-width: calc(50% - 1em);
+    }
+}
