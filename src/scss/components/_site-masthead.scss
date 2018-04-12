@@ -1,11 +1,11 @@
 .site-masthead {
 	border-style: solid;
-	border-width: $margin-bottom/3 0 0 0;
+	border-width: $spacing-third 0 0 0;
 	border-top-color: $brand-color;
-	border-bottom-color: $site-masthead-color;
-	background-color: $site-masthead-color;
+	border-bottom-color: $brand-tinted-grey-color;
+	background-color: $brand-tinted-grey-color;
 		@media only screen and (max-width: 599px){
-			margin-bottom: $margin-bottom;
+			margin-bottom: $spacing;
 		}
 }
 
@@ -14,15 +14,15 @@
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: flex-start;
-	padding: $margin-bottom 0 $margin-bottom 0;
+	padding: $spacing 0 $spacing 0;
 	line-height: $base-line-height;
 	font-family: $heading-copy-font;
 }
 
 .snipcart-checkout, .snipcart-user-profile, .snipcart-edit-profile, .snipcart-user-logout {
-	padding: 0 $margin-left 0 0;
+	padding: 0 $spacing 0 0;
 	text-decoration: none; // Remove underlines
-	color: $heading-font-color;
+	color: $brand-dark-color;
 	flex-basis: max-content; 
 }
 
@@ -31,7 +31,7 @@
 	justify-content: space-between;
 	align-items: center;
 	@media only screen and (max-width: 599px) {
-		padding: 0 0 $margin-bottom 0;
+		padding: 0 0 $spacing 0;
 	}
 }
 
@@ -48,7 +48,7 @@
  */
 
  .site-logo {
-	fill: #000; 
+	fill: $brand-dark-color;
 	align-self: flex-start;
 	height: 1.375em;
  }
@@ -56,6 +56,6 @@
 /* The navigation menu button */
 .site-navigation__toggle {
 	text-decoration: none;
-	color: $heading-font-color;
+	color: $brand-dark-color;
 	font-size: 1.6em;
 }

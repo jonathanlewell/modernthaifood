@@ -2,8 +2,6 @@ $body-copy-font: 'Georgia', serif;
 $heading-copy-font: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 $heading-font-weight: 500;
-$heading-font-color: rgba(0,0,0,.84);
-
 $body-copy-weight: 300;
 $body-copy-size: 1em;
 $base-line-height: 1.5em; // 16 * 1.5 = 24
@@ -14,10 +12,6 @@ $brand-color-light: #F75679;
 $brand-color-lightest: #F9849D;
 $brand-color-dark: #F20437;
 $brand-color-darkest: #D1002D;
-$brand-white-color: #fcf9f9;
-$brand-grey-color: #f8f4f7;
-$brand-dark-color: #5a323a;
-$brand-link-color: #03C389;
 
 $secondary-color: #28CD9B;
 $secondary-color-light: #4CD9AE;
@@ -25,21 +19,19 @@ $secondary-color-lightest: #7AE6C5;
 $secondary-color-dark: #03C389;
 $secondary-color-darkest: #009568;
 
+$brand-tinted-grey-color: #f8f4f7;
+$brand-tinted-white-color: #fcf9f9;
+$brand-grey-color: #f8f4f7;
+$brand-dark-color: #5a323a; // Used for the logo and headings
+
 // Some generic colors picked up from the internet
 $medium-grey-color: rgba(0,0,0,.54); // from medium, used for intros.
 
-$site-masthead-color: $brand-grey-color;
-$site-navigation-color: $brand-grey-color;
-$site-footer-color: $brand-grey-color;
-$site-masthead-link-color: rgba(0,0,0,.84);
-$site-navigation-link-color: rgba(0,0,0,.84);
-$link-color: $brand-link-color;
-$link-color-hover: darken($link-color,5%);
+$spacing: $base-line-height; // Works out at 1.5em or 24px. Used for paddings and margins
+$spacing-third: $base-line-height/3;
+$spacing-half: $base-line-height/2;
+$spacing-double: $base-line-height*2;
 
-$body-copy-color: rgba(0,0,0,.84);
-
-$margin-left: 1.5em; 
-$margin-bottom: 1.5em; 
 
 $container-max-width: 38em;
-$container-padding: 0 $margin-left 0 $margin-left;
+$container-padding: 0 $spacing 0 $spacing;

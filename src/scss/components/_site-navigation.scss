@@ -1,8 +1,8 @@
 /* Site navigation elements */
 .site-navigation {
-    background-color: $site-navigation-color;
-    padding: $margin-bottom 0 $margin-bottom 0;
-    margin-bottom: $margin-bottom * 1.5;
+    background-color: $brand-tinted-grey-color;
+    padding: $spacing 0 $spacing 0;
+    margin-bottom: $spacing * 1.5;
 }
 
 .site-navigation__menu {
@@ -13,7 +13,7 @@
 }
 
 .site-navigation__link {
-    color: $heading-font-color;
+    color: $brand-dark-color;
     text-decoration: none;
     height: 100%;
     font-family: $heading-copy-font;
@@ -52,8 +52,8 @@
         text-decoration: none;
         font-size: 2em;
         line-height: 1em;
-        margin-top: $margin-bottom / 3;
-        color: $site-navigation-link-color;
+        margin-top: $spacing-third;
+        color: $brand-dark-color;
         font-family: $heading-copy-font;
         font-weight: $heading-font-weight;
         position: relative;

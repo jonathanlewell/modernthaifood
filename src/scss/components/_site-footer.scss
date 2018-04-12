@@ -1,13 +1,13 @@
 .site-footer {
-    background: $site-footer-color;
+    background: $brand-tinted-grey-color;
     font-family: $heading-copy-font;
     font-weight: $heading-font-weight;
-    padding-top: $margin-bottom;
-	padding-bottom: $margin-bottom;
+    padding-top: $spacing;
+	padding-bottom: $spacing;
 }
 
 .site-footer__link {
-    color: $heading-font-color;
+    color: $brand-dark-color;
     font-family: $heading-copy-font;
     font-weight: $heading-font-weight;
     text-decoration: none;

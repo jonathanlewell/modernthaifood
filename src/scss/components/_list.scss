@@ -1,10 +1,10 @@
 // Spacing
 .list {
-    margin-bottom: $margin-bottom;
+    margin-bottom: $spacing;
 }
 .list__item-header {
-    margin-bottom: $margin-bottom / 2;
+    margin-bottom: $spacing-half;
 }
 .list__item {
-    margin-bottom: $margin-bottom;
+    margin-bottom: $spacing;
 }

@@ -2,7 +2,7 @@
 
 // Margin underneath cards section
 .cards {
-    margin-bottom: $margin-bottom;
+    margin-bottom: $spacing;
 }
 
 /* Stuff in each card */
@@ -15,15 +15,15 @@
 }
 
 .card__header {
-    margin-bottom: $margin-bottom/2;
+    margin-bottom: $spacing-half;
     font-family: $heading-copy-font;
     font-weight: $heading-font-weight;
-    color: $heading-font-color;
+    color: $brand-dark-color;
 }
 
 .card__time {
     display: block;
-    margin-bottom: $margin-bottom/2;
+    margin-bottom: $spacing-half;
     color: $secondary-color-dark;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .card__description {
-    color: $body-copy-color;
+    color: $brand-dark-color;
 }
 
 /* Flexbox layout */
@@ -47,8 +47,12 @@
 .card {
     width: 100%;
     flex-shrink: 1;
-    margin-bottom: $margin-bottom;	
+    margin-bottom: $spacing;	
     @media only screen and (min-width: 600px) {
 	    width: calc(50% - 0.75em);
 	}
+}
+
+.card__image {
+    
 }

@@ -1,6 +1,6 @@
 +++
 title= "Easy Crispy Sesame Prawns on Toast"
-description= "A 30 minute recipe to cook one of the easiest Thai starter dishes. I'll also show you how to create your own swet Chilli sauce."
+description= "A 30 minute recipe to cook a really easy Thai starter dish. I'll also show you how to create your own sweet chilli sauce."
 date= 2018-04-05
 draft= false
 featured_image= "/img/dishes-crispy-sesame-prawns-on-toast.jpg"

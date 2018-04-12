@@ -11,14 +11,14 @@ body {
     line-height: $base-line-height;
     font-family: $body-copy-font;
     font-weight: $body-copy-weight;
-    color: $body-copy-color;
+    color: $brand-dark-color;
 }
 
 // Heading styles
 h1, h2, h3, h4, h5 {
     font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
-    color: $heading-font-color;
+    color: $brand-dark-color;
 }
 
 h1 {
@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6,hgroup,
 ul,ol,dd,
 p,figure,
 pre,table,fieldset,hr{
-    margin-bottom: $margin-bottom;
+    margin-bottom: $spacing;
 }
 
 small {
@@ -56,10 +56,10 @@ small {
 
 // Link text styles
 main a {
- color: $link-color;
+ color: $secondary-color-dark;
  text-decoration: none;   
     &:hover, &:focus {
-        color: $link-color-hover;
+        color: $secondary-color-darkest;
     }
 }
 
@@ -69,14 +69,14 @@ main ul, ol {
     list-style: none;
     li {
       margin: 0;
-      margin-bottom: $base-line-height;
-      padding-left: $margin-left;
+      margin-bottom: $spacing;
+      padding-left: $spacing;
       position: relative;
         &:after {
             content: '';
             height: .4em;
             width: .4em;
-            background: #f43059;
+            background: $brand-color;
             display: block;
             position: absolute;
             transform: rotate(45deg);
