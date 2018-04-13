@@ -1,3 +1,4 @@
+// Now, here's the border and background colors.
 .site-masthead {
 	border-style: solid;
 	border-width: $spacing-third 0 0 0;
@@ -9,6 +10,7 @@
 		}
 }
 
+// The first area in the masthead are the customer links.
 .customer-links {
 	display: flex;
 	flex-wrap: wrap;
@@ -26,6 +28,7 @@
 	flex-basis: max-content; 
 }
 
+// Here's the container containing the logo and navigation
 .logo-nav-container {
 	display: flex;
 	justify-content: space-between;
@@ -35,25 +38,14 @@
 	}
 }
 
-/* This was the old text-based logo
-.site-logo {
-	text-decoration: none; // Remove underlines
-	color: $heading-font-color;
-	display: block; // Makes it have its own line
-	font-family: $heading-copy-font;
-	font-weight: $heading-font-weight;
-	font-size: 1.25em;
-	line-height: 1.2em;
-}
- */
-
+// The website logo itself (an SVG icon you put in src/svg)
  .site-logo {
 	fill: $brand-dark-color;
 	align-self: flex-start;
 	height: 1.375em;
  }
 
-/* The navigation menu button */
+// This is the styling of the mobile hamburger menu.
 .site-navigation__toggle {
 	text-decoration: none;
 	color: $brand-dark-color;
