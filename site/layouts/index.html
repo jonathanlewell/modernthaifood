@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main role="main" class="container content-area">
-
+<h2>Learn step-by-step, simple Thai recipes:</h2>
 <section class="cards">
     {{ range first 4 (where .Data.Pages "Type" "thai-recipes") }}
         <article class="card">
@@ -17,7 +17,7 @@
         {{ end }}
 </section>
 
-
+<h2>Explore over 500 popular Thai recipes in my illustrated eBooks:</h2>
 <section class="cards">
 <article class="card">
     <a href="/shop/">
@@ -30,6 +30,7 @@
     </a>
 </article>
 
+<h2>Cook a full Thai meal (starter, main dish, dessert) with me in a relaxed cooking class:</h2>
 <article class="card">
         <a href="/colchester-cooking-classes/">
             <img class="card__image lazyload" data-src="/img/oi-cooking-1.jpg">
