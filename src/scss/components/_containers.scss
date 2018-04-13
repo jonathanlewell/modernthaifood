@@ -6,4 +6,7 @@ body {
     max-width: $content-area-max-width;
     padding: 0 $spacing 0 $spacing;
     margin: 0 auto;
+    @media only screen and (min-width: 864px) {
+		max-width: 864px;
+	}
 }
