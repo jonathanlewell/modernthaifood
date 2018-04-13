@@ -1,18 +1,10 @@
 {{ define "main" }}
-{{ partial "breadcrumbs/breadcrumbs.html" . }} 
-<main role="main" class="container content-area">
-<article>
-
-<header>
-    <h1 class="page-header">{{ .Title }}</h1>
-    <p class="page-description">{{ .Description }}</p>
-</header>
-
-{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-
-{{ .Content }}
-
-
-</article>
-</main>
+    {{ partial "breadcrumbs/breadcrumbs.html" . }} 
+    <main role="main" class="container content-area">
+        <article>
+            <h1 class="page-header">{{ .Title }}</h1>
+            {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+            {{ .Content }}
+        </article>
+    </main>
 {{ end }}

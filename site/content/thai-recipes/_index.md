@@ -5,4 +5,8 @@ description= "Read concise, step-by-step Thai recipes by best-selling food autho
 draft= false
 +++
 
-I've tried to make each of these Thai recipes as clear as possible. They have step-by-step instructions (with pictures), and you can always ask me for help by [contacting me](/contact/). Enjoy!
+## With the right instructions, anybody can cook exquisite Thai cuisine.</p>
+
+- You'll read clear, step-by-step instructions - no 'missing links'.
+- You'll see close-up illustrations of each step - to know that you're on the right track.
+- Each recipe has been made and refined many times by Oi Cheepchaiissara, author of "The Food of Thailand" and other cookbooks.

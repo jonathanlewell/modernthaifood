@@ -1,57 +1,55 @@
 <!doctype html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<title>{{ .Title }} - {{ .Site.Title }}</title>
-	
 	<link rel="canonical" href="{{ .Permalink }}"> 
 
+	<!-- Meta Tags -->
+	<!-- Unique metadata on homepage -->
 	{{ if eq .URL "/" }}
-    	<!-- Unique metadata on homepage -->
     	<title>{{ .Site.Title }} - {{ .Site.Params.subtitle }}</title>
-    	<meta name="description" content="{{ .Site.Params.description }}">
+		<meta name="description" content="{{ .Site.Params.description }}">
+	<!-- Unique metadata on other pages -->
     {{ else }}
-    	<!-- Unique metadata on other pages -->
     	<title>{{ .Title }} | {{ .Site.Title }}</title>
     	<meta name="description" content="{{ .Description }}">
 	{{ end }}
-	
+	<!-- Favicons -->
 	{{ with .Site.Params.author }}
-	<meta name="author" content="{{ . }}">{{ end }} 
+		<meta name="author" content="{{ . }}">
+	{{ end }}
+	<!-- Default theme color for apps and such -->
+	<meta name="theme-color" content="#fff"> 
 	
+	<!-- RSS feed  -->
 	<link href="/rss.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}" /> 
 	
+	<!-- Social tags -->
 	{{- template "_internal/opengraph.html" . -}} 
 	{{- template "_internal/google_news.html" . -}} 
 	{{- template "_internal/schema.html" . -}} 
 	{{- template "_internal/twitter_cards.html" . -}}
 
-	{{ partialCached "styles.html" . }}
-
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/manifest.json">
-	<meta name="theme-color" content="#fff">
 
+	<!-- In-line CSS -->
+	{{ partialCached "styles.html" . }}
+
+	<!-- Snipcart CSS -->
 	<link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet">
-
 </head>
 
-<body>
-	
+<body>	
 	{{ partial "site-masthead.html" . }}
 	{{ partial "site-navigation.html" . }} 
-
 	{{ block "main" . }} {{ end }}
-
 	{{ partial "site-footer.html" . }}
-
 	{{ partial "site-scripts.html" . }}
-
 </body>
 </html>

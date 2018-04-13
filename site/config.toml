@@ -1,15 +1,15 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Modern Thai Food"
+title = "Oi's Kitchen"
 googleAnalytics = "UA-1234567-12"
 
 [params]
     author = "Oi Cheepchaiissara"
-    description = "Thai cooking with Oi Cheepchaiissara, author of The Food of Thailand, Fresh Thai, 200 Thai Favourites and other books."
-    subtitle = "Discover Thai cooking and step-by-step recipes with Oi Cheepchaiissara."
+    description = "Easily cook incredible Thai cuisine with simple and refined step-by-step recipes."
+    subtitle = "Easily cook incredible Thai cuisine with simple and refined step-by-step recipes."
     themecolour = "#ffffff"
-    twitter = "@modernthaifood"
+    twitter = "@oiskitchen"
 
 [author]    
 name = "Oi Cheepchaiissara"
