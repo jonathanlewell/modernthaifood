@@ -1,0 +1,74 @@
+<header class="site-header" role="banner">
+    <a id="skip-navigation" class="screen-reader-text" href="#main">Skip to main content</a>
+    
+    <nav id="main-navigation" role="navigation">
+    </nav>
+
+    <a title="Oi's Kitchen Home Page" href="/">
+        <span class="hidden">Oi's Kitchen</span>
+        <svg class="site-logo" aria-hidden="true" viewBox="0 0 538 88.5">
+            <use xlink:href="#ois-kitchen-choco-font" />
+        </svg>
+    </a>
+
+    <a href="#" class="snipcart-checkout">
+        <span class="hidden">View Cart</span>
+        <svg class="customer-icons" aria-hidden="true" viewBox="0 0 100 125">
+            <use xlink:href="#cart-icon-material" />
+        </svg> (
+        <span class="snipcart-total-items"></span>)
+    </a>
+
+    <a href="#" class="snipcart-user-profile">
+        <span class="hidden">Your Account</span>
+        <svg class="customer-icons" aria-hidden="true" viewBox="0 0 40 40">
+            <use xlink:href="#account-icon-material" />
+        </svg>
+    </a>
+    <a href="#" class="snipcart-user-logout">Logout</a>
+
+    <!-- Close nav -->
+    <a class="mobile__open-navigation" href="#new-site-masthead-menu">
+        <span class="hidden">Open Navigation Menu</span>
+        <span aria-hidden="true">&#9776;</span>
+    </a>
+
+    <!-- example --> 
+    <a href="#">
+            <svg class="icon icon-close" viewBox="0 0 32 32" aria-hidden="true">
+                <use xlink:href="#icon-close"></use>
+            </svg>
+            <span class="visuallyhidden">Close</span>
+        </a>
+
+
+</header>
+
+    <!-- Site navigation -->
+    
+
+
+
+
+
+
+
+
+    <!-- V2 Site navigation -->
+    <nav class="site-navigation" role="navigation" aria-label="Main menu" id="site-navigation">
+        <h2 class="hidden">Main Navigation</h2>
+    
+        <!-- Close nav -->
+        <a class="close-site-navigation" href="#">x
+            <span class="hidden">Close Navigation Menu</span>
+        </a>
+    
+        <!-- Hugo looks for all pages in the config.toml under the main menu -->
+        <ul role="menu">
+            {{- range .Site.Menus.main -}}
+            <li role="menuitem">
+                <a class="new-site-masthead__link" href="{{ .URL }}">{{ .Name | title }}</a>
+            </li>
+            {{- end -}}
+        </ul>
+    </nav>

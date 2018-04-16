@@ -1,19 +1,8 @@
 {{ define "main" }}
-<main role="main" class="container content-area">
-
-    <section class="page-introduction">
-        <h2 class="section-title">Meticulously refined, simple step by step Thai recipes</h2>
-        <p class="page-subtitle">With the right instructions, anybody can cook exquisite Thai cuisine.</p>
-        <ul>
-            <li>Clear, step-by-step instructions - no 'missing links'.</li>
-            <li>Close-up illustrations of each step - to know that you're on the right track.</li>
-            <li>Each recipe has been made and refined many times by Oi Cheepchaiissara, author of "The Food of Thailand" and other cookbooks.</li>
-        </ul>
-        <img class="lazyload" src="/oi-in-market-1.jpg" alt="Oi Cheepchaiissara">
-    </section>
+<main role="main" class="container content-area" id="main">
 
     <section>
-        <h2 class="section-title">Easy Thai dishes to try at home:</h2>
+        <h2 class="section-title">Latest in-depth Thai recipes with step-by-step illustrations:</h2>
         <div class="cards">
             {{ range first 4 (where .Data.Pages "Type" "thai-recipes") }}
             <article class="card">

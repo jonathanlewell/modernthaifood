@@ -1,6 +1,6 @@
 {{ define "main" }}
     {{ partial "breadcrumbs/breadcrumbs.html" . }} 
-    <main role="main" class="container content-area">
+    <main role="main" class="container content-area" id="main">
         <article>
             <h1 class="page-header">{{ .Title }}</h1>
             {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}

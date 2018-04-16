@@ -1,0 +1,34 @@
+.accessible-site-menu__svg {
+    height: 1.375em;
+}
+
+.accessible-header {
+    background-color: $brand-tinted-grey-color;
+    border-style: solid;
+	border-width: $spacing-third 0 0 0;
+	border-top-color: $brand-color;
+    border-bottom-color: $brand-tinted-grey-color;
+    padding-top: $spacing;
+    padding-bottom: $spacing;
+    margin-bottom: $spacing;
+}
+
+.accessible-site-navigation {
+    max-width: $content-area-max-width;
+    margin: 0 auto;
+    width: 90%;     
+}
+
+.accessible-site-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.accessible-site-menu__link {
+    font-family: $heading-copy-font;
+	color: $brand-dark-color;
+    text-decoration: none;
+}

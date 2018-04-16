@@ -1,0 +1,85 @@
+.site-header {
+    background-color: $brand-tinted-grey-color;
+    max-width: $content-area-max-width;
+    margin: 0 auto;
+    width: 90%; 
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //typography
+    font-family: $heading-copy-font;
+	text-decoration: none;
+	color: $brand-dark-color;
+}
+
+.snipcart-checkout {
+    justify-self: flex-end;
+}
+
+.site-logo, .customer-icons {
+    height: 1.375em;
+    & __link {
+        text-decoration: none;
+    }
+}
+
+// Space out the icons on the top bar.
+.site-masthead__top-layout a:not(:last-child) {
+    margin-left: $spacing;
+}
+
+// This is the styling of the mobile hamburger menu.
+.new-site-masthead__toggle-open {
+    text-decoration: none;
+    color: $brand-dark-color;
+    font-size: 1.5em;
+    @media only screen and (min-width: 600px) {
+        display: none; // Hidden on large screens
+    }
+}
+
+.new-site-masthead__toggle-close {
+    align-self: end;
+    font-family: $heading-copy-font;
+    color: $brand-dark-color;
+    font-size: 2em;
+    text-decoration: none;
+    @media only screen and (min-width: 600px) {
+        display: none; // Hidden on large screens
+    }
+}
+
+.new-site-masthead__menu {
+    display: flex;
+    background-color: $brand-tinted-grey-color;
+    &:target {
+        transform: translateX(340px);
+    }
+    // Small screen settings
+    @media only screen and (max-width: 599px) {
+        transition: transform .3s ease-in-out;
+        top: 0;
+        bottom: 0;   
+        min-height: 100vh;
+        position: fixed;
+        width: 300px;
+        left: -340px;
+        flex-direction: column;
+    }
+    // Large screen menu styles
+    @media only screen and (min-width: 600px) {
+        max-width: $content-area-max-width;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+
+.new-site-masthead__link {
+    font-family: $heading-copy-font;
+    text-decoration: none;
+    color: $brand-dark-color;
+}

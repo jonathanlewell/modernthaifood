@@ -1,3 +1,4 @@
+/* Old
 // Now, here's the border and background colors.
 .site-masthead {
 	border-style: solid;
@@ -8,26 +9,28 @@
 		@media only screen and (max-width: 599px){
 			margin-bottom: $spacing;
 		}
-}
+} */
 
-// The first area in the masthead are the customer links.
+/* Old
 .customer-links {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: flex-start;
-	padding: $spacing 0 $spacing 0;
+	padding: $spacing 0 $spacing*1.5 0;
 	line-height: $base-line-height;
 	font-family: $heading-copy-font;
-}
+} */
 
+/* Old
 .snipcart-checkout, .snipcart-user-profile, .snipcart-edit-profile, .snipcart-user-logout {
 	padding: 0 $spacing 0 0;
 	text-decoration: none; // Remove underlines
 	color: $brand-dark-color;
 	flex-basis: max-content; 
-}
+}  */
 
+/* Old
 // Here's the container containing the logo and navigation
 .logo-nav-container {
 	display: flex;
@@ -36,18 +39,21 @@
 	@media only screen and (max-width: 599px) {
 		padding: 0 0 $spacing 0;
 	}
-}
+}  */
 
+/* Old
 // The website logo itself (an SVG icon you put in src/svg)
  .site-logo {
 	fill: $brand-dark-color;
 	align-self: flex-start;
 	height: 1.375em;
- }
+ } */
 
+ /* Old
 // This is the styling of the mobile hamburger menu.
 .site-navigation__toggle {
 	text-decoration: none;
 	color: $brand-dark-color;
 	font-size: 1.6em;
 }
+*/

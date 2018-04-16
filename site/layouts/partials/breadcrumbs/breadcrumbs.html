@@ -1,13 +1,15 @@
-<aside class="site-breadcrumbs container">
+<!-- Need to add a aria current to the last page of section indexes, not quite sure how to do this. Works if its a page.-->
+
+<nav class="site-breadcrumbs" aria-label="breadcrumb">
     {{ $path := split .URL "/" }}
-    <ul class="breadcrumbs__menu">
+    <ol class="breadcrumbs__menu">
         <li class="breadcrumbs__item">
             <a class="breadcrumbs__link" href="/">Home</a> »
         </li>
         {{ partial "breadcrumbs/breadcrumbs_recursive.html" (dict "sections" .Site.Home.Sections "level" 1 "path" $path "dir" .URL) }} {{ if and (eq .Kind "section") (eq (len $path) 2)}}
         <li class="breadcrumbs__item">{{ .Title }}</li>
         {{ end }} {{ if eq .Kind "page" }}
-        <li class="breadcrumbs__item">{{ .Title }}</li>
+        <li class="breadcrumbs__item" aria-current="page">{{ .Title }}</li>
         {{ end }}
-    </ul>
-</aside>
+    </ol>
+</nav>
