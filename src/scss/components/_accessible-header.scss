@@ -17,6 +17,10 @@
     margin-bottom: $spacing;
 }
 
+.header__svg {
+    height: 1.375em;
+}
+
 .site-logo {
     margin-right: auto;
 }
@@ -33,13 +37,14 @@
 .accessible-site-navigation {
     max-width: $content-area-max-width;
     margin: 0 auto;
-    width: 90%;     
+    width: 90%;
 }
 
 .accessible-site-menu {
     display: flex;
     justify-content: start;
     margin: 0;
+    overflow: hidden;
 }
 
 .accessible-site-menu__item:not(:first-child) {
@@ -50,8 +55,4 @@
     font-family: $heading-copy-font;
 	color: $brand-dark-color;
     text-decoration: none;
-}
-
-.header__svg {
-    height: 1.375em;
-}
+} 
