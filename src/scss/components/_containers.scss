@@ -2,11 +2,8 @@ body {
     background-color: $brand-tinted-white-color;
 }
 
-.container {
+main {
     max-width: $content-area-max-width;
     margin: 0 auto;
-}
-
-.page-introduction {
-    margin-bottom: $spacing-double;
+    width: 90%;
 }

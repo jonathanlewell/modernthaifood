@@ -1,9 +1,13 @@
 .site-footer {
     background: $brand-tinted-grey-color;
-    font-family: $heading-copy-font;
-    font-weight: $heading-font-weight;
     padding-top: $spacing;
 	padding-bottom: $spacing;
+}
+
+.site-footer__inner {
+    max-width: $content-area-max-width;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .site-footer__link {
