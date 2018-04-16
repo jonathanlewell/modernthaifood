@@ -9,6 +9,21 @@
     margin-bottom: $spacing;
 }
 
+.header-masthead {
+    max-width: $content-area-max-width;
+    margin: 0 auto;
+    width: 90%; 
+    display: flex;
+}
+
+.site-logo {
+    margin-right: auto;
+}
+
+.shopping-buttons {
+
+}
+
 .accessible-site-navigation {
     max-width: $content-area-max-width;
     margin: 0 auto;
@@ -17,18 +32,20 @@
 
 .accessible-site-menu {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
+    justify-content: start;
     margin: 0;
 }
 
-.accessible-site-menu__link {
+.accessible-site-menu__item:not(:first-child) {
+    margin-left: $spacing;
+}
+
+.header-link {
     font-family: $heading-copy-font;
 	color: $brand-dark-color;
     text-decoration: none;
 }
 
-.accessible-site-menu__svg {
+.header__svg {
     height: 1.375em;
 }

@@ -2,49 +2,31 @@
 
     <a id="skip-navigation" class="screen-reader-text" href="#main">Skip to main content</a>
 
+    <div class="header-masthead">
+        <a class="site-logo" href="/" aria-label="Website Logo">
+            <svg class="header__svg" aria-hidden="true" viewBox="0 0 538 88.5"><use xlink:href="#ois-kitchen-choco-font" /></svg>
+        </a>
+        <div class="shopping-buttons snipcart-summary" aria-label="Customer Shopping Buttons">
+            <a class="header-link snipcart-user-profile" href="#" aria-label="Your Account">
+                <svg class="header__svg" aria-hidden="true" viewBox="0 0 40 40"><use xlink:href="#account-icon-material" /></svg>
+            </a>
+            <a class="header-link snipcart-user-logout" href="#">
+                Log Out
+            </a>
+            <a class="header-link snipcart-checkout" href="#" aria-label="View Cart">
+                <svg class="header__svg" aria-hidden="true" viewBox="0 0 100 125"><use xlink:href="#cart-icon-material" /></svg>(<span class="snipcart-total-items"></span>)
+            </a>
+        </div>
+    </div>
+
     <nav class="accessible-site-navigation" role="navigation" aria-label="Main Navigation">
         <ul class="accessible-site-menu" role="menubar">
-            <li class="accessible-site-menu__item">
-                <a class="accessible-site-menu__link accessible-site-menu__link--home" href="/" role="menuitem" aria-label="Homepage Link">
-                    <svg class="accessible-site-menu__svg" aria-hidden="true" viewBox="0 0 538 88.5"><use xlink:href="#ois-kitchen-choco-font" /></svg>
-                </a>
-            </li>
             {{- range .Site.Menus.main -}}
             <li class="accessible-site-menu__item">
-                <a class="accessible-site-menu__link" href="{{ .URL }}" role="menuitem">{{ .Name | title }}</a>
+                <a class="header-link" href="{{ .URL }}" role="menuitem">{{ .Name | title }}</a>
             </li>
             {{- end -}}
-            <li class="accessible-site-menu__item snipcart-summary">
-                    <a class="accessible-site-menu__link snipcart-user-logout" href="#" role="menuitem">Log Out</a>
-                </li>
-            <li class="accessible-site-menu__item snipcart-summary">
-                <a class="accessible-site-menu__link snipcart-user-profile" href="#" role="menuitem" aria-label="Your Account">
-                    <svg class="accessible-site-menu__svg" aria-hidden="true" viewBox="0 0 40 40"><use xlink:href="#account-icon-material" /></svg>
-                </a>
-            </li>
-            <li class="accessible-site-menu__item snipcart-summary">
-                    <a class="accessible-site-menu__link snipcart-checkout" href="#" role="menuitem" aria-label="View Cart">
-                        <svg class="accessible-site-menu__svg" aria-hidden="true" viewBox="0 0 100 125"><use xlink:href="#cart-icon-material" /></svg> 
-                        (<span class="snipcart-total-items"></span>)
-                    </a>
-            </li>
         </ul>
     </nav>
-
-<div class="customer-buttons snipcart-summary" aria-label="Customer Payment Buttons">
-
-        <a class="button snipcart-user-logout" href="#">
-            Log Out
-        </a>
-
-        <a class="button snipcart-user-profile" href="#" aria-label="Your Account">
-            <svg class="accessible-site-menu__svg" aria-hidden="true" viewBox="0 0 40 40"><use xlink:href="#account-icon-material" /></svg>
-        </a>
-
-        <a class="button snipcart-checkout" href="#" aria-label="View Cart">
-                <svg class="accessible-site-menu__svg" aria-hidden="true" viewBox="0 0 100 125"><use xlink:href="#cart-icon-material" /></svg> 
-                (<span class="snipcart-total-items"></span>)
-        </a>
-    </div>
 
 </header>
