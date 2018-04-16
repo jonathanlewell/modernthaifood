@@ -35,3 +35,11 @@ $spacing-double: $base-line-height*2;
 
 $content-area-max-width: 960px;
 $content-area-padding: 0 $spacing 0 $spacing;
+
+/* Screen sizes */
+$tablet: 600px;
+$desktop: 800px;
+/* 
+@media (max-width: 600px)
+@media (min-width: 800px)
+*/

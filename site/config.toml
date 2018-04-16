@@ -14,12 +14,7 @@ googleAnalytics = "UA-1234567-12"
 [author]    
 name = "Oi Cheepchaiissara"
 
-# The top navigation menu links:
-[[menu.main]]
-    name = "Home"
-    identifier = "home"
-    url = "/"
-    weight = 1
+# The top navigation menu links. Home included first by default:
 [[menu.main]]
     name = "Thai Recipes"
     identifier = "recipes"

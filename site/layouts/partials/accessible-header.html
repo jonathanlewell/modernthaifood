@@ -23,9 +23,21 @@
         </div>
     </div>
 
-    <nav class="accessible-site-navigation" role="navigation" aria-label="Main Navigation">
+    <nav class="accessible-site-navigation" role="navigation" aria-label="Main Navigation" id="site-navigation">
         <h2 class="screen-reader-only">Main Navigation Links Menu</h2>
-        <ul class="accessible-site-menu" role="menubar">
+        <!-- Open mobile nav -->
+        <a class="site-navigation__open-toggle button" href="#site-navigation-menu">
+            <span class="screen-reader-only">Open Navigation Menu</span>
+            <span aria-hidden="true">Navigate &#9776;</span>
+        </a>
+        <!-- Close nav -->
+        
+        <!-- Menu -->
+        <ul class="accessible-site-menu" role="menubar" id="site-navigation-menu">
+            <a class="site-navigation__close-toggle button" href="#"> Close Menu <span aria-hidden="true">X</span></a>
+            <li class="accessible-site-menu__item">
+                <a class="site-menu-link site-menu-link--home" href="/" role="menuitem">Home</a>
+            </li> 
             {{- range .Site.Menus.main -}}
             <li class="accessible-site-menu__item">
                 <a class="site-menu-link" href="{{ .URL }}" role="menuitem">{{ .Name | title }}</a>

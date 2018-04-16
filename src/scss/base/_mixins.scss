@@ -1,0 +1,25 @@
+/* Mixins
+  =============== */
+
+// Media query for phone only layouts - this is usually the default, but sometimes it saves erasing a tonne of mobile styles.
+@mixin phone {
+	@media (max-width: #{$tablet}) {
+		@content;
+	}
+}
+
+// Media query for tablet layout 
+@mixin tablet {
+	@media (min-width: #{$tablet}) {
+		@content;
+	}
+}
+
+// Media query for desktop layout
+@mixin desktop {
+	@media (min-width: #{$desktop}) {
+		@content;
+	}
+}
+
+// Use it like this @include tablet { }
