@@ -20,8 +20,13 @@
     margin-right: auto;
 }
 
-.shopping-buttons {
-
+.shopping-button__link {
+    font-family: $heading-copy-font;
+	color: $brand-dark-color;
+    text-decoration: none;
+    &:not(:last-child) {
+        margin-right: $spacing-half;
+    }
 }
 
 .accessible-site-navigation {
@@ -40,7 +45,7 @@
     margin-left: $spacing;
 }
 
-.header-link {
+.site-menu-link {
     font-family: $heading-copy-font;
 	color: $brand-dark-color;
     text-decoration: none;

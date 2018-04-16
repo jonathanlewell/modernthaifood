@@ -11,13 +11,13 @@
 
         <div class="shopping-buttons snipcart-summary" aria-label="Customer Shopping Buttons">
             <h2 class="screen-reader-only">Customer Shopping Links Area</h2>
-            <a class="header-link snipcart-user-profile" href="#" aria-label="Your Account">
+            <a class="header-link shopping-button__link snipcart-user-profile" href="#" aria-label="Your Account">
                 <svg class="header__svg" aria-hidden="true" viewBox="0 0 40 40"><use xlink:href="#account-icon-material" /></svg>
             </a>
-            <a class="header-link snipcart-user-logout" href="#">
+            <a class="header-link shopping-button__link snipcart-user-logout" href="#">
                 Log Out
             </a>
-            <a class="header-link snipcart-checkout" href="#" aria-label="View Cart">
+            <a class="header-link shopping-button__link snipcart-checkout" href="#" aria-label="View Cart">
                 <svg class="header__svg" aria-hidden="true" viewBox="0 0 100 125"><use xlink:href="#cart-icon-material" /></svg>(<span class="snipcart-total-items"></span>)
             </a>
         </div>
@@ -28,7 +28,7 @@
         <ul class="accessible-site-menu" role="menubar">
             {{- range .Site.Menus.main -}}
             <li class="accessible-site-menu__item">
-                <a class="header-link" href="{{ .URL }}" role="menuitem">{{ .Name | title }}</a>
+                <a class="site-menu-link" href="{{ .URL }}" role="menuitem">{{ .Name | title }}</a>
             </li>
             {{- end -}}
         </ul>

@@ -1,6 +1,7 @@
 <!-- Need to add a aria current to the last page of section indexes, not quite sure how to do this. Works if its a page.-->
 
-<nav class="site-breadcrumbs" aria-label="breadcrumb">
+<nav class="site-breadcrumbs" aria-label="breadcrumbs menu">
+    <h2 class="screen-reader-only">Breadcrumbs navigation menu</h2>
     {{ $path := split .URL "/" }}
     <ol class="breadcrumbs__menu">
         <li class="breadcrumbs__item">

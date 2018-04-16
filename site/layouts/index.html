@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main role="main" class="container content-area" id="main">
+<main role="main" id="main">
 
     <section>
         <h2 class="section-title">Latest in-depth Thai recipes with step-by-step illustrations:</h2>
@@ -12,7 +12,7 @@
                         <h3 class="card__header">{{ .Title }}</h3>
                         <time class="card__time" datetime="{{.Date.Format " 2006-01-02 "}}">{{.Date.Format "Jan 2, 2006"}}</time>
                         <p class="card__description">{{ .Params.description }}</p>
-                        <a class="card__button button" href="{{.Permalink}}">Read this recipe »</a>
+                        <button class="button card__button">Read this recipe »</button>
                     </div>
                 </a>
             </article>
