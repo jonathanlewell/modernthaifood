@@ -4,72 +4,66 @@
 	border-width: $spacing-third 0 0 0;
 	border-top-color: $brand-color;
     border-bottom-color: $brand-tinted-grey-color;
-    padding-top: $spacing;
-    padding-bottom: $spacing;
+    // Margins and padding
     margin-bottom: $spacing;
 }
 
 .header-masthead {
     max-width: $content-area-max-width;
     margin: 0 auto;
-    width: 90%; 
+    width: 90%;
+    // flexbox
     display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: $spacing;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+/* Logo text converted from SVG to base64 string */
+.site-logo {
+    width: 162px;
+    height: 24px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3Ny40IDExLjQiPjxwYXRoIGQ9Ik01LjMgMC45Yy0xLjUgMC0yLjcgMC41LTMuNyAxLjVDMC41IDMuNSAwIDQuNyAwIDYuMmMwIDEuNSAwLjUgMi43IDEuNSAzLjcgMSAxIDIuMyAxLjUgMy43IDEuNSAxLjQgMCAyLjctMC41IDMuNy0xLjUgMS0xIDEuNS0yLjMgMS41LTMuNyAwLTEuNC0wLjUtMi43LTEuNS0zLjdDNy45IDEuNCA2LjcgMC45IDUuMyAwLjl6TTguMyA5LjJjLTAuOCAwLjgtMS45IDEuMy0zLjEgMS4zQzQgMTAuNSAzIDEwLjEgMi4yIDkuMiAxLjMgOC40IDAuOSA3LjQgMC45IDYuMmMwLTEuMiAwLjQtMi4yIDEuMy0zLjFDMyAyLjIgNCAxLjggNS4zIDEuOGMxLjIgMCAyLjIgMC40IDMuMSAxLjNDOS4yIDMuOSA5LjYgNSA5LjYgNi4yIDkuNiA3LjQgOS4yIDguNCA4LjMgOS4yeiIvPjxyZWN0IHg9IjEyLjMiIHk9IjAuOSIgd2lkdGg9IjAuOSIgaGVpZ2h0PSIxLjIiLz48cmVjdCB4PSIxMi4zIiB5PSIzLjMiIHdpZHRoPSIwLjkiIGhlaWdodD0iNy44Ii8+PHBvbHlnb24gcG9pbnRzPSIxNS43IDAgMTUgMi43IDE2IDIuNyAxNi43IDAgIi8+PHBhdGggZD0iTTIwLjUgN2wtMS44LTAuNWMtMC40LTAuMS0wLjctMC4zLTAuOS0wLjUgLTAuMi0wLjItMC4zLTAuNS0wLjMtMC44IDAtMC40IDAuMi0wLjcgMC41LTAuOSAwLjMtMC4zIDAuNy0wLjQgMS4zLTAuNCAwLjggMCAxLjUgMC4yIDIuMSAwLjZMMjIuMiA0QzIxLjQgMy4zIDIwLjUgMyAxOS4zIDNjLTAuOCAwLTEuNSAwLjItMS45IDAuNyAtMC41IDAuNC0wLjcgMS0wLjcgMS42IDAgMC41IDAuMiAxIDAuNSAxLjQgMC4zIDAuNCAwLjggMC43IDEuNCAwLjhsMS43IDAuNGMwLjQgMC4xIDAuNyAwLjIgMC45IDAuNSAwLjIgMC4yIDAuMyAwLjUgMC4zIDAuOCAwIDAuNC0wLjIgMC44LTAuNiAxcy0wLjkgMC40LTEuNSAwLjRjLTAuNyAwLTEuNS0wLjItMi4yLTAuNmwtMC42IDAuN2MwLjggMC41IDEuOCAwLjggMi44IDAuOCAwLjkgMCAxLjYtMC4yIDIuMi0wLjYgMC42LTAuNCAwLjktMSAwLjktMS43IDAtMC41LTAuMi0xLTAuNS0xLjNDMjEuNSA3LjQgMjEgNy4xIDIwLjUgN3oiLz48cG9seWdvbiBwb2ludHM9IjMzLjkgMS4yIDMwLjMgNi4yIDMzLjkgMTEuMSAzNSAxMS4xIDMxLjQgNi4yIDM1IDEuMiAiLz48cmVjdCB4PSIyOC44IiB5PSIxLjIiIHdpZHRoPSIwLjkiIGhlaWdodD0iOS45Ii8+PHJlY3QgeD0iMzYuNiIgeT0iMC45IiB3aWR0aD0iMC45IiBoZWlnaHQ9IjEuMiIvPjxyZWN0IHg9IjM2LjYiIHk9IjMuMyIgd2lkdGg9IjAuOSIgaGVpZ2h0PSI3LjgiLz48cG9seWdvbiBwb2ludHM9IjQwLjggMS4yIDM5LjkgMS4yIDM5LjkgMTEuMSA0MC44IDExLjEgNDAuOCA0LjIgNDIgNC4yIDQyIDMuMyA0MC44IDMuMyAiLz48cGF0aCBkPSJNNDYuNSAzLjljMC45IDAgMS43IDAuMyAyLjMgMUM0OC45IDUgNDkgNSA0OS4xIDUuMWwwLjctMC42Yy0wLjEtMC4xLTAuMi0wLjItMC4zLTAuMyAtMC44LTAuOC0xLjgtMS4yLTMtMS4ycy0yLjEgMC40LTMgMS4yYy0wLjggMC44LTEuMiAxLjgtMS4yIDNzMC40IDIuMSAxLjIgMyAxLjggMS4yIDMgMS4yIDIuMi0wLjQgMy0xLjJjMC4xLTAuMSAwLjItMC4yIDAuMy0wLjNsLTAuNy0wLjZjLTAuMSAwLjEtMC4xIDAuMi0wLjIgMC4zIC0wLjYgMC42LTEuNCAxLTIuMyAxcy0xLjctMC4zLTIuMy0xYy0wLjYtMC42LTEtMS40LTEtMi4zczAuMy0xLjcgMS0yLjNDNDQuOCA0LjIgNDUuNiAzLjkgNDYuNSAzLjl6Ii8+PHBhdGggZD0iTTU1LjIgM2MtMSAwLTEuOSAwLjQtMi43IDEuMVYxLjJoLTAuOXY5LjloMC45VjUuNmMwLjEtMC4zIDAuMy0wLjYgMC42LTAuOCAwLjYtMC42IDEuMy0wLjkgMi4xLTAuOXMxLjUgMC4zIDIuMSAwLjljMC42IDAuNiAwLjkgMS4zIDAuOSAyLjF2NC4yaDAuOVY2LjljMC0xLjEtMC40LTItMS4xLTIuOEM1Ny4yIDMuNCA1Ni4zIDMgNTUuMiAzeiIvPjxwYXRoIGQ9Ik02Ny44IDQuMkM2NyAzLjQgNjYgMyA2NC44IDNzLTIuMSAwLjQtMyAxLjJjLTAuOCAwLjgtMS4yIDEuOC0xLjIgM3MwLjQgMi4xIDEuMiAzIDEuOCAxLjIgMyAxLjIgMi4yLTAuNCAzLTEuMmwtMC42LTAuNmMtMC42IDAuNi0xLjQgMS0yLjMgMSAtMC44IDAtMS40LTAuMi0yLTAuN2w1LjMtNS4zQzY4IDQuNSA2Ny45IDQuMyA2Ny44IDQuMnpNNjIuMiA5LjJjLTAuNC0wLjYtMC43LTEuMi0wLjctMiAwLTAuOSAwLjMtMS43IDEtMi4zIDAuNi0wLjYgMS40LTEgMi4zLTEgMC44IDAgMS40IDAuMiAyIDAuN0w2Mi4yIDkuMnoiLz48cGF0aCBkPSJNNzYuMyA0LjJDNzUuNSAzLjQgNzQuNiAzIDczLjUgM2MtMSAwLTEuOSAwLjQtMi43IDEuMVYzLjNoLTAuOXY3LjhoMC45VjUuNmMwLjEtMC4zIDAuMy0wLjYgMC42LTAuOCAwLjYtMC42IDEuMy0wLjkgMi4xLTAuOXMxLjUgMC4zIDIuMSAwLjljMC42IDAuNiAwLjkgMS4zIDAuOSAyLjF2NC4yaDAuOVY2LjlDNzcuNCA1LjggNzcgNC45IDc2LjMgNC4yeiIvPjwvc3ZnPg==) no-repeat center center;
     @include tablet {
-        flex-direction: row;
+        width: 243px;
+        height: 36px;
     }
 }
 
-.header__svg {
-    height: 1.75em;
-    top: .125em;
-    position: relative;
+/* Shopping cart icon */
+.shopping-cart {
+    width: 32px;
+    height: 24px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAxOCI+PGNpcmNsZSBjeD0iOC41IiBjeT0iMTYuNSIgcj0iMS41Ii8+PHBvbHlnb24gcG9pbnRzPSIxOS44IDAgMTYuNCAxMiA1LjkgMTIgMyA1IDE2LjIgNSAxNi44IDMgMCAzIDQuNiAxNCAxNy45IDE0IDIxLjMgMiAyMy4zIDIgMjQgMCAiLz48Y2lyY2xlIGN4PSIxMy41IiBjeT0iMTYuNSIgcj0iMS41Ii8+PC9zdmc+) no-repeat center center;
+    @include tablet {
+        width: 48px;
+        height: 36px;
+    }
 }
 
-.cart__svg {
-    height: 1.75em;
-    top: .125em;
-    position: relative;
-}
-
-.site-logo {
-    margin-right: auto;
-}
-
-.shopping-buttons {
-        margin-bottom: $spacing-half;
-        @include tablet {
-            margin-bottom: 0;
-        }
-}
-
-.shopping-button__link {
-    font-family: $heading-copy-font;
-	color: $brand-dark-color;
+/* Navigation menu Toggles*/
+.site-navigation__open-toggle {
+    width: 32px;
+    height: 24px;
     text-decoration: none;
-    &:not(:last-child) {
-        margin-right: $spacing-half;
-        @include tablet {
-            margin-right: $spacing;
-        }
+    @include tablet {
+        display: none; // Hidden on large screens
     }
 }
 
 .accessible-site-navigation {
-    max-width: $content-area-max-width;
-    margin: 0 auto;
-    width: 90%;
+    
 }
 
+/* Navigation */
 .accessible-site-menu {
     display: flex;
     margin: 0;
-    background-color: $brand-tinted-grey-color;
     &:target {
         transform: translateX(340px);
     }
     @include phone {
+        background-color: $brand-tinted-grey-color; // needed for pop-out
         transition: transform .3s ease-in-out;
         top: 0;
         bottom: 0;   
@@ -85,31 +79,22 @@
     }
 }
 
+/* Navigation menu links */
 .site-menu-link {
     font-family: $heading-copy-font;
 	color: $brand-dark-color;
     text-decoration: none;
     margin-left: $spacing;
 } 
-
 .site-menu-link--home {
     @include tablet {
         margin-left: 0;
     }
 }
 
-.site-navigation__open-toggle {
-    text-decoration: none;
-    @include tablet {
-        display: none; // Hidden on large screens
-    }
-}
-
 .site-navigation__close-toggle {
-    align-self: end;
     text-decoration: none;
     @include tablet {
         display: none; // Hidden on large screens
     }
 }
-
