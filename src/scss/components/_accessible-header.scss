@@ -41,8 +41,8 @@
     align-content: center;
     text-decoration: none;
     &__icon {
-    width: 1.5em*1.063;
-    height: 1.5em;
+    width: 1.75em*1.063;
+    height: 1.75em;
     background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDYuOSA0MjAuNiI+PHBhdGggZD0iTTQ0NC4zIDgwLjJjLTIuNi0zLjctNi43LTUuOS0xMS4xLTYuMUwxNTUuOSA2Mi4xYy04LTAuMy0xNC42IDUuOC0xNC45IDEzLjcgLTAuMyA3LjkgNS44IDE0LjYgMTMuNyAxNC45bDI1OC40IDExLjEgLTUwLjggMTU4LjVIMTM2LjJMOTUuNCAzOGMtMC45LTQuOS00LjItOC45LTguOS0xMC44TDE5LjYgMUMxMi4yLTEuOSAzLjkgMS43IDEgOS4xYy0yLjkgNy40IDAuNyAxNS43IDguMSAxOC42bDU5LjUgMjMuNCA0MS42IDIyNi4zYzEuMyA2LjggNy4yIDExLjcgMTQuMSAxMS43aDYuOWwtMTUuNyA0My43Yy0xLjMgMy43LTAuOCA3LjcgMS41IDEwLjkgMi4yIDMuMiA1LjkgNS4xIDkuOCA1LjFoMTFjLTYuOCA3LjYtMTEgMTcuNi0xMSAyOC43IDAgMjMuNyAxOS4zIDQzIDQzIDQzIDIzLjcgMCA0My0xOS4zIDQzLTQzIDAtMTEtNC4yLTIxLjEtMTEtMjguN2g5My44Yy02LjggNy42LTExIDE3LjYtMTEgMjguNyAwIDIzLjcgMTkuMyA0MyA0MyA0MyAyMy43IDAgNDMtMTkuMyA0My00MyAwLTExLTQuMi0yMS4xLTExLTI4LjdoMTMuNGM2LjYgMCAxMS45LTUuMyAxMS45LTExLjkgMC02LjYtNS4zLTExLjktMTEuOS0xMS45SDE0My43bDEyLjktMzUuOGgyMTYuMmM2LjIgMCAxMS44LTQgMTMuNy0xMGw1OS43LTE4Ni40QzQ0Ny41IDg4LjUgNDQ2LjggODMuOSA0NDQuMyA4MC4yek0zMjcuNCAzNTguNGMxMC41IDAgMTkuMSA4LjYgMTkuMSAxOS4xIDAgMTAuNS04LjYgMTkuMS0xOS4xIDE5LjEgLTEwLjUgMC0xOS4xLTguNi0xOS4xLTE5LjFDMzA4LjMgMzY3IDMxNi44IDM1OC40IDMyNy40IDM1OC40ek0xNjkuNyAzNTguNGMxMC41IDAgMTkuMSA4LjYgMTkuMSAxOS4xIDAgMTAuNS04LjYgMTkuMS0xOS4xIDE5LjEgLTEwLjUgMC0xOS4xLTguNi0xOS4xLTE5LjFDMTUwLjUgMzY3IDE1OS4xIDM1OC40IDE2OS43IDM1OC40eiIvPjwvc3ZnPg==) no-repeat center center; 
 }
 &__total {
@@ -57,21 +57,24 @@
 
 /* Navigation menu Toggles*/
 .site-navigation-toggle {
-    margin-left: $spacing-half*1.75;
-    padding: $spacing/5;
     background: $brand-color;
     color: $brand-tinted-white-color;
     font-size: 1.125em;
     font-family: $heading-copy-font;
     text-decoration: none;
-    @include tablet {
-        display: none; // Hidden on large screens
+    &__open {
+        margin-left: $spacing-half*1.75;
+        padding: $spacing/5;
     }
     &__close {
         margin-left: 0;
         margin-bottom: $spacing-half;
-        padding-left: $spacing*1.25;
+        padding: $spacing/5;
+        text-align: center;
     }
+    @include tablet {
+        display: none; // Hidden on large screens
+    } 
 }
 
 .quick-links {
