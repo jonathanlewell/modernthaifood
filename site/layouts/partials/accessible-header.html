@@ -13,15 +13,14 @@
         </a>
 
         <!-- Navigation Toggle (Mobile) -->
-        <a class="site-navigation-toggle" href="#site-navigation-menu">
-            Menu
+        <a class="site-navigation-toggle" href="#site-navigation-menu">Menu
         </a>
 
         <!-- Site Navigation -->
         <nav class="accessible-site-navigation" role="navigation" aria-label="Main Navigation" id="site-navigation">
             <h2 class="screen-reader-only">Main Navigation Links Menu</h2>      
             <ul class="accessible-site-menu" role="menubar" id="site-navigation-menu">
-                <a class="site-navigation-toggle" href="#"> Close Menu</a>
+                <a class="site-navigation-toggle site-navigation-toggle__close" href="#"> Close Menu</a>
                 <!-- This applies an active class to any current page site-menu-link -->
                 {{- $firstUrlElement := print "/" (index (split .URL "/") 1) "/" -}}
                 {{- range .Site.Menus.main -}}
