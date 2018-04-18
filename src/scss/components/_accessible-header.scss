@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: baseline;
+    
 }
 
 /* Logo text converted from SVG to base64 string */
@@ -35,9 +36,10 @@
 
 /* Navigation menu Toggles*/
 .site-navigation__open-toggle {
-    font-size: 1.375em;
+    background: $brand-color;
+    font-size: 1.125em;
     font-family: $heading-copy-font;
-	color: $brand-dark-color;
+	color: $brand-tinted-white-color;
     text-decoration: none;
     @include tablet {
         display: none; // Hidden on large screens
@@ -89,18 +91,17 @@
 }
 
 /* Navigation menu links */
+
+.site-navigation__item {
+    margin-right: $spacing;
+}
+
 .site-menu-link {
     font-size: 1.125em;
     font-family: $heading-copy-font;
 	color: $brand-dark-color;
     text-decoration: none;
-    margin-left: $spacing;
 } 
-.site-menu-link--home {
-    @include tablet {
-        margin-left: 0;
-    }
-}
 
 .site-navigation__close-toggle {
     font-size: 1.125em;
