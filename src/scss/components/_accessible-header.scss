@@ -35,18 +35,28 @@
 }
 
 /* Shopping cart icon */
+
 .shopping-cart {
-    margin-right: 1.125em;
-    width: 1.3em;
+    display: flex;
+    text-decoration: none;
+    &__icon {
+    width: 1.5em*1.063;
     height: 1.5em;
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyNCI+PHBhdGggZD0iTTE4IDdoLTRWNGMwLTIuMi0xLjgtNC00LTRTNiAxLjggNiA0djNIMkwwIDI0aDIwTDE4IDd6TTcgNGMwLTEuNyAxLjMtMyAzLTNzMyAxLjMgMyAzdjNIN1Y0ek0yLjIgMjJMMy44IDlINnYxLjVDNiAxMC44IDYuMiAxMSA2LjUgMTFTNyAxMC44IDcgMTAuNVY5aDZ2MS41YzAgMC4zIDAuMiAwLjUgMC41IDAuNXMwLjUtMC4yIDAuNS0wLjVWOWgyLjJsMS41IDEzSDIuMnoiLz48L3N2Zz4=) no-repeat center center;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDYuOSA0MjAuNiI+PHBhdGggZD0iTTQ0NC4zIDgwLjJjLTIuNi0zLjctNi43LTUuOS0xMS4xLTYuMUwxNTUuOSA2Mi4xYy04LTAuMy0xNC42IDUuOC0xNC45IDEzLjcgLTAuMyA3LjkgNS44IDE0LjYgMTMuNyAxNC45bDI1OC40IDExLjEgLTUwLjggMTU4LjVIMTM2LjJMOTUuNCAzOGMtMC45LTQuOS00LjItOC45LTguOS0xMC44TDE5LjYgMUMxMi4yLTEuOSAzLjkgMS43IDEgOS4xYy0yLjkgNy40IDAuNyAxNS43IDguMSAxOC42bDU5LjUgMjMuNCA0MS42IDIyNi4zYzEuMyA2LjggNy4yIDExLjcgMTQuMSAxMS43aDYuOWwtMTUuNyA0My43Yy0xLjMgMy43LTAuOCA3LjcgMS41IDEwLjkgMi4yIDMuMiA1LjkgNS4xIDkuOCA1LjFoMTFjLTYuOCA3LjYtMTEgMTcuNi0xMSAyOC43IDAgMjMuNyAxOS4zIDQzIDQzIDQzIDIzLjcgMCA0My0xOS4zIDQzLTQzIDAtMTEtNC4yLTIxLjEtMTEtMjguN2g5My44Yy02LjggNy42LTExIDE3LjYtMTEgMjguNyAwIDIzLjcgMTkuMyA0MyA0MyA0MyAyMy43IDAgNDMtMTkuMyA0My00MyAwLTExLTQuMi0yMS4xLTExLTI4LjdoMTMuNGM2LjYgMCAxMS45LTUuMyAxMS45LTExLjkgMC02LjYtNS4zLTExLjktMTEuOS0xMS45SDE0My43bDEyLjktMzUuOGgyMTYuMmM2LjIgMCAxMS44LTQgMTMuNy0xMGw1OS43LTE4Ni40QzQ0Ny41IDg4LjUgNDQ2LjggODMuOSA0NDQuMyA4MC4yek0zMjcuNCAzNTguNGMxMC41IDAgMTkuMSA4LjYgMTkuMSAxOS4xIDAgMTAuNS04LjYgMTkuMS0xOS4xIDE5LjEgLTEwLjUgMC0xOS4xLTguNi0xOS4xLTE5LjFDMzA4LjMgMzY3IDMxNi44IDM1OC40IDMyNy40IDM1OC40ek0xNjkuNyAzNTguNGMxMC41IDAgMTkuMSA4LjYgMTkuMSAxOS4xIDAgMTAuNS04LjYgMTkuMS0xOS4xIDE5LjEgLTEwLjUgMC0xOS4xLTguNi0xOS4xLTE5LjFDMTUwLjUgMzY3IDE1OS4xIDM1OC40IDE2OS43IDM1OC40eiIvPjwvc3ZnPg==) no-repeat center center; 
+}
+&__total {
+    text-decoration: none;
+    font-size: 1.135em;
+    margin-left: 2px;
     @include tablet {
-        margin-right: 0;
+        margin-left: 5px;
     }
+}
 }
 
 /* Navigation menu Toggles*/
 .site-navigation-toggle {
+    margin-left: $spacing-half;
     padding: $spacing/5;
     background: $brand-color;
     color: $brand-tinted-white-color;

@@ -5,15 +5,19 @@
     <div class="header-masthead">
 
         <!-- Logo -->
-        <a class="site-logo" href="/" aria-label="Oi's Kitchen Logo and Homepage Link">
+        <a class="site-logo" href="/">
+            <span class="screen-reader-only">Welcome to Oi's Kitchen. You can go to the homepage by clicking this link.</span>
         </a>
-
+        
         <!-- Shopping cart -->
-        <a class="shopping-cart snipcart-checkout" href="#" aria-label="View your cart button">
+        <a class="shopping-cart snipcart-checkout snipcart-summary" href="#" aria-label="View your cart">
+            <div class="shopping-cart__icon" aria-hidden="true;"></div>
+            <span class="shopping-cart__total snipcart-total-items"></span>
+            <span class="screen-reader-only">Items in your cart.</span>
         </a>
 
         <!-- Navigation Toggle (Mobile) -->
-        <a class="site-navigation-toggle" href="#site-navigation-menu">Menu
+        <a class="site-navigation-toggle" href="#site-navigation-menu" aria-label="Open the website navigation menu">Menu
         </a>
 
         <!-- Site Navigation -->
