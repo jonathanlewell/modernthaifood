@@ -68,7 +68,9 @@
         display: none; // Hidden on large screens
     }
     &__close {
-        padding-left: $spacing *1.25;
+        margin-left: 0;
+        margin-bottom: $spacing-half;
+        padding-left: $spacing*1.25;
     }
 }
 
@@ -97,7 +99,7 @@
     display: flex;
     margin: 0;
     &:target {
-        transform: translateX(340px);
+        transform: translateX(100vw);
     }
     @include phone {
         background-color: $brand-tinted-grey-color; // needed for pop-out
@@ -106,8 +108,8 @@
         bottom: 0;   
         min-height: 100vh;
         position: fixed;
-        width: 300px;
-        left: -340px;
+        width: 100vw;
+        left: -100vw;
         flex-direction: column;
     }
     @include tablet {
