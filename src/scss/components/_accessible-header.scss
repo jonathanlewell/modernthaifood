@@ -70,6 +70,10 @@
 }
 
 /* Navigation */
+.accessible-site-navigation {
+    background-color: $brand-tinted-grey-color; // does this fix it
+}
+
 .accessible-site-menu {
     display: flex;
     margin: 0;
