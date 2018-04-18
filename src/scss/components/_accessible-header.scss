@@ -37,9 +37,9 @@
 /* Shopping cart icon */
 .shopping-cart {
     margin-right: 1.125em;
-    width: 1.5em*1.3;
+    width: 1.3em;
     height: 1.5em;
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAxOCI+PGNpcmNsZSBjeD0iOC41IiBjeT0iMTYuNSIgcj0iMS41Ii8+PHBvbHlnb24gcG9pbnRzPSIxOS44IDAgMTYuNCAxMiA1LjkgMTIgMyA1IDE2LjIgNSAxNi44IDMgMCAzIDQuNiAxNCAxNy45IDE0IDIxLjMgMiAyMy4zIDIgMjQgMCAiLz48Y2lyY2xlIGN4PSIxMy41IiBjeT0iMTYuNSIgcj0iMS41Ii8+PC9zdmc+) no-repeat center center;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyNCI+PHBhdGggZD0iTTE4IDdoLTRWNGMwLTIuMi0xLjgtNC00LTRTNiAxLjggNiA0djNIMkwwIDI0aDIwTDE4IDd6TTcgNGMwLTEuNyAxLjMtMyAzLTNzMyAxLjMgMyAzdjNIN1Y0ek0yLjIgMjJMMy44IDlINnYxLjVDNiAxMC44IDYuMiAxMSA2LjUgMTFTNyAxMC44IDcgMTAuNVY5aDZ2MS41YzAgMC4zIDAuMiAwLjUgMC41IDAuNXMwLjUtMC4yIDAuNS0wLjVWOWgyLjJsMS41IDEzSDIuMnoiLz48L3N2Zz4=) no-repeat center center;
     @include tablet {
         margin-right: 0;
     }
