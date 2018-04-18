@@ -4,42 +4,33 @@
 
     <div class="header-masthead">
 
+        <!-- Logo -->
         <a class="site-logo" href="/" aria-label="Oi's Kitchen Logo and Homepage Link">
         </a>
 
+        <!-- Shopping cart -->
         <a class="shopping-cart snipcart-checkout" href="#" aria-label="View your cart button">
         </a>
 
-      <!--  <a class="snipcart-summary cart-button snipcart-checkout" href="#" aria-label="Shopping Basket Items"><svg class="cart-button__svg" aria-hidden="true"><use xlink:href="#shopping-cart-icon" /></svg>(<span class="snipcart-total-items"></span>)
-        </a>
-    -->
-
-        <!-- Open mobile nav -->
-        <a class="site-navigation__open-toggle" href="#site-navigation-menu">
-            <span class="screen-reader-only">Open Navigation Menu</span>
-            <span aria-hidden="true" class="site-navigation-open__toggle__svg">MENU</span>
+        <!-- Navigation Toggle (Mobile) -->
+        <a class="site-navigation-toggle" href="#site-navigation-menu">
+            Menu
         </a>
 
-        <nav class="quick-links" role="navigation">
-            <a href="/" class="quick-links__button">Thai Recipes</a>
-            <a href="/" class="quick-links__button">Shop</a>
-            <a href="/" class="quick-links__button">Cooking Classes</a>
+        <!-- Site Navigation -->
+        <nav class="accessible-site-navigation" role="navigation" aria-label="Main Navigation" id="site-navigation">
+            <h2 class="screen-reader-only">Main Navigation Links Menu</h2>      
+            <ul class="accessible-site-menu" role="menubar" id="site-navigation-menu">
+                <a class="site-navigation-toggle" href="#"> Close Menu</a>
+                <!-- This applies an active class to any current page site-menu-link -->
+                {{- $firstUrlElement := print "/" (index (split .URL "/") 1) "/" -}}
+                {{- range .Site.Menus.main -}}
+                <li class="accessible-site-menu__item {{if or ($.IsMenuCurrent "main" .) (eq ($firstUrlElement|lower) (.URL|lower)) }}active{{end}}" title="{{ .Name }}">
+                    <a class="accessible-site-menu__link" href="{{.URL}}" role="menuitem">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
         </nav>
-
-    <nav class="accessible-site-navigation" role="navigation" aria-label="Main Navigation" id="site-navigation">
-        <h2 class="screen-reader-only">Main Navigation Links Menu</h2>        
-        <ul class="accessible-site-menu" role="menubar" id="site-navigation-menu">
-            <a class="site-navigation__close-toggle button" href="#"> Close Menu</a>
-            <!-- This applies an active class to any current page site-menu-link -->
-            {{- $firstUrlElement := print "/" (index (split .URL "/") 1) "/" -}}
-            {{- range .Site.Menus.main -}}
-            <li class="site-navigation__item {{if or ($.IsMenuCurrent "main" .) (eq ($firstUrlElement|lower) (.URL|lower)) }}active{{end}}" title="{{ .Name }}">
-                <a class="site-menu-link" href="{{.URL}}" role="menuitem">{{ .Name }}</a>
-            </li>
-            {{ end }}
-        </ul>
-    </nav>
-
 
 <!-- header-masthead -->    
 </div>
