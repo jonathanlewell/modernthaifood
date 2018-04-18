@@ -38,6 +38,7 @@
 
 .shopping-cart {
     display: flex;
+    align-content: center;
     text-decoration: none;
     &__icon {
     width: 1.5em*1.063;
@@ -56,7 +57,7 @@
 
 /* Navigation menu Toggles*/
 .site-navigation-toggle {
-    margin-left: $spacing-half;
+    margin-left: $spacing-half*1.75;
     padding: $spacing/5;
     background: $brand-color;
     color: $brand-tinted-white-color;
