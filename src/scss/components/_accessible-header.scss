@@ -95,9 +95,11 @@
     }
     &__item {
         margin-left: $spacing;
+        padding: $spacing-half;
         @include tablet {
             margin-right: $spacing;
             margin-left: 0;
+            padding: 0;
         }
     }
     &__link {
