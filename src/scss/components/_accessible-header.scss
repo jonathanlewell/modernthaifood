@@ -57,7 +57,7 @@
         display: none; // Hidden on large screens
     }
     &__close {
-        padding-left: $spacing;
+        padding-left: $spacing *1.25;
     }
 }
 
