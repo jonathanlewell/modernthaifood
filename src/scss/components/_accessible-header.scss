@@ -1,11 +1,14 @@
 .accessible-header {
     background-color: $brand-tinted-grey-color;
-    border-style: solid;
-	border-width: $spacing-third 0 0 0;
-	border-top-color: $brand-color;
-    border-bottom-color: $brand-tinted-grey-color;
     // Margins and padding
     margin-bottom: $spacing;
+    &::before {
+        display: block;
+        height: $spacing-third;
+        content: "";
+        background-image: linear-gradient(to right, $brand-color, $brand-color);
+        width: 100%;
+    }
 }
 
 .header-masthead {
@@ -22,7 +25,7 @@
         flex-wrap: wrap;
         padding: $spacing 0 0 0; // Above the logo and below the nav 
     }
-}
+} 
 
 /* Logo text converted from SVG to base64 string */
 .site-logo {
@@ -33,15 +36,19 @@
 }
 
 /* Shopping cart icon */
-
 .shopping-cart {
+    margin-top: 0.25em;
     display: flex;
     align-items: baseline;
     text-decoration: none;
     &__icon {
-    width: 1.75em*1.063;
-    height: 1.75em;
+    width: 1.25em*1.063;
+    height: 1.25em;
     background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDYuOSA0MjAuNiI+PHBhdGggZD0iTTQ0NC4zIDgwLjJjLTIuNi0zLjctNi43LTUuOS0xMS4xLTYuMUwxNTUuOSA2Mi4xYy04LTAuMy0xNC42IDUuOC0xNC45IDEzLjcgLTAuMyA3LjkgNS44IDE0LjYgMTMuNyAxNC45bDI1OC40IDExLjEgLTUwLjggMTU4LjVIMTM2LjJMOTUuNCAzOGMtMC45LTQuOS00LjItOC45LTguOS0xMC44TDE5LjYgMUMxMi4yLTEuOSAzLjkgMS43IDEgOS4xYy0yLjkgNy40IDAuNyAxNS43IDguMSAxOC42bDU5LjUgMjMuNCA0MS42IDIyNi4zYzEuMyA2LjggNy4yIDExLjcgMTQuMSAxMS43aDYuOWwtMTUuNyA0My43Yy0xLjMgMy43LTAuOCA3LjcgMS41IDEwLjkgMi4yIDMuMiA1LjkgNS4xIDkuOCA1LjFoMTFjLTYuOCA3LjYtMTEgMTcuNi0xMSAyOC43IDAgMjMuNyAxOS4zIDQzIDQzIDQzIDIzLjcgMCA0My0xOS4zIDQzLTQzIDAtMTEtNC4yLTIxLjEtMTEtMjguN2g5My44Yy02LjggNy42LTExIDE3LjYtMTEgMjguNyAwIDIzLjcgMTkuMyA0MyA0MyA0MyAyMy43IDAgNDMtMTkuMyA0My00MyAwLTExLTQuMi0yMS4xLTExLTI4LjdoMTMuNGM2LjYgMCAxMS45LTUuMyAxMS45LTExLjkgMC02LjYtNS4zLTExLjktMTEuOS0xMS45SDE0My43bDEyLjktMzUuOGgyMTYuMmM2LjIgMCAxMS44LTQgMTMuNy0xMGw1OS43LTE4Ni40QzQ0Ny41IDg4LjUgNDQ2LjggODMuOSA0NDQuMyA4MC4yek0zMjcuNCAzNTguNGMxMC41IDAgMTkuMSA4LjYgMTkuMSAxOS4xIDAgMTAuNS04LjYgMTkuMS0xOS4xIDE5LjEgLTEwLjUgMC0xOS4xLTguNi0xOS4xLTE5LjFDMzA4LjMgMzY3IDMxNi44IDM1OC40IDMyNy40IDM1OC40ek0xNjkuNyAzNTguNGMxMC41IDAgMTkuMSA4LjYgMTkuMSAxOS4xIDAgMTAuNS04LjYgMTkuMS0xOS4xIDE5LjEgLTEwLjUgMC0xOS4xLTguNi0xOS4xLTE5LjFDMTUwLjUgMzY3IDE1OS4xIDM1OC40IDE2OS43IDM1OC40eiIvPjwvc3ZnPg==) no-repeat center center; 
+    @include tablet {
+        width: 1.5em*1.063;
+        height: 1.5em;
+    }
 }
 &__total {
     text-decoration: none;
@@ -62,11 +69,11 @@
     font-family: $heading-copy-font;
     text-decoration: none;
     &__open {
-        margin-left: 1em;
-        padding: $spacing/5;
-        @include tablet {
-            margin-left: $spacing-half*1.75;
-        } 
+        margin-left: calc(3vw);
+        padding: $spacing-fith $spacing-fith*1.5;
+        &-icon {
+            font-size: 0.75em;
+        }
     }
     &__close {
         margin-left: 0;
@@ -89,9 +96,10 @@
 
 .accessible-site-menu {
     display: flex;
+    align-items: baseline;
     margin: 0;
     &:target {
-        transform: translateX(-340px);
+        transform: translateX(-120vw);
     }
     @include phone {
         background-color: $brand-tinted-grey-color; // needed for pop-out
@@ -101,14 +109,14 @@
         height: 100vh;
         position: fixed;
         width: 75vw;
-        right: -340px;
+        right: -120vw;
         flex-direction: column;
     }
     @include tablet {
         flex-basis: 100%;
         flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-wrap: no-wrap;
     }
     &__item {
         padding: $spacing-half;
