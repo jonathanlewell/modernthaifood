@@ -72,6 +72,7 @@ main ul {
       margin-bottom: $spacing;
       padding-left: $spacing;
       position: relative;
+      z-index: -1;
         &:after {
             content: '';
             height: .4em;

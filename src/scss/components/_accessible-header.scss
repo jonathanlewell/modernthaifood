@@ -66,7 +66,7 @@
     font-family: $heading-copy-font;
     text-decoration: none;
     &__open {
-        margin-left: calc(3vw);
+        margin-left: $spacing-half;
         padding: $spacing-fith $spacing-fith*1.5;
         &-icon {
             font-size: 0.75em;
