@@ -6,7 +6,7 @@
         <div class="cards">
             {{ range first 4 (where .Data.Pages "Type" "thai-recipes") }}
             <article class="card">
-                <a href="{{.Permalink}}">
+                <a class="card__link" href="{{.Permalink}}">
                     <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
                     <div class="card__content">
                         <h3 class="card__header">{{ .Title }}</h3>
@@ -24,7 +24,7 @@
         <h2 class="section-title">Explore over 500 popular Thai recipes in my illustrated eBooks:</h2>
         <div class="cards">
             <article class="card">
-                <a href="/shop/">
+                <a class="card__link" href="/shop/">
                     <img class="card__image lazyload" data-src="/img/oi-thai-food-secrets-1.jpg">
                     <div class="card__content">
                         <h3 class="card__header">eBooks Shop</h3>
@@ -40,7 +40,7 @@
         <h2 class="section-title">Cook a full Thai meal (starter, main dish, dessert) with me in a relaxed cooking class:</h2>
         <div class="cards">
             <article class="card">
-                <a href="/colchester-cooking-classes/">
+                <a class="card__link" href="/colchester-cooking-classes/">
                     <img class="card__image lazyload" data-src="/img/oi-cooking-1.jpg">
                     <div class="card__content">
                         <h3 class="card__header">Thai cooking classes in Colchester</h3>

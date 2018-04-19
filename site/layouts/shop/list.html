@@ -11,7 +11,7 @@
         <section class="cards">
             {{ range .Data.Pages }}
             <article class="card">
-                <a href="{{.Permalink}}">
+                <a class="card__link" href="{{.Permalink}}">
                     <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
                     <div class="card__content">
                         <h3 class="card__header">{{ .Title }}</h3>

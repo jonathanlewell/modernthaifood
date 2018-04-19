@@ -1,12 +1,11 @@
 +++
 title= "Crispy and Golden Thai Spring Rolls"
+page_subtitle= "Por pea thawt"
 description= "Learn how to make savoury spring rolls and sweet plum sauce. A perfect starter to a Thai meal!"
 date= 2018-04-10
 draft= false
 featured_image= "/img/crispy-golden-spring-rolls.jpg"
 +++
-
-## Por pea thawt
 
 {{< figure src="/img/crispy-golden-spring-rolls.jpg" alt="Crispy golden spring rolls" >}}
 
@@ -84,3 +83,7 @@ These savoury roll packets are popular throughout Southeast Asia. The Thai versi
     As the spring rolls cook, lift them out with a slotted spoon and drain on kitchen paper. Repeat and continue to deep-fry in batches. Arrange the spring rolls on a platter. Serve hot or warm, with sweet plum sauce.
 
     *Note:* You can add 85 g (3 oz) minced (ground) prawn, chicken, turkey or pork after lightly browning the garlic. Crumble (whichever you have chosen) with a wooden spoon until separate and cooked. Add the vermicelli and follow as above with 115 g (4 oz) fresh bean sprouts.
+
+## More fantastic Thai Starters to Try:
+
+If you enjoyed this recipe, do check out my [Thai Starter Secrets eBook](/shop/thai-food-secrets/). You'll learn how to make Spicy Honey Prawns, Gold Bags (illustrated), Chicken Wrapped in Pandan Leaf, Curry Puffs and many more. 

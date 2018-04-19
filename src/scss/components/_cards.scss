@@ -9,7 +9,11 @@
 .card {
     background: $brand-plain-white;
     border: 1px solid #eee;
-    box-shadow: 0 9px 20px rgba(0,0,0,.03);
+    box-shadow: 0 9px 65px rgba(0,0,0,.03);
+    &__link {
+        background: $brand-plain-white;
+        text-decoration: none;
+    }
 }
 
 .card__content {
@@ -30,6 +34,7 @@
 }
 
 .card__button {
+    text-decoration: none;
     text-align: center;
     display: block;
     width: 100%;

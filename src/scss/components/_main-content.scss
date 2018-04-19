@@ -5,5 +5,15 @@ body {
 main {
     max-width: $content-area-max-width;
     margin: 0 auto;
+    padding-top: $spacing;
     width: 90%;
+}
+
+.page-header {
+    margin-bottom: $spacing-half;
+}
+
+.page-subtitle {
+    font-style: italic;
+    color: #888; 
 }

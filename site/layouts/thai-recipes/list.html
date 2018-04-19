@@ -6,13 +6,14 @@
 
         <section class="page-introduction">
             <h1 class="page-header">{{ .Title }}</h1>
+            <p class="page-subtitle">{{ .Params.page_subtitle }}</p>
             {{ .Content }}
         </section>
 
         <section class="cards">
             {{ range .Data.Pages }}
             <article class="card">
-                <a href="{{.Permalink}}">
+                <a class="card__link" href="{{.Permalink}}">
                     <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
                     <div class="card__content">
                         <h3 class="card__header">{{ .Title }}</h3>

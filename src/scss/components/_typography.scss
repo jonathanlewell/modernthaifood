@@ -20,7 +20,6 @@ h1, h2, h3, h4, h5 {
     font-weight: $heading-font-weight;
     color: $brand-dark-color;
 }
-
 h1 {
     font-size: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
   line-height: 1em; /* 24px --> 24 ÷ 24 = 1 */
@@ -57,7 +56,8 @@ small {
 // Link text styles
 main a {
  color: $secondary-color-dark;
- text-decoration: none;   
+ background-color: #f0f8f9;
+ text-decoration: underline;   
     &:hover, &:focus {
         color: $secondary-color-darkest;
     }

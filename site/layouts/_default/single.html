@@ -2,9 +2,14 @@
     {{ partial "breadcrumbs/breadcrumbs.html" . }} 
     <main role="main" class="container content-area" id="main">
         <article>
+
             <h1 class="page-header">{{ .Title }}</h1>
+            <p class="page-subtitle">{{ .Params.page_subtitle }}</p>
+
             {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+            
             {{ .Content }}
+
         </article>
     </main>
 {{ end }}
