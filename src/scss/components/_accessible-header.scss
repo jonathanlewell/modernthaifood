@@ -36,7 +36,7 @@
 
 .shopping-cart {
     display: flex;
-    align-content: center;
+    align-items: baseline;
     text-decoration: none;
     &__icon {
     width: 1.75em*1.063;
@@ -46,7 +46,7 @@
 &__total {
     text-decoration: none;
     font-size: 1.135em;
-    margin-left: 2px;
+    margin-left: 0;
     color: $brand-color;
     @include tablet {
         margin-left: 5px;
@@ -62,13 +62,15 @@
     font-family: $heading-copy-font;
     text-decoration: none;
     &__open {
-        margin-left: $spacing-half*1.75;
+        margin-left: 1em;
         padding: $spacing/5;
+        @include tablet {
+            margin-left: $spacing-half*1.75;
+        } 
     }
     &__close {
         margin-left: 0;
-        margin-bottom: $spacing-half;
-        padding: $spacing/5;
+        padding: $spacing-half;
         text-align: center;
     }
     @include tablet {
@@ -96,7 +98,7 @@
         transition: transform .3s ease-in-out;
         top: 0;
         bottom: 0;   
-        min-height: 100vh;
+        height: 100%;
         position: fixed;
         width: 100vw;
         left: -100vw;
@@ -110,13 +112,16 @@
     }
     &__item {
         padding: $spacing-half;
+        background: $brand-tinted-grey-color;
+        flex-grow: 1;
+        &__active {
+            background: $brand-tinted-white-color;
+        }
         @include tablet {
             margin-left: 0;
             padding: $spacing-half;
             flex-grow: 1;
-            &__active {
-                background: $brand-tinted-white-color;
-            }
+            
         }
     }
     &__link {
