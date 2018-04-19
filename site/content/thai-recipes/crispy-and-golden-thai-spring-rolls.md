@@ -1,6 +1,5 @@
 +++
 title= "Crispy and Golden Thai Spring Rolls"
-page_subtitle= "Por pea thawt"
 description= "Learn how to make savoury spring rolls and sweet plum sauce. A perfect starter to a Thai meal!"
 date= 2018-04-10
 draft= false
@@ -9,7 +8,7 @@ featured_image= "/img/crispy-golden-spring-rolls.jpg"
 
 {{< figure src="/img/crispy-golden-spring-rolls.jpg" alt="Crispy golden spring rolls" >}}
 
-These savoury roll packets are popular throughout Southeast Asia. The Thai version is a delicate cross between Chinese and Vietnamese styles. They are deep-fried to a light, golden brown and served crispy with sweet plum sauce or sweet chilli sauce. Spring rolls are great as a starter or as finger food.
+Also known as "Por pea thawt," these savoury roll packets are popular throughout Southeast Asia. The Thai version is a delicate cross between Chinese and Vietnamese styles. They are deep-fried to a light, golden brown and served crispy with sweet plum sauce or sweet chilli sauce. Spring rolls are great as a starter or as finger food.
 
 <!--more-->
 

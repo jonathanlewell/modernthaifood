@@ -4,18 +4,21 @@
     width: 90%;
     font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
-    color: $brand-dark-color;
-    margin-bottom: $spacing;
+    color: $brand-subtitle-grey;
 }
 
 .breadcrumbs__menu {
     list-style-type: none;
+    margin-bottom: $spacing-half;
+    @include tablet {
+        margin-bottom: $spacing;
+    }
 }
 
 .breadcrumbs__link {
     font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
-    color: $secondary-color-dark;    
+    color: $secondary-color-dark;
 }
 
 .breadcrumbs__item {

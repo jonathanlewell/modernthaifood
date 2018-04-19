@@ -3,12 +3,15 @@
     <main role="main" class="container content-area" id="main">
         <article>
 
-            <h1 class="page-header">{{ .Title }}</h1>
-            <p class="page-subtitle">{{ .Params.page_subtitle }}</p>
+            <section class="page-introduction">
+                <h1 class="page-introduction__title">{{ .Title }}</h1>
+                <p class="page-introduction__subtitle">{{ .Params.description }}</p>
+                {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+            </section>
 
-            {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-            
-            {{ .Content }}
+            <section class="page-content">
+                {{ .Content }}
+            </section>
 
         </article>
     </main>

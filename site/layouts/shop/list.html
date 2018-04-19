@@ -4,24 +4,28 @@
     <article>
 
         <section class="page-introduction">
-            <h1 class="page-header">{{ .Title }}</h1>
+            <h1 class="page-introduction__title">{{ .Title }}</h1>
+            <p class="page-introduction__subtitle">{{ .Params.description }}</p>
             {{ .Content }}
         </section>
 
-        <section class="cards">
-            {{ range .Data.Pages }}
-            <article class="card">
-                <a class="card__link" href="{{.Permalink}}">
-                    <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
-                    <div class="card__content">
-                        <h3 class="card__header">{{ .Title }}</h3>
-                        <time class="card__time" datetime="{{.Date.Format " 2006-01-02 "}}">{{.Date.Format "Jan 2, 2006"}}</time>
-                        <p class="card__description">{{ .Params.description }}</p>
-                        <a class="card__button button" href="{{.Permalink}}">Find out more »</a>
-                    </div>
-                </a>
-            </article>
-            {{ end }}
+        <section class="page-content">
+            <section class="cards">
+                {{ range .Data.Pages }}
+                <article class="card">
+                    <a class="card__link" href="{{.Permalink}}">
+                        <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
+                        <div class="card__content">
+                            <h3 class="card__header">{{ .Title }}</h3>
+                            <time class="card__time" datetime="{{.Date.Format " 2006-01-02 "}}">{{.Date.Format "Jan 2, 2006"}}</time>
+                            <p class="card__description">{{ .Params.description }}</p>
+                            <a class="card__button button" href="{{.Permalink}}">Find out more »</a>
+                        </div>
+                    </a>
+                </article>
+                {{ end }}
+            </section>
+        <!-- End page-content -->
         </section>
 
     </article>
