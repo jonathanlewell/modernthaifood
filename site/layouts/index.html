@@ -1,48 +1,26 @@
 {{ define "main" }}
 <main role="main" id="main">
 <section class="page-content">
-
-    <!-- <section class="hero">
-        <div class="hero__content">
-            <h1 class="hero__title">Free Thai recipes</h1>
-            <p class="hero__subtitle">Learn how to cook beautiful starters, main-dishes and desserts!</p>
-            <a class="hero__button button" href="/thai-recipes/">Browse Thai Recipes</a>
-        </div>
-        <div class="hero__media">
-            <img class="hero__image lazyload" data-src="/img/panang-curry-with-chicken.jpg">
-        </div>
-    </section>
-
-    <section class="hero">
-        <div class="hero__content">
-            <h1 class="hero__title">Colchester Cooking Classes</h1>
-            <p class="hero__subtitle">Learn to cook a delicious Thai starter, a substantial main course, perfect jasmine rice, and a scrumptious Thai dessert.</p>
-            <a class="hero__button button" href="/cooking-classes/">See the 2018 Class Schedule</a>
-        </div>
-        <div class="hero__media">
-            <img class="hero__image lazyload" data-src="/img/oi-cooking-1.jpg">
-        </div>
-    </section>
-
-    <section class="hero">
-        <div class="hero__content">
-            <h1 class="hero__title">Thai cookbooks and eBooks</h1>
-            <p class="hero__subtitle">Thai starters, curry dishes, soup dishes, desserts and many more!</p>
-            <a class="hero__button button" href="/cooking-classes/">Download cookbooks</a>
-        </div>
-        <div class="hero__media">
-            <img class="hero__image lazyload" data-src="/img/oi-thai-food-secrets-1.jpg">
-        </div>
-    </section> -->
     
     <section>
 
-        <header class="section-intro">
-            <h2 class="section-intro__title">Follow along with these simple step-by-step Thai recipes:</h2>
-            <a class="section-intro__link" href="/thai-recipes/">Browse all Thai Recipes →</a>
-        </header>    
+        <article class="card card-large">
+                <div class="card-large__content">
+                    <h1 class="card-large__header">Explore Thai cooking with Oi Cheepchaiissara</h1>
+                    <p class="card-large__description">Author of the Food of Thailand, Thai Food Secrets and more!</p>
+                    <button class="button card-large__link">Browse my Free Recipes →</button>
+                </div>
+                <img class="card-large__image lazyload" data-src="/img/oi-tasting-banana-pepper-soup.jpg">
+        </article>       
+            
         
         <div class="cards">
+
+            <header class="cards-header">
+                <h2 class="cards-header__title">Follow along with these simple step-by-step Thai recipes:</h2>
+                <a class="cards-header__link" href="/thai-recipes/">Browse all Thai Recipes →</a>
+            </header>
+
             {{ range first 4 (where .Data.Pages "Type" "thai-recipes") }}
             <article class="card">
                 <a class="card__link" href="{{.Permalink}}">
@@ -58,37 +36,56 @@
             {{ end }}
         </div>
 
+        <footer class="section-footer">            
+            <a class="section-intro__link" href="/thai-recipes/">Browse all Thai Recipes →</a>
+        </footer>
+
     </section>
 
-    <section>
+    
 
+        <!-- 
+            
+            <section>
         <header class="section-intro">
             <h2 class="section-intro__title">Download hundreds of Thai recipes covering every area of Thai food:</h2>
             <a class="section-intro__link" href="/shop/">Browse the eBook shop →</a>
         </header>
+    </section>
 
-        <div class="cards">
+    <section>
+        <header class="section-intro">
+            <h2 class="section-intro__title">Cook with me in Colchester in a Hands-On Thai Cooking Class:</h2>
+            <a class="section-intro__link" href="/cooking-classes/">See upcoming classes in 2018 →</a>
+        </header>
+    </section>
+            
+            
+            <div class="cards">
             <article class="card">
                 <a class="card__link" href="/shop/">
                     <img class="card__image lazyload" data-src="/img/oi-thai-food-secrets-1.jpg">
                     <div class="card__content">
-                        <h3 class="card__header">eBooks Shop</h3>
-                        <p class="card__description">Download my entire recipe books to read on your computer, phone or tablet.</p>
+                        <h3 class="card__header">Download my Introduction (10 recipes) FREE!</h3>
+                        <p class="card__description">This includes 10 recipes and is the introduction to my Thai Food Secrets eBook series.</p>
+                        <a class="card__button button" href="/shop/">Download the free introduction »</a>
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a class="card__link" href="/shop/">
+                    <img class="card__image lazyload" data-src="/img/thai-food-secrets-3-ebook-introductory-offer.png">
+                    <div class="card__content">
+                        <h3 class="card__header">Download the full Thai Food Secrets Collection (500+ refined Recipes!)</h3>
+                        <p class="card__description">This is a </p>
                         <a class="card__button button" href="/shop/">Browse my eBooks shop »</a>
                     </div>
                 </a>
             </article>
         </div>
-    </section>
+    -->
 
-
-    <section>
-
-        <header class="section-intro">
-            <h2 class="section-intro__title">Cook with me in Colchester in a Hands-On Thai Cooking Class:</h2>
-            <a class="section-intro__link" href="/shop/">See the 2018 Class Schedule →</a>
-        </header>
-
+        <!--
         <div class="cards">
             <article class="card">
                 <a class="card__link" href="/colchester-cooking-classes/">
@@ -101,7 +98,8 @@
                 </a>
             </article>
         </div>
-    </section>
+        -->
+    
 
 </section>
 </main>

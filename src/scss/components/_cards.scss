@@ -5,6 +5,19 @@
     margin-bottom: $spacing;
 }
 
+.cards-header {
+    margin-bottom: $spacing; 
+    &__title {
+        margin-bottom: $spacing-half; 
+    }
+    &__link {
+       background: none;
+    }
+    &__image {
+
+    }
+}
+
 .section-intro {
     margin-bottom: $spacing;
     &__title {
@@ -68,4 +81,34 @@
     @media only screen and (min-width: 600px) {
 	    width: calc(50% - 0.75em);
 	}
+}
+
+// Usually the top page card
+
+.card-large {
+    display: flex;
+    width: 100%;
+    margin-bottom: $spacing-double;
+    //from card
+    background: $brand-plain-white;
+    border: 1px solid #eee;
+    box-shadow: 0 9px 65px rgba(0,0,0,.03);
+    &__image {
+        display: none;
+        @include tablet {
+            display: flex;
+        }
+    }
+}
+
+.card-large__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $base-line-height;
+    &__link {
+        background: $brand-plain-white;
+        text-decoration: none;
+        font-size: 1em;
+    }
 }
