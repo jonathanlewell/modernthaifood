@@ -14,5 +14,5 @@ main {
 }
 
 .page-introduction {
-    margin-bottom: $spacing;
-} 
+    margin-bottom: $spacing; // perhaps css grid w fallbacks
+}

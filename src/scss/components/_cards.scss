@@ -5,6 +5,16 @@
     margin-bottom: $spacing;
 }
 
+.section-intro {
+    margin-bottom: $spacing;
+    &__title {
+        margin-bottom: $spacing-half;
+    }
+    &__link {
+        background: none;
+    }
+}
+
 /* Stuff in each card */
 .card {
     background: $brand-plain-white;

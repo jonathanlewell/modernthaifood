@@ -2,14 +2,46 @@
 <main role="main" id="main">
 <section class="page-content">
 
-    <section class="page-introduction">
-        <h1 class="page-introduction__title">Cook incredible Thai dishes with simple, step-by-step instructions.</h1>
-        <p class="page-introduction__subtitle">Learn how to cook beautiful starters, main-dishes and desserts!</p>
-        <a class="page-introduction__button" href="/thai-recipes/">Browse Thai Recipes</a>
+    <!-- <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Free Thai recipes</h1>
+            <p class="hero__subtitle">Learn how to cook beautiful starters, main-dishes and desserts!</p>
+            <a class="hero__button button" href="/thai-recipes/">Browse Thai Recipes</a>
+        </div>
+        <div class="hero__media">
+            <img class="hero__image lazyload" data-src="/img/panang-curry-with-chicken.jpg">
+        </div>
     </section>
+
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Colchester Cooking Classes</h1>
+            <p class="hero__subtitle">Learn to cook a delicious Thai starter, a substantial main course, perfect jasmine rice, and a scrumptious Thai dessert.</p>
+            <a class="hero__button button" href="/cooking-classes/">See the 2018 Class Schedule</a>
+        </div>
+        <div class="hero__media">
+            <img class="hero__image lazyload" data-src="/img/oi-cooking-1.jpg">
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Thai cookbooks and eBooks</h1>
+            <p class="hero__subtitle">Thai starters, curry dishes, soup dishes, desserts and many more!</p>
+            <a class="hero__button button" href="/cooking-classes/">Download cookbooks</a>
+        </div>
+        <div class="hero__media">
+            <img class="hero__image lazyload" data-src="/img/oi-thai-food-secrets-1.jpg">
+        </div>
+    </section> -->
     
     <section>
-        <h2 class="section-title">Latest in-depth Thai recipes with step-by-step illustrations:</h2>
+
+        <header class="section-intro">
+            <h2 class="section-intro__title">Follow along with these simple step-by-step Thai recipes:</h2>
+            <a class="section-intro__link" href="/thai-recipes/">Browse all Thai Recipes</a>
+        </header>    
+        
         <div class="cards">
             {{ range first 4 (where .Data.Pages "Type" "thai-recipes") }}
             <article class="card">
@@ -25,10 +57,16 @@
             </article>
             {{ end }}
         </div>
+
     </section>
 
     <section>
-        <h2 class="section-title">Explore over 500 popular Thai recipes in my illustrated eBooks:</h2>
+
+        <header class="section-intro">
+            <h2 class="section-intro__title">Download hundreds of Thai recipes in my eBooks</h2>
+            <a class="section-intro__link" href="/shop/">Browse the eBook shop</a>
+        </header>
+
         <div class="cards">
             <article class="card">
                 <a class="card__link" href="/shop/">
@@ -43,8 +81,14 @@
         </div>
     </section>
 
+
     <section>
-        <h2 class="section-title">Cook a full Thai meal (starter, main dish, dessert) with me in a relaxed cooking class:</h2>
+
+        <header class="section-intro">
+            <h2 class="section-intro__title">Cook with me in Colchester in a Hands-On Thai Cooking Class:</h2>
+            <a class="section-intro__link" href="/shop/">See the 2018 Class Schedule</a>
+        </header>
+
         <div class="cards">
             <article class="card">
                 <a class="card__link" href="/colchester-cooking-classes/">
