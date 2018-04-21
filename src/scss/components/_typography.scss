@@ -64,12 +64,11 @@ main a {
 }
 
 // Diamon list styling
-
 main ul {
     list-style: none;
     li {
       margin: 0;
-      margin-bottom: $spacing;
+      margin-bottom: $spacing-half;
       padding-left: $spacing;
       position: relative;
       z-index: -1;

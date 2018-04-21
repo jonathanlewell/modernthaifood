@@ -8,8 +8,6 @@ featured_image= "/img/rice-noodles-with-coconut-milk-and-beans.jpg"
 
 ## "Mii kra ti kup tou"
 
-{{< figure src="/img/rice-noodles-with-coconut-milk-and-beans.jpg" alt="Thai Rice Noodles With Coconut Milk and Beans" >}}
-
 This dish is rich and a little spicy, using stir-fried “sen mii” (very thin) noodles with coconut milk. You’ll find it straightforward to prepare and cook the dried beans. You can use a mixture, as I suggest, of chick peas, pinto beans, butter beans, cannellini beans, and red kidney beans, or select just your favourite kind.
 
 - Preparation time: 20 minutes

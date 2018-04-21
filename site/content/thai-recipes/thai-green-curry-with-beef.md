@@ -8,8 +8,6 @@ featured_image= "/img/thai-green-curry-with-beef-baby-sweetcorns-cheery-tomatoes
 
 ## "Kaeng khiaw-waan neua kup, kao pod lai ma kheua ted"
 
-{{< figure src="/img/thai-green-curry-with-beef-baby-sweetcorns-cheery-tomatoes.jpg" alt="Thai Green Curry with Beef and Baby Sweetcorns" >}}
-
 This classic dish should never be extremely hot. Its base is a paste of fresh small green chillies, galangal and lemon grass. Fresh baby sweetcorns add a light crunchiness, while the tomatoes add delightful colour.
 
 You can use lamb, turkey or chicken fillets instead of beef if you prefer.

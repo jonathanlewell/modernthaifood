@@ -8,8 +8,6 @@ featured_image= "/img/steamed-fish-with-goji-berries.jpg"
 
 ## "Plaa neung kup med goji berries lai ton hom"
 
-{{< figure src="/img/steamed-fish-with-goji-berries.jpg" alt="Thai Steamed Fish With Goji Berries and Spring Onions" >}}
-
 You will find goji berries in many of my recipes. I have cooked with them for years, long before they became popular as a so-called “superfood.” Here they form a particularly important part of the dish, along with spring onions and ginger. They add amazing nutritional value, not to mention a welcome touch of colour.
 
 - Preparation time: 30 minutes

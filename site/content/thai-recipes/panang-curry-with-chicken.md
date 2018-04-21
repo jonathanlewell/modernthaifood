@@ -8,8 +8,6 @@ featured_image= "/img/panang-curry-with-chicken.jpg"
 
 ## "Kaeng phanaeng gai"
 
-{{< figure src="/img/panang-curry-with-chicken.jpg" alt="Thai Panang Curry With Chicken" >}}
-
 Panaeng Curry is a dry, rich, thick curry made with small amounts of coconut milk and a dry curry paste. This elegant dish is quick and easy to make and should have a mild taste. It is a wonderful curry with chicken or whatever meat you prefer and is also delicious with seafood.
 
 - Preparation time: 30 minutes

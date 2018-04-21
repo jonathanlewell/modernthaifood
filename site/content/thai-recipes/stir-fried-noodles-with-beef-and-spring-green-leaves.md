@@ -8,8 +8,6 @@ featured_image= "/img/stir-fried-noodles-with-beef-and-spring-green-leaves.jpg"
 
 ## "Phat kuaytiaw raat naa neua lai pak"
 
-{{< figure src="/img/stir-fried-noodles-with-beef-and-spring-green-leaves.jpg" alt="Stir Fried Noodles With Beef and Spring Green Leaves" >}}
-
 The original version of this dish uses bitter vegetables such as Chinese kale (kai lan) but I’ve chosen spring green leaves because they’re more generally available. You may not find it easy to wilt the leaves quickly so it could be easier to cook half the ingredients at a time, then repeat the process.
 
 - Preparation time: 20 minutes

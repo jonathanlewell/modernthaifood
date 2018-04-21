@@ -6,8 +6,6 @@ draft= false
 featured_image= "/img/dishes-massuman-curry.jpg"
 +++
 
-{{< figure src="/img/dishes-massuman-curry.jpg" alt="Make a Crunchy Green Papaya Salad" >}}
-
 This popular curry has many characteristics of southern Thai cooking. The sweet flavours and spices dominate, even though the curry is moderately hot. It also has a sour taste from the tamarind. This dish is one of the few Thai dishes with potatoes and peanuts. Also lamb, pork or chicken can be used instead of beef.
 
 - Preparation time: 30 minutes

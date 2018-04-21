@@ -6,7 +6,7 @@
             <section class="page-introduction">
                 <h1 class="page-introduction__title">{{ .Title }}</h1>
                 <p class="page-introduction__subtitle">{{ .Params.description }}</p>
-                {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+                {{ if .Params.featured_image }}<img src="{{ .Params.featured_image }}" alt="{{ .Title }}" />{{ end }}
             </section>
 
             <section class="page-content">

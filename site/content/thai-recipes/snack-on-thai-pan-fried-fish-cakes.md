@@ -8,8 +8,6 @@ featured_image= "/img/pan-fried-fish-cakes.jpg"
 
 ## “Thawt man plaa”
 
-{{< figure src="/img/pan-fried-fish-cakes.jpg" alt="Thai Pan Fried Fish Cakes" >}}
-
 Fish cakes are just one of many delicious snacks sold as street food in Thailand. Batches are fried on request and served in a plastic bag along with a bamboo skewer to hold them while eating. You can take them home together with a small bag of sauce for additional flavour.
 
 - Preparation time: 30 minutes

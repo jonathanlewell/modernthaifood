@@ -6,8 +6,6 @@ draft= false
 featured_image= "/img/dishes-crispy-sesame-prawns-on-toast.jpg"
 +++
 
-{{< figure src="/img/dishes-crispy-sesame-prawns-on-toast.jpg" alt="Thai Crispy Sesame Prawns on Toast" >}}
-
 If you’re looking for one of the easiest starters to make, here’s an idea: prawns, cooked on top of thin bread together with a delicious paste, all topped with sesame seeds and served with a sweet chilli sauce.
 
 * Preparation time: 30 minutes

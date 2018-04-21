@@ -8,8 +8,6 @@ featured_image= "/img/green-papaya-salad.jpg"
 
 ## "Som tam malakaw"
 
-{{< figure src="/img/green-papaya-salad.jpg" alt="Make a Crunchy Green Papaya Salad" >}}
-
 This perfect crunchy Green Papaya Salad is wildly popular all over Thailand. Som means “sour,” while tam means “pound” with a pestle and mortar. It’s a crunchy tangle of pale green shreds of unripe papaya and is full of sweet, sour, hot and salty tastes. Multiply the ingredients by the number of portions but make just one serving at a time otherwise it won’t fit in your mortar.
 
 You can make a version for strict vegetarians by omitting the dried shrimp and using light soy sauce instead of fish sauce. Green Papaya Salad is sometimes served with steamed sticky rice, which adds a satisfying helping of starch to the meal.
