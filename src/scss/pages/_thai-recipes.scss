@@ -1,0 +1,40 @@
+.article-layout {
+    display: flex;
+    flex-flow: column;
+    // max-width: 33em; //660px for 75characters
+}
+
+.article-introduction {
+    margin-bottom: $spacing;
+}
+
+.article-media {
+    margin-bottom: $spacing;
+}
+
+.article-content {
+}
+
+.article-sidebar {
+    margin-bottom: $spacing-half;
+}
+
+.article-introduction__title {
+    margin-bottom: $spacing-half;
+}
+
+.article-introduction__subtitle {
+    font-size: 1.125em;
+    font-style: italic;
+    color: $brand-subtitle-grey;
+    margin-bottom: $spacing-half;
+}
+
+.article-introduction__date {
+    font-family: $heading-copy-font;
+    font-style: italic;
+}
+
+.article-media__image {
+}
+

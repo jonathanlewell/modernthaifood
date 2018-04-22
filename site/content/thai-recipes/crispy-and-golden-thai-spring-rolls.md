@@ -1,6 +1,8 @@
 +++
 title= "Crispy and Golden Thai Spring Rolls"
 description= "Learn how to make savoury spring rolls and sweet plum sauce. A perfect starter to a Thai meal!"
+categories= ["Thai food"]
+tags = ["Starters"]
 date= 2018-04-10
 draft= false
 featured_image= "/img/crispy-golden-spring-rolls.jpg"

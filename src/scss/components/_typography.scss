@@ -14,7 +14,7 @@ body {
     color: $brand-dark-color;
 }
 
-// Heading styles
+// Heading styles 
 h1, h2, h3, h4, h5 {
     font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
@@ -63,27 +63,23 @@ main a {
     }
 }
 
-// Diamon list styling
-main ul {
-    list-style: none;
-    li {
-      margin: 0;
-      margin-bottom: $spacing-half;
-      padding-left: $spacing;
-      position: relative;
-      z-index: -1;
-        &:after {
-            content: '';
-            height: .4em;
-            width: .4em;
-            background: $brand-color;
-            display: block;
-            position: absolute;
-            transform: rotate(45deg);
-            top: .6em;
-            left: 0;
-        }
-    }
+//  list styling
+main {
+ul,
+ol{
+    margin-bottom:1.5em;
+}
+li ul,
+li ol{
+    margin-bottom:0;
+}
+ul{
+    list-style:square outside;
+}
+ol,
+.numbered{
+    list-style:decimal outside;
+}
 }
 
 .page-introduction__subtitle {

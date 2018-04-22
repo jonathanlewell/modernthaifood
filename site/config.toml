@@ -4,6 +4,10 @@ languageLang = "en"
 title = "Oi's Kitchen"
 googleAnalytics = "UA-1234567-12"
 
+[taxanomies]
+    category = "categories"
+    tag = "tags"
+
 [params]
     author = "Oi Cheepchaiissara"
     description = "Easily cook incredible Thai cuisine with simple and refined step-by-step recipes."

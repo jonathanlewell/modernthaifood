@@ -1,0 +1,22 @@
+{{ define "main" }}
+    {{ partial "breadcrumbs/breadcrumbs.html" . }} 
+    <main role="main" class="container content-area" id="main">
+        <article class="article-layout">
+
+            <section class="article-introduction">
+                <h1 class="article-introduction__title">{{ .Title }}</h1> 
+                <p class="article-introduction__subtitle">{{ .Params.description }}</p>
+                <time class="article-introduction__date" datetime="{{.Date.Format " 2006-01-02 "}}">- Published on {{.Date.Format "Jan 2, 2006"}} by Oi</time>
+            </section>
+
+            <section class="article-media">
+                {{ if .Params.featured_image }}<img class="article-image__feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />{{ end }}
+            </section>
+
+            <section class="article-content">
+                {{ .Content }}
+            </section>
+            
+        </article>
+    </main>
+{{ end }}
