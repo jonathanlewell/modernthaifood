@@ -1,7 +1,8 @@
 +++
-title= "Legal Information"
-date= 2018-02-15
-description= "On this page you will find our disclaimer and website's privacy policy."
+title= "Legal and Disclaimers"
+description = "On this page you will find our disclaimer and website's privacy policy."
+featured_image= "/img/dishes-gold-bags.jpg"
+date = "2018-02-15"
 draft= false
 +++
 

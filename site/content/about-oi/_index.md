@@ -1,7 +1,8 @@
 +++
 title = "About Oi Cheepchaiissara"
-date = "2018-03-21"
 description = "A quick litle message from Oi Cheepchaiissara, author of the Food of Thailand and other cookbooks."
+featured_image= "/img/oi-cheepchaiissara-11.jpg"
+date = "2018-03-21"
 draft = false
 +++
 

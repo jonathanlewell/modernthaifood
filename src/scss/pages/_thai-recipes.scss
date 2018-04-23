@@ -35,6 +35,9 @@
   }
 
 .article-content {
+    p:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .article-introduction__title {
@@ -45,6 +48,9 @@
     font-style: italic;
     color: $brand-subtitle-grey;
     margin-bottom: $spacing-half;
+    &--page {
+        margin-bottom: 0;
+    }
 }
 
 .article-introduction__date {

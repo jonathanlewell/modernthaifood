@@ -1,8 +1,9 @@
 +++
-title= "Contact"
-date= 2018-02-15
-type= "contact"
-page="/contact.html"
+title= "Thai Recipes"
+description = "Get in touch with my team to book a cooking class or ask a question."
+featured_image= "/img/oi-cheepchaiissara-12.jpg"
+date = "2018-02-15"
+draft= false
 +++
 
 To book a Thai cooking class with Oi Cheepchaiissara, just phone or email.

@@ -1,12 +1,10 @@
 +++
-title= "Thai Food Secrets eBook Colection"
-date= 2018-02-15
-description= "16 eBooks containing 557 pages of tried & tested Thai recipes."
-draft= false
+title= "Thai Food Secrets eBook Collection"
+description = "16 eBooks to teach you meals in every area of Thai cooking - starters, currys, noodles and more!"
 featured_image= "/img/oi-thai-food-secrets-1.jpg"
+date = "2018-02-15"
+draft= false
 +++
-
-## My 16 e-books can guide you, every step of the way...
 
 - An innovation in cookbooks: "bite-sized" e-books, complete with high-res images.
 - Each contains an introduction to its topic, plus a themed selection of delightful dishes.

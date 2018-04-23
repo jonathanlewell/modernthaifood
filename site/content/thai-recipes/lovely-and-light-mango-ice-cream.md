@@ -1,9 +1,9 @@
 +++
 title= "Lovely and Light Mango Ice Cream"
-date= 2018-04-01
 description= "This recipe shows you how to create a lovely and light Thai ice-cream."
-draft= false
 featured_image= "/img/mango-ice-cream.jpg"
+date= "2018-04-01"
+draft= false
 +++
 
 ## "Ice cream mamuang"

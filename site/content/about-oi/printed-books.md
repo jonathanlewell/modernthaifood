@@ -1,8 +1,9 @@
 +++
 title= "Printed Books"
-date= 2018-03-21T12:47:30Z
+description = "See Oi's published books on Thai food, including The Food of Thailand and Thai Food Secrets."
+featured_image= "/img/oi-thai-food-secrets-wide.jpg"
+date = "2018-03-22"
 draft= false
-featured_image ="/img/books-the-food-of-thailand.jpg"
 +++
 
 There are 5 published books on Thai cooking by Oi Cheepchaiissara:

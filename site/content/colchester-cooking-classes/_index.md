@@ -1,7 +1,8 @@
 +++
 title = "Colchester Cooking Classes"
-date = 2018-02-15
 description = "Learn how to cook a complete Thai meal with best-selling author Oi Cheepchaiissara."
+featured_image= "/img/oi-cooking-1.jpg"
+date = "2018-02-15"
 draft = false
 +++
 

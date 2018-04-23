@@ -1,8 +1,8 @@
 +++
 title= "Thai Recipes"
-page_subtitle= "Meticulously refined, simple step by step Thai recipes"
-date= 2018-02-15
-description= "Read concise, step-by-step Thai recipes by best-selling food author Oi Cheepchaiissara."
+description = "Read concise, step-by-step Thai recipes by best-selling food author Oi Cheepchaiissara."
+featured_image= "/img/oi-thai-food-secrets-1.jpg"
+date = "2018-02-15"
 draft= false
 +++
 

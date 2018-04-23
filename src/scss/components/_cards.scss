@@ -1,10 +1,5 @@
 /*---------- CARDS LAYOUT ----------*/
 
-// Margin underneath cards section
-.cards {
-    margin-bottom: $spacing;
-}
-
 .cards-header {
     margin-bottom: $spacing; 
     &__title {
@@ -88,7 +83,7 @@
 .card-large {
     display: flex;
     width: 100%;
-    margin-bottom: $spacing-double;
+    margin-bottom: $spacing;
     //from card
     background: $brand-plain-white;
     border: 1px solid #eee;
@@ -111,4 +106,8 @@
         text-decoration: none;
         font-size: 1em;
     }
+}
+
+.card__description {
+    margin-bottom: $spacing-half;
 }

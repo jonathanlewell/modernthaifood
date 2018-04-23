@@ -1,0 +1,104 @@
+{{ define "main" }}
+<main role="main" id="main">
+<section class="page-content"> 
+    
+    <section>
+
+        <article class="card card-large">
+                <div class="card-large__content">
+                    <h1 class="card-large__header">Explore Thai cooking with Oi Cheepchaiissara</h1>
+                    <p class="card-large__description">Author of the Food of Thailand, Thai Food Secrets and more!</p>
+                    <button class="button card-large__link">Browse my Free Recipes →</button>
+                </div>
+                <img class="card-large__image lazyload" data-src="/img/oi-tasting-banana-pepper-soup.jpg">
+        </article>       
+            
+        
+        <div class="cards">
+
+            <header class="cards-header">
+                <h2 class="cards-header__title">Follow along with these simple step-by-step Thai recipes:</h2>
+                <a class="cards-header__link" href="/thai-recipes/">Browse all Thai Recipes →</a>
+            </header>
+
+            {{ range first 4 (where .Data.Pages "Type" "thai-recipes") }}
+            <article class="card">
+                <a class="card__link" href="{{.Permalink}}">
+                    <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
+                    <div class="card__content">
+                        <h3 class="card__header">{{ .Title }}</h3>
+                        <time class="card__time" datetime="{{.Date.Format " 2006-01-02 "}}">{{.Date.Format "Jan 2, 2006"}}</time>
+                        <p class="card__description">{{ .Params.description }}</p>
+                        <button class="button card__button">Read this recipe »</button>
+                    </div>
+                </a>
+            </article>
+            {{ end }}
+            <footer class="section-footer">            
+                <a class="section-intro__link" href="/thai-recipes/">Browse all Thai Recipes →</a>
+            </footer>
+        </div>
+    </section>
+
+    
+
+        <!-- 
+            
+            <section>
+        <header class="section-intro">
+            <h2 class="section-intro__title">Download hundreds of Thai recipes covering every area of Thai food:</h2>
+            <a class="section-intro__link" href="/shop/">Browse the eBook shop →</a>
+        </header>
+    </section>
+
+    <section>
+        <header class="section-intro">
+            <h2 class="section-intro__title">Cook with me in Colchester in a Hands-On Thai Cooking Class:</h2>
+            <a class="section-intro__link" href="/cooking-classes/">See upcoming classes in 2018 →</a>
+        </header>
+    </section>
+            
+            
+            <div class="cards">
+            <article class="card">
+                <a class="card__link" href="/shop/">
+                    <img class="card__image lazyload" data-src="/img/oi-thai-food-secrets-1.jpg">
+                    <div class="card__content">
+                        <h3 class="card__header">Download my Introduction (10 recipes) FREE!</h3>
+                        <p class="card__description">This includes 10 recipes and is the introduction to my Thai Food Secrets eBook series.</p>
+                        <a class="card__button button" href="/shop/">Download the free introduction »</a>
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a class="card__link" href="/shop/">
+                    <img class="card__image lazyload" data-src="/img/thai-food-secrets-3-ebook-introductory-offer.png">
+                    <div class="card__content">
+                        <h3 class="card__header">Download the full Thai Food Secrets Collection (500+ refined Recipes!)</h3>
+                        <p class="card__description">This is a </p>
+                        <a class="card__button button" href="/shop/">Browse my eBooks shop »</a>
+                    </div>
+                </a>
+            </article>
+        </div>
+    -->
+
+        <!--
+        <div class="cards">
+            <article class="card">
+                <a class="card__link" href="/colchester-cooking-classes/">
+                    <img class="card__image lazyload" data-src="/img/oi-cooking-1.jpg">
+                    <div class="card__content">
+                        <h3 class="card__header">Thai cooking classes in Colchester</h3>
+                        <p class="card__description">Learn to cook a delicious Thai starter, a substantial main course, perfect jasmine rice, and a scrumptious Thai dessert.</p>
+                        <a class="card__button button" href="/colchester-cooking-classes/">Find out more »</a>
+                    </div>
+                </a>
+            </article>
+        </div>
+        -->
+    
+
+</section>
+</main>
+{{ end }}

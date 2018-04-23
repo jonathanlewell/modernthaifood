@@ -1,36 +1,26 @@
 {{ define "main" }}
     {{ partial "breadcrumbs/breadcrumbs.html" . }} 
-    <main role="main" class="container content-area" id="main">
-            
-        <article>
+    <main role="main" id="main">
+        <article class="article-layout">
 
-            <section class="page-introduction">
-                <h1 class="page-introduction__title">{{ .Title }}</h1>
-                <p class="page-introduction__subtitle">{{ .Params.description }}</p>
+            <section class="article-introduction">
+                <h1 class="article-introduction__title">{{ .Title }}</h1> 
+                <p class="article-introduction__subtitle article-introduction__subtitle--page">{{ .Params.description }}</p>
+            </section>
+
+            <section class="article-media">
+                {{ if .Params.featured_image }}<img class="article-image__feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />{{ end }}
+            </section>
+
+            <aside class="article-tableofcontents">
+                <h2 class="article-tableofcontents__header">Table of contents</h2>
+                {{ .TableOfContents }}
+            </aside>
+
+            <section class="article-content">
                 {{ .Content }}
             </section>
-
-            <section class="page-content">
-
-                <section class="cards">
-                    {{ range .Data.Pages }}
-                        <article class="card">
-                            <a class="card__link" href="{{.Permalink}}">
-                                <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
-                                <div class="card__content">
-                                    <h3 class="card__header">{{ .Title }}</h3>
-                                    <time class="card__time" datetime="{{.Date.Format "2006-01-02"}}">{{.Date.Format "Jan 2, 2006"}}</time>
-                                    <p class="card__description">{{ .Params.description }}</p>
-                                    <a class="card__button button" href="{{.Permalink}}">Find out more »</a>
-                                </div>
-                            </a>
-                        </article>
-                    {{ end }}
-                </section>
-                
-                <!-- End page-content -->
-            </section>
-
+            
         </article>
     </main>
 {{ end }}

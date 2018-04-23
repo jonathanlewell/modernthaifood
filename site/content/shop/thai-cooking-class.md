@@ -1,9 +1,9 @@
 +++
-title= "Book a Thai Cooking Class"
-date= 2018-02-15
-description= "Learn how to cook a full meal in Colchester, Essex with Oi Cheepchaiissara."
-draft= false
+title= "Thai Cooking Class"
+description = "Easily pay for your cooking class online with a debit or credit card."
 featured_image= "/img/oi-cooking-1.jpg"
+date = "2018-02-15"
+draft= false
 +++
 
 If you're serious about learning to cook Thai food, come to a cooking class in the lovely town of Colchester, Essex, UK.

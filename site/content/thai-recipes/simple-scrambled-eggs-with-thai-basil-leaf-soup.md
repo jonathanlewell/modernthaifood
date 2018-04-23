@@ -1,9 +1,9 @@
 +++
 title= "Simple Scrambled Eggs With Thai Basil Leaf Soup"
 description= "It’s not just eggs: chicken, too, adds nutritional content to this tasty dish."
-date= 2018-03-05
-draft= false
 featured_image= "/img/scrambled-eggs-with-thai-basil-leaf-soup.jpg"
+date= "2018-03-05"
+draft= false
 +++
 
 
