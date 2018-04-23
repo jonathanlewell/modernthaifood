@@ -3,10 +3,10 @@
     <main role="main" id="main">
         <article class="article-layout">
 
-            <section class="article-introduction">
+            <header class="article-introduction">
                 <h1 class="article-introduction__title">{{ .Title }}</h1> 
                 <p class="article-introduction__subtitle article-introduction__subtitle--page">{{ .Params.description }}</p>
-            </section>
+            </header>
 
             <section class="article-media">
                 {{ if .Params.featured_image }}<img class="article-image__feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />{{ end }}
@@ -19,6 +19,12 @@
 
             <section class="article-content">
                 {{ .Content }}
+            </section>
+
+            <section class="article-cards">
+                <article class="card">
+                    Sup
+                </article>
             </section>
             
         </article>
