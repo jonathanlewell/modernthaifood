@@ -1,6 +1,6 @@
 .site-breadcrumbs {
     max-width: $content-area-max-width;
-    margin: 0 auto;
+    margin: $spacing auto $spacing auto;
     width: 90%;
     font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
@@ -8,12 +8,9 @@
 }
 
 .breadcrumbs__menu {
+    margin: 0;
     padding: 0;
     list-style-type: none;
-    margin-bottom: $spacing-half;
-    @include tablet {
-        margin-bottom: $spacing;
-    }
 }
 
 .breadcrumbs__link {
