@@ -1,0 +1,56 @@
+// This sets the site-wide bg color
+body {background-color: $brand-tinted-white-color;}
+
+// This sets the content area width
+.page-layout {
+    max-width: $content-area-max-width;
+    margin: $spacing auto 0 auto;
+    width: 90%;
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.introduction {
+    margin-bottom: $spacing;
+    &__subtitle {
+        font-size: 1.125em;
+        font-style: italic;
+        color: $brand-subtitle-grey;
+        &--article {
+            margin-bottom: $spacing-half;
+        }
+    }
+    &__date {
+        font-family: $heading-copy-font;
+        font-style: italic;
+    }
+}
+
+.image {
+    margin-bottom: $spacing;
+}
+
+.tableofcontents {
+    border: 1px solid #eee;
+    box-shadow: 0 9px 65px rgba(0,0,0,.03);
+    margin-bottom: $spacing;
+    padding: $spacing;
+    a {
+        background: none;
+    }
+    ul {
+        list-style-type: none; 
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    ul ul { 
+        list-style-type: disc;
+        padding-left: $spacing;
+        margin-bottom: 0; 
+    }
+}
+
+.content {
+    margin-bottom: $spacing;
+}

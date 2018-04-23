@@ -1,25 +1,18 @@
 {{ define "main" }}
-    <main role="main" id="main">
-        <article class="article-layout">
+<main class="page-layout page-layout--article" role="main" id="main">
 
-            <section class="article-introduction">
-                <h1 class="article-introduction__title">Cook incredible Thai food with Oi Cheepchaiissara</h1> 
-                <p class="article-introduction__subtitle article-introduction__subtitle--page">Simple step-by-step instructions and refined recipes.</p>
+            <section class="introduction">
+                <h1 class="introduction__title">Cook incredible Thai food with Oi Cheepchaiissara</h1> 
+                <p class="introduction__subtitle introduction__subtitle--page">Simple step-by-step instructions and refined recipes.</p>
             </section>
+            
+            {{ if .Params.featured_image }}
+                <img class="image lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
+            {{ end }}
 
-            <section class="article-media">
-                {{ if .Params.featured_image }}<img class="article-image__feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />{{ end }}
-            </section>
-
-            <aside class="article-tableofcontents">
-                <h2 class="article-tableofcontents__header">Table of contents</h2>
-                {{ .TableOfContents }}
-            </aside>
-
-            <section class="article-content">
+            <section class="content">
                 {{ .Content }}
             </section>
             
-        </article>
     </main>
 {{ end }}

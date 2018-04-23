@@ -1,32 +1,38 @@
 {{ define "main" }}
     {{ partial "breadcrumbs/breadcrumbs.html" . }} 
-    <main role="main" id="main">
-        <article class="article-layout">
-
-            <header class="article-introduction">
-                <h1 class="article-introduction__title">{{ .Title }}</h1> 
-                <p class="article-introduction__subtitle article-introduction__subtitle--page">{{ .Params.description }}</p>
+    <main class="page-layout page-layout--list" role="main" id="main">
+        
+            <header class="introduction">
+                <h1 class="introduction__title">{{ .Title }}</h1> 
+                <p class="introduction__subtitle">{{ .Params.description }}</p>
             </header>
+            
+            {{ if .Params.featured_image }}
+                <img class="image image--feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
+            {{ end }}
 
-            <section class="article-media">
-                {{ if .Params.featured_image }}<img class="article-image__feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />{{ end }}
-            </section>
-
-            <aside class="article-tableofcontents">
-                <h2 class="article-tableofcontents__header">Table of contents</h2>
+            <aside class="tableofcontents">
+                <h2 class="tableofcontents__title">Table of contents</h2>
                 {{ .TableOfContents }}
             </aside>
 
-            <section class="article-content">
+            <section class="content">
                 {{ .Content }}
+            </section> 
+
+            <section class="cards">
+                {{ range .Data.Pages }}
+                    <article class="card">
+                        <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
+                        <div class="card__content">
+                            <h3 class="card__header">{{ .Title }}</h3>
+                            <time class="card__time" datetime="{{.Date.Format " 2006-01-02 "}}">{{.Date.Format "Jan 2, 2006"}}</time>
+                            <p class="card__description">{{ .Params.description }}</p>
+                            <a class="card__link" href="{{.Permalink}}">Find out more »</a>
+                        </div>
+                    </article>
+                {{ end }}
             </section>
 
-            <section class="article-cards">
-                <article class="card">
-                    Sup
-                </article>
-            </section>
-            
-        </article>
     </main>
 {{ end }}

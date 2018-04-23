@@ -1,5 +1,5 @@
 +++
-title= "Crispy and Golden Thai Spring Rolls"
+title= "Crispy Golden Thai Spring Rolls"
 description= "Learn how to make savoury spring rolls and sweet plum sauce. A perfect starter to a Thai meal!"
 featured_image= "/img/crispy-golden-spring-rolls.jpg"
 categories= ["Thai food"]

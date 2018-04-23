@@ -3,15 +3,19 @@
 @import "base/reset";
 @import "base/mixins";
 
+// Components used across the website
 @import "components/typography";
 @import "components/img";
 @import "components/accessibility";
-@import "components/main-content";
-@import "components/accessible-header";
-@import "components/breadcrumbs";
-@import "components/site-footer";
 @import "components/button";
 @import "components/cards";
-@import "components/hero"; 
 
-@import "pages/thai-recipes";
+// Site-wide components
+@import "components/site-header";
+@import "components/site-breadcrumbs";
+@import "components/site-footer";
+
+// Page layouts, shared for layout styles used  in both articles and lists
+@import "pages/shared";
+@import "pages/article";
+@import "pages/list"; 

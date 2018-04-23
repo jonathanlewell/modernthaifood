@@ -1,26 +1,24 @@
 {{ define "main" }}
     {{ partial "breadcrumbs/breadcrumbs.html" . }} 
-    <main role="main" id="main">
-        <article class="article-layout">
-
-            <header class="article-introduction">
-                <h1 class="article-introduction__title">{{ .Title }}</h1> 
-                <p class="article-introduction__subtitle article-introduction__subtitle--page">{{ .Params.description }}</p>
-            </header>
-
-            <section class="article-media">
-                {{ if .Params.featured_image }}<img class="article-image__feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />{{ end }}
-            </section>
-
-            <aside class="article-tableofcontents">
-                <h2 class="article-tableofcontents__header">Table of contents</h2>
-                {{ .TableOfContents }}
-            </aside>
-
-            <section class="article-content">
-                {{ .Content }}
-            </section>
+    <main class="page-layout page-layout--article" role="main" id="main">
+        
+        <header class="introduction">
+            <h1 class="introduction__title">{{ .Title }}</h1> 
+            <p class="introduction__subtitle">{{ .Params.description }}</p>            
+        </header> 
             
-        </article>
+        {{ if .Params.featured_image }}
+            <img class="image image--feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
+        {{ end }}
+
+        <aside class="tableofcontents">
+            <h2 class="tableofcontents__title">Table of contents</h2>
+            {{ .TableOfContents }}
+        </aside>
+
+        <section class="content">
+                {{ .Content }}
+        </section> 
+
     </main>
 {{ end }}
