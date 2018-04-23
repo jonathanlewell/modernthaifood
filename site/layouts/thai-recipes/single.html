@@ -13,6 +13,11 @@
                 {{ if .Params.featured_image }}<img class="article-image__feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />{{ end }}
             </section>
 
+            <aside class="article-tableofcontents">
+                <h2 class="article-tableofcontents__header">Table of contents</h2>
+                {{ .TableOfContents }}
+            </aside>
+
             <section class="article-content">
                 {{ .Content }}
             </section>

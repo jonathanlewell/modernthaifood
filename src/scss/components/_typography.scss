@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5 {
     font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
     color: $brand-dark-color;
+    margin-bottom: $spacing-half;
 }
 h1 {
     font-size: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
@@ -42,7 +43,7 @@ h5, h6 {
   }
 
 // Add bottom margins for consistent vertical rythm (csswizardry)
-h1,h2,h3,h4,h5,h6,hgroup,
+hgroup,
 ul,ol,dd,
 p,figure,
 pre,table,fieldset,hr{
@@ -63,24 +64,7 @@ main a {
     }
 }
 
-//  list styling
-main {
-ul,
-ol{
-    margin-bottom:1.5em;
-}
-li ul,
-li ol{
-    margin-bottom:0;
-}
-ul{
-    list-style:square outside;
-}
-ol,
-.numbered{
-    list-style:decimal outside;
-}
-}
+
 
 .page-introduction__subtitle {
     font-size: 1.125em;

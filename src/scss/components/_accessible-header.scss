@@ -1,7 +1,6 @@
 .accessible-header {
     background-color: $brand-tinted-grey-color;
-    // Margins and padding
-    margin-bottom: $spacing;
+    // The red bar at the top
     &::before {
         display: block;
         height: $spacing-third;
@@ -92,8 +91,10 @@
 }
 
 .accessible-site-menu {
+    list-style: none;
     display: flex;
     margin: 0;
+    padding: 0;
     &:target {
         transform: translateX(-120vw);
     }
@@ -115,6 +116,7 @@
         flex-wrap: no-wrap;
     }
     &__item {
+        
         padding: $spacing-half;
         background: $brand-tinted-grey-color;
         &__active {

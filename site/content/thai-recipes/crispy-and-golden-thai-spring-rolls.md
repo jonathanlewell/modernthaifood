@@ -8,6 +8,8 @@ draft= false
 featured_image= "/img/crispy-golden-spring-rolls.jpg"
 +++
 
+## A quick introduction to Thai spring rolls
+
 Also known as "Por pea thawt," these savoury roll packets are popular throughout Southeast Asia. The Thai version is a delicate cross between Chinese and Vietnamese styles. They are deep-fried to a light, golden brown and served crispy with sweet plum sauce or sweet chilli sauce. Spring rolls are great as a starter or as finger food.
 
 <!--more-->
@@ -83,6 +85,6 @@ Also known as "Por pea thawt," these savoury roll packets are popular throughout
 
     *Note:* You can add 85 g (3 oz) minced (ground) prawn, chicken, turkey or pork after lightly browning the garlic. Crumble (whichever you have chosen) with a wooden spoon until separate and cooked. Add the vermicelli and follow as above with 115 g (4 oz) fresh bean sprouts.
 
-## More fantastic Thai Starters to Try:
+## Other starters to try
 
 If you enjoyed this recipe, do check out my [Thai Starter Secrets eBook](/shop/thai-food-secrets/). You'll learn how to make Spicy Honey Prawns, Gold Bags (illustrated), Chicken Wrapped in Pandan Leaf, Curry Puffs and many more. 

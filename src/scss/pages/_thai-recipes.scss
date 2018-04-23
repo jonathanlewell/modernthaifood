@@ -12,15 +12,29 @@
     margin-bottom: $spacing;
 }
 
+.article-tableofcontents {
+    border: 1px solid #eee;
+    box-shadow: 0 9px 65px rgba(0,0,0,.03);
+    margin-bottom: $spacing;
+    padding: $spacing;
+    a {
+        background: none;
+    }
+}
+
+#TableOfContents ul { 
+    list-style-type: none; 
+    padding-left: 0;
+  }
+  
+  #TableOfContents ul ul { 
+    list-style-type: disc; 
+  }
+
 .article-content {
 }
 
-.article-sidebar {
-    margin-bottom: $spacing-half;
-}
-
 .article-introduction__title {
-    margin-bottom: $spacing-half;
 }
 
 .article-introduction__subtitle {

@@ -4,7 +4,7 @@ body {
 
 main {
     max-width: $content-area-max-width;
-    margin: 0 auto;
+    margin: $spacing auto $spacing auto;
     padding-top: $spacing;
     width: 90%;
 }
