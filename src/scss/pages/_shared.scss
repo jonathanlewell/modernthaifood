@@ -13,11 +13,6 @@ main {
     }
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 .introduction {
     margin-bottom: $spacing;
     &__subtitle {
