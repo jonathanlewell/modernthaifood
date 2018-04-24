@@ -1,67 +1,5 @@
 /*---------- CARDS LAYOUT ----------*/
 
-.cards-header {
-    margin-bottom: $spacing; 
-    &__title {
-        margin-bottom: $spacing-half; 
-    }
-    &__link {
-       background: none;
-    }
-    &__image {
-
-    }
-}
-
-.section-intro {
-    margin-bottom: $spacing;
-    &__title {
-        margin-bottom: $spacing-half;
-    }
-    &__link {
-        background: none;
-    }
-}
-
-/* Stuff in each card */
-.card {
-    background: $brand-plain-white;
-    border: 1px solid #eee;
-    box-shadow: 0 9px 65px rgba(0,0,0,.03);
-    &__link {
-        background: $brand-plain-white;
-        text-decoration: none;
-    }
-}
-
-.card__content {
-	padding: $base-line-height;
-}
-
-.card__header {
-    margin-bottom: $spacing-half;
-    font-family: $heading-copy-font;
-    font-weight: $heading-font-weight;
-    color: $brand-dark-color;
-}
-
-.card__time {
-    display: block;
-    margin-bottom: $spacing-half;
-    color: $secondary-color-dark;
-}
-
-.card__button {
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    width: 100%;
-}
-
-.card__description {
-    color: $brand-dark-color;
-}
-
 /* Flexbox layout */
 .cards {
     display: flex;
@@ -70,55 +8,45 @@
  }
 
 .card {
-    width: 100%;
-    flex-shrink: 1;
-    margin-bottom: $spacing;	
-    @media only screen and (min-width: 600px) {
-	    width: calc(50% - 0.75em);
-	}
-}
-
-// 3 cards per row
-
-.card--third {
-    width: 100%;
-    flex-shrink: 1;
-    margin-bottom: $spacing;	
-    @media only screen and (min-width: 600px) {
-	    width: calc(33.333% - 0.75em);
-	}
-}
-
-// Usually the top page card
-
-.card-large {
-    display: flex;
-    width: 100%;
-    margin-bottom: $spacing;
-    //from card
     background: $brand-plain-white;
     border: 1px solid #eee;
     box-shadow: 0 9px 65px rgba(0,0,0,.03);
-    &__image {
-        display: none;
-        @include tablet {
-            display: flex;
-        }
+    width: 100%;
+    flex-shrink: 1;
+    margin-bottom: $spacing;
+    @media only screen and (min-width: 600px) {
+	    width: calc(33.333% - 0.75em);
     }
-}
-
-.card-large__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: $base-line-height;
+    &__content {
+        padding: $base-line-height;
+    }
+    &__header {
+        margin-bottom: $spacing-half;
+        font-family: $heading-copy-font;
+        font-weight: $heading-font-weight;
+        color: $brand-dark-color;
+    }
+    &__time {
+        display: block;
+        margin-bottom: $spacing-half;
+        color: $secondary-color-dark;
+    }
+    &__description {
+        color: $brand-dark-color;
+    }
     &__link {
         background: $brand-plain-white;
         text-decoration: none;
-        font-size: 1em;
     }
 }
 
-.card__description {
-    margin-bottom: $spacing-half;
+// 2 cards in a row variation
+
+.card--two {
+    width: 100%;
+    flex-shrink: 1;
+    margin-bottom: $spacing;	
+    @media only screen and (min-width: 600px) {
+        width: calc(50% - 0.75em);
+	}
 }

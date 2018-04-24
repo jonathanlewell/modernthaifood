@@ -1,8 +1,10 @@
 // This sets the site-wide bg color
-body {background-color: $brand-tinted-white-color;}
+body {
+    background-color: $brand-tinted-white-color;
+}
 
 // This sets the content area width
-.page-layout {
+main {
     max-width: $content-area-max-width;
     margin: $spacing auto 0 auto;
     width: 90%;
