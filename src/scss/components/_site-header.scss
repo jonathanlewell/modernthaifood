@@ -49,11 +49,8 @@
     &__total {
         text-decoration: none;
         font-size: 1.135em;
-        margin-left: 0;
+        margin-left: 5px;
         color: $brand-color;
-        @include tablet {
-            margin-left: 5px;
-        }
     }
 }
 
