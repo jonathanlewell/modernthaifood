@@ -1,0 +1,19 @@
+.tableofcontents {
+    border: 1px solid #eee;
+    box-shadow: 0 9px 65px rgba(0,0,0,.03);
+    margin-bottom: $spacing;
+    padding: $spacing;
+    a {
+        background: none;
+    }
+    ul {
+        list-style-type: none; 
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    ul ul { 
+        list-style-type: disc;
+        padding-left: $spacing;
+        margin-bottom: 0; 
+    }
+}

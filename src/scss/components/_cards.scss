@@ -78,6 +78,17 @@
 	}
 }
 
+// 3 cards per row
+
+.card--third {
+    width: 100%;
+    flex-shrink: 1;
+    margin-bottom: $spacing;	
+    @media only screen and (min-width: 600px) {
+	    width: calc(33.333% - 0.75em);
+	}
+}
+
 // Usually the top page card
 
 .card-large {

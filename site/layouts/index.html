@@ -1,18 +1,36 @@
 {{ define "main" }}
-<main class="page-layout page-layout--article" role="main" id="main">
+    <main class="page-layout page-layout--home" role="main" id="main">
 
-            <section class="introduction">
-                <h1 class="introduction__title">Cook incredible Thai food with Oi Cheepchaiissara</h1> 
-                <p class="introduction__subtitle introduction__subtitle--page">Simple step-by-step instructions and refined recipes.</p>
-            </section>
-            
-            {{ if .Params.featured_image }}
-                <img class="image lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
-            {{ end }}
+        <section class="cards">
 
-            <section class="content">
-                {{ .Content }}
-            </section>
-            
+                <article class="card card--third">
+                    <img class="card__image lazyload" data-src="/img/pad-thai-parcel-action.jpg">
+                    <div class="card__content">
+                        <h3 class="card__header">Read Thai Recipes</h3>
+                        <p class="card__description">Simple and step-by-step recipes to cook beautiful Thai meals at home.</p>
+                        <a class="card__link" href="/thai-recipes/">Browse Thai Recipes »</a>
+                    </div>
+                </article>
+
+                <article class="card card--third">
+                    <img class="card__image lazyload" data-src="/img/oi-plating-up.jpg">
+                    <div class="card__content">
+                        <h3 class="card__header">Join my Colchester Cooking Classes</h3>
+                        <p class="card__description">Cook a full course Thai meal in a fun "hands-on" group cooking class.</p>
+                        <a class="card__link" href="/colchester-cooking-classes/">See 2018 classes »</a>
+                    </div>
+                </article>
+
+                <article class="card card--third">
+                    <img class="card__image lazyload" data-src="/img/oi-thai-food-secrets-large.jpg">
+                    <div class="card__content">
+                        <h3 class="card__header">Buy cookbooks in my online shop</h3>
+                        <p class="card__description">Expand your Thai cooking knowledge with cookbooks covering every area of Thai cooking!</p>
+                        <a class="card__link" href="/shop/">Browse the shop »</a>
+                    </div>
+                </article>
+
+        </section>
+
     </main>
 {{ end }}
