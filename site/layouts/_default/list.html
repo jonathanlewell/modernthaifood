@@ -5,16 +5,11 @@
             <header class="introduction">
                 <h1 class="introduction__title">{{ .Title }}</h1> 
                 <p class="introduction__subtitle">{{ .Params.description }}</p>
-            </header>
+            </header> 
             
             {{ if .Params.featured_image }}
                 <img class="image image--feature lazyload" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
             {{ end }}
-
-            <aside class="tableofcontents">
-                <h2 class="tableofcontents__title">Table of contents</h2>
-                {{ .TableOfContents }}
-            </aside>
 
             <section class="content">
                 {{ .Content }}
