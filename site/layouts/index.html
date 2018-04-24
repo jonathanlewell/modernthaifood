@@ -45,8 +45,8 @@
             </header>
 
             <section class="cards">
-                {{ range first 6 (where .Data.Pages "Type" "thai-recipes") }}
-                    <article class="card">
+                {{ range first 4 (where .Data.Pages "Type" "thai-recipes") }}
+                    <article class="card card--half-width">
                         <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
                         <div class="card__content">
                             <h3 class="card__header">{{ .Title }}</h3>
@@ -56,18 +56,6 @@
                         </div>
                     </article>
                 {{ end }}
-            </section>
-
-            <header class="introduction">
-                <h2 class="introduction__title">Join a cooking class with me in Colchester:</h2> 
-                <p class="introduction__subtitle">Cook a full Thai meal - starter, main dish and dessert - in a fun and relaxed group class.</p>
-                <a class="introduction__link" href="/colchester-classes/">See the 2018 class schedule »</a>
-            </header>
-
-            <section class="cards">
-                <article class="card--feature">
-                    sup
-                </article>
             </section>
 
     </main>
