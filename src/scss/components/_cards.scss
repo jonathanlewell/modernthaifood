@@ -39,6 +39,30 @@
         background: $brand-plain-white;
         text-decoration: none;
     }
+    &__menu {
+        list-style: none;
+        padding-left: 0;
+    }
+    &__bullet {
+        margin-bottom: $spacing-third;    
+        &:before {
+            content: '✓';
+            margin-right: $spacing-half;
+        }
+    }
+    &__button {
+        text-decoration: none;
+        background-color: white;
+        border: 1px solid $secondary-color;
+        font-family: $heading-copy-font;
+        color: $secondary-color-darkest;
+        padding: 0.5rem;
+        &:hover {
+            cursor: pointer;
+            background-color: $secondary-color-lightest;
+            color: $secondary-color-darkest;
+        }
+    }
 }
 
 // 2 cards in a row variation
