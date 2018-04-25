@@ -3,38 +3,17 @@
 
             <section class="cards">
                 <article class="card card--feature">
-                    <img class="card__image lazyload" data-src="/img/dish-banana-blossom-min.jpg">
+                    <img class="card__image lazyload" data-src="/img/oi-plating-up.jpg">
                     <div class="card__content">
-                        <h3 class="card__header">The best, most in-depth Thai food guides on the internet</h3>
+                        <h3 class="card__header">Step-by-step Thai recipes for cooks of all levels.</h3>
                         <ul class="card__menu">
-                            <li class="card__bullet">Top quality recipes refined numerous times.</li>
-                            <li class="card__bullet">Clear step-by-step instructions.</li>
-                            <li class="card__bullet">Healthy tips included.</li>
+                            <li class="card__bullet">Clear and simple instructions.</li>
+                            <li class="card__bullet">Proof-read and in-depth guides - no missing links!</li>
+                            <li class="card__bullet">Lots of tasty pictures.</li>
                         </ul>
                         <a class="card__button" href="/thai-recipes/">Browse Thai Recipes »</a>
                     </div>
                 </article>
-            </section>
-       
-
-            <header class="introduction">
-                <h2 class="introduction__title">Latest Thai dishes to enjoy at home:</h2> 
-                <p class="introduction__subtitle">Free and step-by-step recipes with clear instructions.</p>
-                <a class="introduction__link" href="/thai-recipes/">Browse all Thai Recipes »</a>
-            </header>
-
-            <section class="cards">
-                {{ range first 3 (where .Data.Pages "Type" "thai-recipes") }}
-                    <article class="card">
-                        <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
-                        <div class="card__content">
-                            <h3 class="card__header">{{ .Title }}</h3>
-                            <time class="card__time" datetime="{{.Date.Format " 2006-01-02 "}}">{{.Date.Format "Jan 2, 2006"}}</time>
-                            <p class="card__description">{{ .Params.description }}</p>
-                            <a class="card__link" href="{{.Permalink}}">Read this recipe »</a>
-                        </div>
-                    </article>
-                {{ end }}
             </section>
 
     </main>

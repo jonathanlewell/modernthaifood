@@ -21,6 +21,9 @@
 .site-footer__legal {
     display: flex;
     justify-content: center;
+    font-family: $heading-copy-font; 
+    font-weight: $heading-font-weight;
+    color: $brand-dark-color;
 }
 
 .site-footer__header {

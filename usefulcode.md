@@ -1,3 +1,27 @@
+<!-- Recipe excerpts 
+
+<header class="introduction">
+                <h2 class="introduction__title">Latest Thai dishes to enjoy at home:</h2> 
+                <p class="introduction__subtitle">Free and step-by-step recipes with clear instructions.</p>
+                <a class="introduction__link" href="/thai-recipes/">Browse all Thai Recipes »</a>
+            </header>
+
+            <section class="cards">
+                {{ range first 3 (where .Data.Pages "Type" "thai-recipes") }}
+                    <article class="card">
+                        <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
+                        <div class="card__content">
+                            <h3 class="card__header">{{ .Title }}</h3>
+                            <time class="card__time" datetime="{{.Date.Format " 2006-01-02 "}}">{{.Date.Format "Jan 2, 2006"}}</time>
+                            <p class="card__description">{{ .Params.description }}</p>
+                            <a class="card__link" href="{{.Permalink}}">Read this recipe »</a>
+                        </div>
+                    </article>
+                {{ end }}
+            </section>
+
+
+-->
 
 <!-- This is the old homepage 3x card layout
 <header class="introduction">
