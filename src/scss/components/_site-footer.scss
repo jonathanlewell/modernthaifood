@@ -1,3 +1,8 @@
+// Not sure what this is, something to do with snipcart perhaps
+.sprite {
+    display: none;
+}
+
 .site-footer {
     background: $brand-tinted-grey-color;
     padding-top: $spacing;
@@ -8,15 +13,32 @@
     max-width: $content-area-max-width;
     margin: 0 auto;
     width: 90%;
+    aside {
+        padding: $spacing-half;
+    }
+}
+
+.site-footer__legal {
+    display: flex;
+    justify-content: center;
+}
+
+.site-footer__header {
+    margin-bottom: $spacing-half;
+    font-family: $heading-copy-font;
+    font-weight: $heading-font-weight;
+    color: $brand-dark-color;
 }
 
 .site-footer__link {
-    color: $brand-dark-color;
-    font-family: $heading-copy-font;
+    font-family: $heading-copy-font; 
     font-weight: $heading-font-weight;
+    color: $brand-dark-color;
     text-decoration: none;
 }
 
-.sprite {
-    display: none;
+.site-footer__columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
