@@ -4,7 +4,7 @@ body {
 }
 
 // This sets the content area width
-main {
+.page-layout {
     max-width: $content-area-max-width;
     margin: $spacing auto 0 auto;
     width: 90%;
