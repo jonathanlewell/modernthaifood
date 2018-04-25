@@ -1,7 +1,7 @@
 +++
 title= "Make a Crunchy Green Papaya Salad"
 description= "This perfect crunchy Green Papaya Salad is wildly popular all over Thailand. It only takes 30 minutes to make."
-featured_image= "/img/green-papaya-salad.jpg"
+featured_image= "/img/dish-green-papaya-salad-min.jpg"
 date= "2018-03-25"
 draft= false
 +++

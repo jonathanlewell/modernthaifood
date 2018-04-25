@@ -1,7 +1,7 @@
 +++
 title= "Lovely and Light Mango Ice Cream"
 description= "This recipe shows you how to create a lovely and light Thai ice-cream."
-featured_image= "/img/mango-ice-cream.jpg"
+featured_image= "/img/dish-mango-ice-cream-min.jpg"
 date= "2018-04-01"
 draft= false
 +++
