@@ -5,8 +5,8 @@
                 <article class="card card--feature">
                     <img class="card__image lazyload" data-src="/img/pad-thai-noodles-with-prawns.jpg">
                     <div class="card__content">
-                        <h3 class="card__header">Want to make popular Thai dishes with simple, step-by-step recipes?</h3>
-                        <p class="card__description">Read my in-depth guides, including close-up illustrations and explanations.</p>
+                        <h3 class="card__header">The best, most in-depth Thai food guides on the internet</h3>
+                        <p class="card__description">Cook the Thai dishes you love with my simple, step-by-step recipes.</p>
                         <a class="card__link" href="/thai-recipes/">Browse Thai Recipes »</a>
                     </div>
                 </article>
@@ -19,8 +19,8 @@
             </header>
 
             <section class="cards">
-                {{ range first 4 (where .Data.Pages "Type" "thai-recipes") }}
-                    <article class="card card--half-width">
+                {{ range first 3 (where .Data.Pages "Type" "thai-recipes") }}
+                    <article class="card">
                         <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
                         <div class="card__content">
                             <h3 class="card__header">{{ .Title }}</h3>
