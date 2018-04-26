@@ -1,11 +1,13 @@
 // From Adam
 
 figure {
-	max-width: 100%;
+    max-width: 100%;
+    margin-bottom: $spacing;
 }
 img { 
 	display: block;
-	width: 100%;
+    width: 100%;
+    margin-bottom: $spacing-half;
 }
 
 picture > img { width: 100% }
