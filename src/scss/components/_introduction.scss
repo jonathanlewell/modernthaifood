@@ -1,0 +1,20 @@
+.introduction {
+    width: 100%;
+    margin-bottom: $spacing;
+    &__title {
+        margin-bottom: $spacing-half;
+    }
+    &__subtitle {
+        font-size: 1.125em;
+        font-style: italic;
+        color: $brand-subtitle-grey;
+        margin-bottom: $spacing-half;
+    }
+    &__date {
+        font-family: $heading-copy-font;
+        font-style: italic;
+    }
+    &__link {
+        background: none;
+    }
+}

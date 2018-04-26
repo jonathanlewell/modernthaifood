@@ -47,11 +47,11 @@
     }
     &__description {
         color: $brand-dark-color;
-        margin-bottom: $spacing-half;
     }
     &__link {
         background: $brand-plain-white;
         text-decoration: none;
+        font-style: italic;
     }
     &__menu {
         list-style: none;
