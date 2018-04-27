@@ -81,7 +81,7 @@ These savoury roll packets are popular throughout Southeast Asia. The Thai versi
 
 8) Cook for another 4-5 minutes, taste and adjust the seasoning if necessary and set aside. Allow the cooked filling to cool.
 
-### Rolling spring rolls
+### Filling and rolling our spring rolls
 
 9) Place 2 spring roll sheets on a work surface. Keep all the remaining sheets in the plastic bag to prevent them drying out. 
 
@@ -99,7 +99,7 @@ These savoury roll packets are popular throughout Southeast Asia. The Thai versi
 
 12) Now let's seal the spring roll using our flour paste. Dab your finger in the paste and cover the inside edge, like in the below pic.
 
-{{< figure src="/img/recipes-spring-rolls-step-3.jpg" caption="The final bit of rolling. You'll want to use the flour paste to seal the spring roll sheet." >}}
+{{< figure src="/img/recipes-spring-rolls-step-3.jpg" caption="Dabbing on our flour paste before the final roll." >}}
 
 13) Roll the spring roll forward, keeping it tight, like so:
 
@@ -110,15 +110,13 @@ These savoury roll packets are popular throughout Southeast Asia. The Thai versi
 {{< figure src="/img/recipes-spring-rolls-uncooked.jpg" caption="Our sealed spring rolls, sitting comfortably on a tray and ready to deep-fry." >}}
 
 
-### Deep frying the spring rolls
+### Deep frying time!
 
 15) Heat 5 cm (2 inches) oil in a wok or deep frying pan on a medium heat. When the oil seems ready to deep fry, drop in a small piece of spring roll sheet. If it sizzles immediately, the oil is ready. It is important not to have the oil too hot or the spring rolls will burn. 
 
 16) Deep-fry the spring rolls in batches for 6-8 minutes or until lightly browned and crispy.
 
 17) As the spring rolls cook, lift them out with a slotted spoon and drain on kitchen paper. Repeat and continue to deep-fry in batches.
-
-### Time to serve
 
 18) Arrange the spring rolls on a platter. Serve hot or warm, with sweet plum sauce.
 
@@ -130,6 +128,8 @@ You can add 85 g (3 oz) minced (ground) prawn, chicken, turkey or pork after lig
 
 Crumble (whichever you have chosen) with a wooden spoon until separate and cooked. Add the vermicelli and follow as above with 115 g (4 oz) fresh bean sprouts.
 
-## Other starters to try
+## Enjoy!
 
-If you enjoyed this recipe, do check out my [Thai Starter Secrets eBook](/shop/thai-food-secrets/). You'll learn how to make Spicy Honey Prawns, Gold Bags (illustrated), Chicken Wrapped in Pandan Leaf, Curry Puffs and many more. 
+Spring rolls are always a great hit when my relatives and friends come to visit. It's a very reliable starter to make, sure to please nearly everybody's taste.
+
+Try it out, and if you have any questions - leave a comment in the comments section below :)

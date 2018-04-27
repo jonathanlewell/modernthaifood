@@ -8,7 +8,7 @@ draft= false
 
 ## A lovely and light dessert that is very simple to make.
 
-This lovely and light dessert is simple to make, with a texture that is more like that of a sorbet. To make it similar to the kind of ice cream you get in the west, you can use single or double cream instead of water and omit the lime or lemon juice. However, keep to this recipe for the true Thai style.
+Mango ice cream has a texture that is more like that of a sorbet. To make it similar to the kind of ice cream you get in the west, you can use single or double cream instead of water and omit the lime or lemon juice. However, keep to this recipe for the true Thai style.
 
 - Thai name: "Ice cream mamuang"
 - Preparation time: 30 minutes
@@ -23,9 +23,9 @@ This lovely and light dessert is simple to make, with a texture that is more lik
 - 750 g (1 lb 10 oz) one large ripe mango or: two medium-sized mangoes
 - zest and juice of 1 lime
 
-{{< figure src="/img/recipe-mango-ice-cream-mangoes-close-up.jpg" caption="Choose a good mango that has a skin with no bruises or black dots. It should just be starting to turn yellow and have a lovely fragrance. It will continue to ripen in a warm temperature." >}}
+{{< figure src="/img/recipes-mango-ice-cream-mangoes-close-up.jpg" caption="Choose a good mango that has a skin with no bruises or black dots. It should just be starting to turn yellow and have a lovely fragrance. It will continue to ripen in a warm temperature." >}}
 
-## Let's get started!
+## The 5 simple steps to making mango ice cream
 
 1. Put the sugar and water in a saucepan and bring to boil. Reduce the heat and simmer until the liquid reduces by half and let it cool. If you decide to use cream instead of water just gently warm with the sugar until the sugar has dissolved.
 
@@ -37,9 +37,9 @@ This lovely and light dessert is simple to make, with a texture that is more lik
 
 5. Remove the ice cream from the freezer for 5-10 minutes or until slightly softened. Scoop into the serving bowl.
 
-{{< figure src="/img/recipe-mango-ice-cream-oi.jpg" caption="Hey! That's not bad at all!" >}}
+{{< figure src="/img/recipes-mango-ice-cream-oi.jpg" caption="Hey! That's not bad at all!" >}}
 
-## Healthy tips
+## The health benefits of Mangoes - antioxidants, vitamins and more!
 
 Mangoes are one of the best sources of beta-carotene, quercetin and astragalin, all of which are powerful antioxidants. Antioxidants neutralise the free radicals that can cause degenerative disease. Mangoes also contain vitamin K, phosphorus and magnesium, while being very rich in vitamins. 
 
