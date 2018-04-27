@@ -1,15 +1,16 @@
 +++
-title= "Snack on Thai Pan Fried Fish Cakes"
+title= "Thai Pan Fried Fish Cakes"
 description= "Steps to make batches of pan-fried fish cakes, along with how to create the curry paste."
 featured_image= "/img/pan-fried-fish-cakes.jpg"
 date= "2018-03-01"
 draft= false
 +++
 
-## “Thawt man plaa”
+## Fish cakes are just one of many delicious snacks sold as street food in Thailand.
 
-Fish cakes are just one of many delicious snacks sold as street food in Thailand. Batches are fried on request and served in a plastic bag along with a bamboo skewer to hold them while eating. You can take them home together with a small bag of sauce for additional flavour.
+Batches are fried on request and served in a plastic bag along with a bamboo skewer to hold them while eating. You can take them home together with a small bag of sauce for additional flavour.
 
+- Thai name: “Thawt man plaa”
 - Preparation time: 30 minutes
 - Soaking time: 5 minutes
 - Cooking time: 20 minutes

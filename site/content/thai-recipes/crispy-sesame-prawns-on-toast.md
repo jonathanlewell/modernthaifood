@@ -38,6 +38,8 @@ If you’re looking for one of the easiest starters to make, here’s an idea: p
 
 4) Spread the prawn paste thickly on one side of a piece of dried bread. Sprinkle with sesame seeds and press on firmly. Repeat with the remaining prawn paste and bread.
 
+{{< figure src="/img/dishes-crispy-sesame-prawns-on-toast-precooked.jpg" caption="Our crispy sesame prawns on toast before deep-frying." >}}
+
 5) Heat 5 cm (2 inches) oil in a deep frying pan or wok over a medium heat. Drop a small piece of bread into it. If it sizzles immediately, the oil is ready. Deep-fry a few pieces at a time, paste-side down, for 3-4 minutes or until golden. Turn them and lightly brown the bread side. Lift out with a slotted spoon and drain on kitchen paper. Repeat and deep-fry the remaining.
 
 6) Serve crispy sesame prawns on toast hot or warm with sweet chilli sauce. (See recipe below!)
@@ -47,6 +49,8 @@ If you’re looking for one of the easiest starters to make, here’s an idea: p
 ## How to make your own Thai sweet chilli sauce
 
 Nothing lifts the taste of a starter like crispy sesame prawns on toast (or spring rolls) quite like Thai sweet chilli sauce. It's sweet and not too spicy, like the name might suggest.
+
+{{< figure src="/img/recipes-spring-rolls-chilli-sauce.jpg" caption="Our Thai sweet chilli sauce." >}}
 
 You can make it in advance. It keeps well in the fridge for 3-4 days.
 

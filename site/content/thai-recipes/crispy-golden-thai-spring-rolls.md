@@ -51,6 +51,8 @@ These savoury roll packets are popular throughout Southeast Asia. The Thai versi
 
 {{< figure src="/img/recipes-spring-rolls-dried-black-fungus.jpg" caption="Black fungus (dried version shown here) grows in frilly masses on dead wood. We use it for its chewy texture and powerful medicinal properties." >}}
 
+{{< figure src="/img/recipes-spring-rolls-wun-sen-noodles.jpg" caption="Here's what mung bean vermicelli noodles look like before soaking them in hot water" >}}
+
 ## Let's get started!
 
 ### The first step is to make the sweet plum sauce
@@ -64,8 +66,6 @@ These savoury roll packets are popular throughout Southeast Asia. The Thai versi
 {{< figure src="/img/recipes-spring-rolls-sweet-plum-sauce.jpg" caption="After mashing our preserved plum, adding it, and pouring our finished sweet plum sauce into a serving bowl." >}}
 
 3) Soak the mung bean vermicelli in hot water for 4-5 minutes or until soft. Drain well and cut them 4-5 times with a sharp knife to reduce their length.
-
-{{< figure src="/img/recipes-spring-rolls-wun-sen-noodles.jpg" caption="Here's what mung bean vermicelli noodles look like before soaking them in hot water" >}}
 
 4) Soak the black fungus in boiling water for 3-4 minutes or until soft, then drain. Remove and discard the hard stalks and roughly chop.
 
@@ -95,20 +95,23 @@ These savoury roll packets are popular throughout Southeast Asia. The Thai versi
 
 {{< figure src="/img/recipes-spring-rolls-step-2.jpg" caption="Folding the sides." >}}
 
-{{< figure src="/img/recipes-spring-rolls-step-2b.jpg" caption="After folding both of the sides, your spring roll will look like this." >}}
+{{< figure src="/img/recipes-spring-rolls-step-2b.jpg" caption="Hold one folded side down as you fold the other side in." >}}
 
-12) Now let's seal the spring roll using our flour paste. Dab your finger in the paste and cover the inside edge, like in the below pic.
+{{< figure src="/img/recipes-spring-rolls-step-2c.jpg" caption="After folding both of the sides, your spring roll will look like this." >}}
 
-{{< figure src="/img/recipes-spring-rolls-step-3.jpg" caption="Dabbing on our flour paste before the final roll." >}}
+12) Now let's seal the spring roll using our flour paste. Dab your finger in the paste and cover inside of the sheet, like in the below pic.
+
+{{< figure src="/img/recipes-spring-rolls-adding-flour-paste.jpg" caption="Dabbing on our flour paste before the final roll." >}}
+
+{{< figure src="/img/recipes-spring-rolls-adding-flour-paste-b.jpg" caption="Be sure to cover the whole of that inside sheet with flour paste so that it properly sticks after deep-frying." >}}
 
 13) Roll the spring roll forward, keeping it tight, like so:
 
-{{< figure src="/img/recipes-spring-rolls-step-3b.jpg" alt="Keeping it steady :)" >}}
+{{< figure src="/img/recipes-spring-rolls-last-roll.jpg" alt="Keeping it steady :)" >}}
 
 14) Lay your finished spring roll on a tray. Repeat with the rest of the filling and sheets.
 
 {{< figure src="/img/recipes-spring-rolls-uncooked.jpg" caption="Our sealed spring rolls, sitting comfortably on a tray and ready to deep-fry." >}}
-
 
 ### Deep frying time!
 

@@ -1,5 +1,5 @@
 +++
-title= "Make a Crunchy Green Papaya Salad"
+title= "Crunchy Green Papaya Salad"
 description= "This perfect crunchy Green Papaya Salad is wildly popular all over Thailand. It only takes 30 minutes to make."
 featured_image= "/img/dish-green-papaya-salad-min.jpg"
 date= "2018-03-25"
@@ -94,7 +94,7 @@ Green papaya (below) contains papain, an enzyme that has a soothing effect on th
 
 12) Add in tomatoes…
 
-{{< figure src="/img/recipes-crunchy-green-papaya-salad-adding-tomatoes.jpg" caption="Adding tomatoes." >}}
+{{< figure src="/img/recipes-crunchy-green-papaya-salad-adding-tomatoes.jpg" caption="Adding our tomatoes." >}}
 
 13) …and the sugar mixture…
 

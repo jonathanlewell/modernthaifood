@@ -1,5 +1,5 @@
 +++
-title= "Lovely and Light Mango Ice Cream"
+title= "Mango Ice Cream"
 description= "This recipe shows you how to create a lovely and light Thai ice-cream."
 featured_image= "/img/dish-mango-ice-cream-min.jpg"
 date= "2018-04-01"
@@ -27,15 +27,15 @@ Mango ice cream has a texture that is more like that of a sorbet. To make it sim
 
 ## The 5 simple steps to making mango ice cream
 
-1. Put the sugar and water in a saucepan and bring to boil. Reduce the heat and simmer until the liquid reduces by half and let it cool. If you decide to use cream instead of water just gently warm with the sugar until the sugar has dissolved.
+1) Put the sugar and water in a saucepan and bring to boil. Reduce the heat and simmer until the liquid reduces by half and let it cool. If you decide to use cream instead of water just gently warm with the sugar until the sugar has dissolved.
 
-2. Clean and peel the mango (or mangoes) and cut the flesh off the stones, removing as much meat as you can. Avoid cutting very close to the seed where the meat is fibrous. It will make about 500 g (1 lb 2 oz) total in weight. Chop it into small pieces.
+2) Clean and peel the mango (or mangoes) and cut the flesh off the stones, removing as much meat as you can. Avoid cutting very close to the seed where the meat is fibrous. It will make about 500 g (1 lb 2 oz) total in weight. Chop it into small pieces.
 
-3. Put the mango, cool syrup, lime zest and juice in a food processor or blender and whiz until smooth. If you are using cream instead of water whiz in the same way.
+3) Put the mango, cool syrup, lime zest and juice in a food processor or blender and whiz until smooth. If you are using cream instead of water whiz in the same way.
 
-4. Pour the mixture into a plastic container and freeze for 4 hours or until half-frozen. You should take it out and comb it with a fork at least once or twice during the freezer time. You want to have plenty of air whipped into it or it will be too icy and hard. Cover and keep well in the freezer for 3-4 months.
+4) Pour the mixture into a plastic container and freeze for 4 hours or until half-frozen. You should take it out and comb it with a fork at least once or twice during the freezer time. You want to have plenty of air whipped into it or it will be too icy and hard. Cover and keep well in the freezer for 3-4 months.
 
-5. Remove the ice cream from the freezer for 5-10 minutes or until slightly softened. Scoop into the serving bowl.
+5) Remove the ice cream from the freezer for 5-10 minutes or until slightly softened. Scoop into the serving bowl.
 
 {{< figure src="/img/recipes-mango-ice-cream-oi.jpg" caption="Hey! That's not bad at all!" >}}
 
