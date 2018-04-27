@@ -30,7 +30,7 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["fonts", "scss", "js", "img:build", "svg"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build", ["fonts", "scss", "js", "img", "svg"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["fonts", "scss", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile SCSS
@@ -62,32 +62,8 @@ gulp.task("js", (cb) => {
   });
 });
 
-// Image tasks from Adamwills
-gulp.task("img", () =>
-  gulp.src("./src/img/**.*")
-    // Resize images (use with <img> shortcode in hugo)
-    .pipe(responsive({
-      "*": [{
-        width: 300,
-        rename: { suffix: '-300w' },
-      }, {
-        width: 600,
-        rename: { suffix: '-600w' },
-      }, {
-        width: 700,
-      }, {
-        width: 900,
-        rename: { suffix: '-900w'},
-      }],
-    }, {
-      silent: true,              // Don't spam the console
-      withoutEnlargement: false, // Allow image enlargement
-    }))
-    .pipe(gulp.dest("./dist/img")
-));
-
-gulp.task("img:build", ["img"], () =>
-  gulp.src(["./dist/img/*.{jpg,png,gif,svg}"])
+gulp.task('img', () => (
+  gulp.src(["./src/img/**/*.{jpg,png,gif,svg}"])
     // Optimise images
     .pipe(imagemin([
       imagemin.gifsicle(),
@@ -96,8 +72,7 @@ gulp.task("img:build", ["img"], () =>
       mozjpeg(),
     ]))
     .pipe(gulp.dest("./dist/img"))
-);
-
+));
 
 // Move all fonts in a flattened directory
 gulp.task('fonts', () => (

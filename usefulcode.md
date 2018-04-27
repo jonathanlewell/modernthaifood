@@ -1,3 +1,31 @@
+<!-- Gulpfile image resizing task
+
+// Image tasks from Adamwills
+gulp.task("img", () =>
+  gulp.src("./src/img/**.*")
+    // Resize images (use with <img> shortcode in hugo)
+    .pipe(responsive({
+      "*": [{
+        width: 300,
+        rename: { suffix: '-300w' },
+      }, {
+        width: 600,
+        rename: { suffix: '-600w' },
+      }, {
+        width: 700,
+      }, {
+        width: 900,
+        rename: { suffix: '-900w'},
+      }],
+    }, {
+      silent: true,              // Don't spam the console
+      withoutEnlargement: false, // Allow image enlargement
+    }))
+    .pipe(gulp.dest("./dist/img")
+));
+
+-->
+
 <!-- Recipe excerpts 
 
 <header class="introduction">
