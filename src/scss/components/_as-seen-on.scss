@@ -8,7 +8,7 @@
         margin-bottom: $spacing-half;
     }
     &__featured {
-        width: 100%;
+        width: min-content;
         height: auto;
         margin-bottom: $spacing;
         @media only screen and (min-width: 600px) {
