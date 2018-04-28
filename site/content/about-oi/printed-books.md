@@ -1,7 +1,7 @@
 +++
 title= "Printed Books"
 description = "See Oi's published books on Thai food, including The Food of Thailand and Thai Food Secrets."
-featured_image= "/img/oi-thai-food-secrets-wide.jpg"
+featured_image= "/img/oi/oi-thai-food-secrets-wide.jpg"
 date = "2018-03-22"
 draft= false
 +++

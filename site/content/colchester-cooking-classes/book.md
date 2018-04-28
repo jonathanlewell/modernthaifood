@@ -1,7 +1,7 @@
 +++
 title= "How to Book a Cooking Class"
 description = "Instructions on how to book a cooking class with Oi in Colchester, UK."
-featured_image= "/img/oi-cooking-1.jpg"
+featured_image= "/img/oi/oi-cooking-1.jpg"
 date = "2018-02-15"
 draft= false
 +++

@@ -127,7 +127,7 @@ Healthy Tip: Eaten in moderation, lean beef can be part of a healthy diet, accor
 
 10) Spoon into four serving bowls and garnish on top with Thai basil or coriander leaves and chilli.
 
-{{< figure src="/img/recipes/green-curry-beef-sweetcorns-tomatoes/finished.jpg" caption="Bon appetit - we've now made one of Thailand's most popular curries - the Green Curry." >}}
+{{< figure src="/img/recipes/green-curry-beef-sweetcorns-tomatoes/finished.jpg" caption="Bon Appétit! We've now made one of Thailand's most popular curries - the Green Curry." >}}
 
 ## Variations - Lamb, turkey or chicken fillets
 

@@ -1,7 +1,7 @@
 +++
 title= "Thai Cooking Class Location"
 description = "Where to find our Thai cooking classes in Colchester - with pictures!"
-featured_image= "/img/oi-cooking-1.jpg"
+featured_image= "/img/oi/oi-cooking-1.jpg"
 date = "2018-02-15"
 draft= false
 +++

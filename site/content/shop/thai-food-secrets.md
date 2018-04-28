@@ -1,7 +1,7 @@
 +++
 title= "Thai Food Secrets eBook Collection"
 description = "16 eBooks to teach you meals in every area of Thai cooking - starters, currys, noodles and more!"
-featured_image= "/img/oi-thai-food-secrets-1.jpg"
+featured_image= "/img/oi/oi-thai-food-secrets-1.jpg"
 date = "2018-02-15"
 draft= false
 +++

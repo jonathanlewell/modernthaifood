@@ -1,7 +1,7 @@
 +++
 title= "Thai Cooking Class"
 description = "Easily pay for your cooking class online with a debit or credit card."
-featured_image= "/img/oi-cooking-1.jpg"
+featured_image= "/img/oi/oi-cooking-1.jpg"
 date = "2018-02-15"
 draft= false
 +++

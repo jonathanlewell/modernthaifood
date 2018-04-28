@@ -1,7 +1,7 @@
 +++
 title= "Gift a Cooking Class"
 description = "Buy a unique Thai cooking class experience for your friends and loved ones"
-featured_image= "/img/oi-cooking-1.jpg"
+featured_image= "/img/oi/oi-cooking-1.jpg"
 date = "2018-02-15"
 draft= false
 +++
