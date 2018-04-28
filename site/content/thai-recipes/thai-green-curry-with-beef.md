@@ -1,21 +1,22 @@
 +++
 title= "Thai Green Curry With Beef"
 description= "This classic dish should never be extremely hot. Its base is a paste of fresh small green chillies, galangal and lemon grass. Learn how to make it in less than an hour here."
-featured_image= "/img/dish-green-curry-beef-sweet-corn-tomato-min.jpg"
+featured_image= "/img/recipes-green-curry-beef-sweet-corn-tomato-finished.jpg"
 date= "2018-02-15"
 draft= false
 +++
 
-## "Kaeng khiaw-waan neua kup, kao pod lai ma kheua ted"
+## A Thai classic main course that's not too hot and full of taste
 
 This classic dish should never be extremely hot. Its base is a paste of fresh small green chillies, galangal and lemon grass. Fresh baby sweetcorns add a light crunchiness, while the tomatoes add delightful colour.
 
 You can use lamb, turkey or chicken fillets instead of beef if you prefer.
 
-Preparation time: 30 minutes
-Cooking time: 20 minutes
-Serves: 4 people
-Serve as one of the main dishes
+- Thai name: "Kaeng khiaw-waan neua kup, kao pod lai ma kheua ted"
+- Preparation time: 30 minutes
+- Cooking time: 20 minutes
+- Serves: 4 people
+- Serve as one of the main dishes
 
 ## Ingredients
 
@@ -56,24 +57,28 @@ Serve as one of the main dishes
 
 ### Making the green curry paste
 
-1. Using a pestle and mortar, grind or pound one of the chillies, the lemon grass, galangal and kaffir lime leaves into a paste.
+1) Using a pestle and mortar, grind or pound one of the chillies, the lemon grass, galangal and kaffir lime leaves into a paste.
 
-2. Add garlic, shallots and coriander roots and pound again.
+2) Add garlic, shallots and coriander roots and pound again.
 
-3. Add the coriander leaves and basil leaves. More pounding!
+3) Add the coriander leaves and basil leaves. More pounding!
 
-4. Add the remaining ingredients and pound until the mixture becomes a paste. Or: process all the ingredients in a food processor or blender.
+4) Add the remaining ingredients and pound until the mixture becomes a paste. Or: process all the ingredients in a food processor or blender.
 
-5. Make more paste than you need and spoon each “quantity” (enough for one recipe) into a jar or double plastic bags. It will keep at least 2 weeks in the refrigerator or for 5-6 months in a freezer.
+5) Make more paste than you need and spoon each “quantity” (enough for one recipe) into a jar or double plastic bags. It will keep at least 2 weeks in the refrigerator or for 5-6 months in a freezer.
 
-6. Heat the oil in a nonstick saucepan or wok and stir-fry the green curry paste on a medium heat for 3-4 minutes or until fragrant. Add the beef and stir for 3-4 minutes.
+6) Heat the oil in a nonstick saucepan or wok and stir-fry the green curry paste on a medium heat for 3-4 minutes or until fragrant. Add the beef and stir for 3-4 minutes.
 
-7. Add the coconut milk, stock, fish sauce and sugar and cook for about 4-5 minutes.
+7) Add the coconut milk, stock, fish sauce and sugar and cook for about 4-5 minutes.
 
-8. Add the baby sweetcorns and cook for another 2-3 minutes, stirring occasionally. Taste and adjust the seasoning if necessary.
+8) Add the baby sweetcorns and cook for another 2-3 minutes, stirring occasionally. Taste and adjust the seasoning if necessary.
 
 Healthy Tip: Eaten in moderation, lean beef can be part of a healthy diet, according to nutritionists.
 
-9. Add the tomatoes and kaffir lime leaves in the last few seconds, taking care not to let the tomatoes lose their shape.
+9) Add the tomatoes and kaffir lime leaves in the last few seconds, taking care not to let the tomatoes lose their shape.
 
-10. Spoon into four serving bowls and garnish on top with Thai basil or coriander leaves and chilli.
+10) Spoon into four serving bowls and garnish on top with Thai basil or coriander leaves and chilli.
+
+{{< figure src="/img/recipes-green-curry-beef-sweet-corn-tomato-finished.jpg" caption="Our finished Thai Green Curry with Beef, ready to serve." >}}
+
+{{< figure src="/img/recipes-green-curry-beef-sweet-corn-tomato-close-up.jpg" caption="A tasty close-up" >}}
