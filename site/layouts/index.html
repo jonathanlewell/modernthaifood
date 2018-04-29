@@ -2,56 +2,25 @@
     <main class="page-layout page-layout--home" role="main" id="main">
 
             <section class="cards">
-                <article class="card card--feature">
-                    <img class="card__image card__image--feature lazyload" data-src="/img/oi/oi-tastes-good.jpg">
-                    <div class="card__content">
-                        <h1 class="card__header">Learn everything there is to know about Thai cooking with Oi!</h1>
-                        <ul class="card__menu">
-                            <li class="card__bullet">Step-by-step recipes that lead you every step of the way.</li>
-                            <li class="card__bullet">Lots of illustrations to see whether you're on the right track.</li>
-                            <li class="card__bullet">Interesting insights including healthy tips and variations.</li>
-                        </ul>
-                        <a class="card__button" href="/thai-recipes/">Read Free Thai Recipes →</a>
-                    </div>
-                </article>
-            </section>                     
 
-            <section class="cards">
                 <header class="introduction">
-                <h2 class="introduction__title">Latest delicious Thai dishes with step-by-step recipes:</h2> 
+                <h1 class="introduction__title">Follow step-by-step  recipes with illustrations:</h1> 
                 <a class="introduction__link" href="/thai-recipes/">See all my Thai Recipes →</a>
-            </header>
-                {{ range first 3 (where .Data.Pages "Type" "thai-recipes") }}
-                    <article class="card">
-                        <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
-                        <div class="card__content">
-                            <h3 class="card__header">{{ .Title }}</h3>
-                            <time class="card__time" datetime="{{.Date.Format " 2006-01-02 "}}">{{.Date.Format "Jan 2, 2006"}}</time>
-                            <p class="card__description">{{ .Params.description }}</p>
-                            <a class="card__link button" href="{{.Permalink}}">Read this recipe →</a>
-                        </div>
-                    </article>
-                {{ end }}
-            </section>
-
-            <aside class="as-seen-on">
-                <header class="introduction">
-                    <h2 class="introduction__title">Find my cookbooks in stores and available on my website :)</h2> 
-                    <a class="introduction__link" href="/shop/">Visit my online shop →</a>
                 </header>
-                <div class="as-seen-on__items">
-                    <div class="as-seen-on__item">
-                        <img class="lazyload" data-src="/img/books/books-200-thai-favourites.jpg">
-                    </div>
-                    <div class="as-seen-on__item">
-                        <img class="lazyload" data-src="/img/books/books-the-food-of-thailand.jpg">
-                    </div>
-                    <div class="as-seen-on__item">
-                        <img class="lazyload" data-src="/img/books/books-fresh-thai-low-res.jpg">
-                    </div>
 
-                </div>
-            </aside>    
+                {{ range first 6 (where .Data.Pages "Type" "thai-recipes") }}
+                <article class="card">
+                    <a class="card__link" href="{{.Permalink}}">
+                    <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
+                    <div class="card__content">                
+                        <h3 class="card__title">{{ .Title }}</h3>
+                        
+                        <a class="card__cta" href="{{.Permalink}}">See how easy it is →</a>
+                    </div>                
+                    </a>
+                </article>
+            {{ end }}
+            </section>
 
     </main>
 {{ end }}
