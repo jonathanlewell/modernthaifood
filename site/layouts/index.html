@@ -2,6 +2,21 @@
     <main class="page-layout page-layout--home" role="main" id="main">
 
             <section class="cards">
+                    <article class="card card--feature">
+                        <img class="card__image card__image--feature lazyload" data-src="/img/oi/oi-tastes-good.jpg">
+                        <div class="card__content">
+                            <h1 class="card__header">Learn everything there is to know about Thai cooking with Oi!</h1>
+                            <ul class="card__menu">
+                                <li class="card__bullet">Step-by-step recipes that lead you every step of the way.</li>
+                                <li class="card__bullet">Lots of illustrations to see whether you're on the right track.</li>
+                                <li class="card__bullet">Interesting insights including healthy tips and variations.</li>
+                            </ul>
+                            <a class="card__button" href="/thai-recipes/">Read Free Thai Recipes →</a>
+                        </div>
+                    </article>
+                </section>
+
+            <section class="cards">
 
                 <header class="introduction">
                 <h1 class="introduction__title">Follow step-by-step  recipes with illustrations:</h1> 
@@ -14,8 +29,7 @@
                     <img class="card__image lazyload" data-src="{{ .Params.featured_image }}">
                     <div class="card__content">                
                         <h3 class="card__header">{{ .Title }}</h3>
-                        
-                        <a class="card__cta" href="{{.Permalink}}">See this recipe →</a>
+                        <a href="{{.Permalink}}">See this recipe →</a>
                     </div>                
                     </a>
                 </article>

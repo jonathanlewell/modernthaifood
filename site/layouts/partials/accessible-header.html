@@ -5,24 +5,14 @@
     <div class="header-masthead">
 
         <!-- Logo -->
-        <a class="site-logo" href="/">
-        <h1 class="site-logo__title">Modern Thai Food</h1>
-        <p class="site-logo__subtitle">Easily cook an authentic Thai meal</p>
-        </a>
+        <a class="site-logo" href="/">Modern Thai Food</a>
         
-        <!-- Shopping cart -->
-        <a class="shopping-cart snipcart-checkout snipcart-summary" href="#" aria-label="View your cart">
-            <div class="shopping-cart__icon" aria-hidden="true;"></div>
-            <span class="shopping-cart__total snipcart-total-items"></span>
-            <span class="screen-reader-only">Items in your cart.</span>
-        </a>
-
-        <!-- Navigation Toggle (Mobile) -->
-        <a class="site-navigation-toggle site-navigation-toggle__open" href="#site-navigation-menu" aria-label="Open the website navigation menu">Menu <span class="site-navigation-toggle__open-icon" aria-hidden="true">&#9776;</span></a>
-
         <!-- Site Navigation -->
         <nav class="accessible-site-navigation" role="navigation" aria-label="Main Navigation" id="site-navigation">
-            <h2 class="screen-reader-only">Main Navigation Links Menu</h2>      
+            <h2 class="screen-reader-only">Main Navigation Links Menu</h2>
+            <!-- Navigation Toggle (Mobile) -->
+            <a class="site-navigation-toggle site-navigation-toggle__open" href="#site-navigation-menu" aria-label="Open the website navigation menu">Menu <span class="site-navigation-toggle__open-icon" aria-hidden="true">&#9776;</span></a>
+
             <ul class="accessible-site-menu" role="menubar" id="site-navigation-menu">
                 <a class="site-navigation-toggle site-navigation-toggle__close" href="#"> Close Menu</a>
                 <!-- This applies an active class to any current page site-menu-link -->
@@ -34,6 +24,14 @@
                 {{ end }}
             </ul>
         </nav>
+
+        <!-- Shopping cart -->
+        <a class="shopping-cart snipcart-checkout snipcart-summary" href="#" aria-label="View your cart">
+            <div class="shopping-cart__icon" aria-hidden="true;"></div>
+            <span class="shopping-cart__total snipcart-total-items"></span>
+            <span class="screen-reader-only">Items in your cart.</span>
+        </a>
+
     <!-- header-masthead -->    
     </div>
 </header>
